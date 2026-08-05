@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>골프 연습장 정보 — Albatross Golf</title>
-<meta name="description" content="파3&#183;야외 인도어 골프 연습장의 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
+<title>골프 연습장 정보 5곳 — Albatross Golf</title>
+<meta name="description" content="수도권을 비롯한 골프 연습장 5곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
 <link rel="canonical" href="https://albatrossgolf.pages.dev/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="골프 연습장 정보 — Albatross Golf">
-<meta property="og:description" content="파3&#183;야외 인도어 골프 연습장의 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
+<meta property="og:title" content="골프 연습장 정보 5곳 — Albatross Golf">
+<meta property="og:description" content="수도권을 비롯한 골프 연습장 5곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
 <meta property="og:url" content="https://albatrossgolf.pages.dev/">
 <meta property="og:site_name" content="Albatross Golf">
 <link rel="stylesheet" href="/css/site.css">
@@ -22,7 +22,86 @@
 <main>
 <h1>수도권·전국 골프 연습장 정보</h1>
 <p class="lede">파3·야외 인도어 연습장의 <strong>일일 요금, 좌타석 유무, 드라이버 사용 가능 여부, 주차</strong> 정보를 한곳에 정리했습니다.</p>
-<p class="empty">연습장 정보를 준비하고 있습니다.</p>
+<div class="filters" id="filters">
+<div class="fgroup"><span class="flabel">지역</span><button class="fbtn on" data-f="region" data-v="">전체</button>
+<button class="fbtn" data-f="region" data-v="수도권">수도권</button>
+</div>
+<div class="fgroup"><span class="flabel">유형</span><button class="fbtn on" data-f="type" data-v="">전체</button>
+<button class="fbtn" data-f="type" data-v="야외인도어">야외인도어</button>
+<button class="fbtn" data-f="type" data-v="파3">파3</button>
+</div></div>
+<div class="tablewrap"><table class="ranges"><thead><tr>
+<th>연습장</th><th>지역</th><th>유형</th><th>일일 요금</th><th>좌타석</th><th>드라이버</th><th>주차</th>
+</tr></thead><tbody>
+<tr data-region="수도권" data-type="야외인도어">
+  <td><a href="/range/gwangmyeong-golf-range/">광명골프연습장</a></td>
+  <td>경기 광명시</td>
+  <td>야외인도어</td>
+  <td>1회권 30분 11,000원, 60분 19,000원, 100분 30,000원 (주중&#183;주말 구분 표기 없음)</td>
+  <td>미확인</td>
+  <td>미확인</td>
+  <td>미확인</td>
+</tr>
+<tr data-region="수도권" data-type="야외인도어">
+  <td><a href="/range/sports-island-golf/">스포츠아일랜드 골프연습장</a></td>
+  <td>경기 수원시</td>
+  <td>야외인도어</td>
+  <td>30분 12,000원, 쿠폰 종류에 따라 17,000원&#183;22,000원</td>
+  <td>미확인</td>
+  <td>미확인</td>
+  <td>미확인</td>
+</tr>
+<tr data-region="수도권" data-type="야외인도어">
+  <td><a href="/range/88cc-driving-range/">88컨트리클럽 실외 골프연습장</a></td>
+  <td>경기 용인시</td>
+  <td>야외인도어</td>
+  <td>주중 30분 11,000원&#183;60분 19,000원&#183;90분 23,000원 / 주말&#183;공휴일 30분 13,000원&#183;60분 21,000원&#183;90분 26,000원</td>
+  <td>미확인</td>
+  <td>미확인</td>
+  <td>미확인</td>
+</tr>
+<tr data-region="수도권" data-type="파3">
+  <td><a href="/range/joil-plaza-golf/">조일프라자골프클럽</a></td>
+  <td>경기 용인시</td>
+  <td>파3</td>
+  <td>파3 9홀 주중 19,000원(조조 17,000원)&#183;주말&#183;공휴일 24,000원, 18홀 주중 32,000원&#183;주말&#183;공휴일 45,000원 / 연습장 타석 70분 4,000원&#183;90분 6,000원</td>
+  <td>미확인</td>
+  <td>미확인</td>
+  <td>미확인</td>
+</tr>
+<tr data-region="수도권" data-type="야외인도어">
+  <td><a href="/range/odong-golf-club/">오동골프클럽</a></td>
+  <td>서울 강북구</td>
+  <td>야외인도어</td>
+  <td>미확인 (요금 조정 이력이 있어 방문 전 확인 필요)</td>
+  <td>미확인</td>
+  <td>미확인</td>
+  <td>주차장 보유 (세부 요금 미확인)</td>
+</tr>
+</tbody></table></div>
+<p class="count" id="count"></p>
+<script>
+(function(){
+  var sel={region:'',type:''};
+  var rows=[].slice.call(document.querySelectorAll('table.ranges tbody tr'));
+  var count=document.getElementById('count');
+  function apply(){
+    var n=0;
+    rows.forEach(function(tr){
+      var ok=(!sel.region||tr.dataset.region===sel.region)&&(!sel.type||tr.dataset.type===sel.type);
+      tr.style.display=ok?'':'none'; if(ok)n++;
+    });
+    count.textContent=n+'곳';
+  }
+  document.getElementById('filters').addEventListener('click',function(e){
+    var b=e.target.closest('.fbtn'); if(!b)return;
+    var f=b.dataset.f; sel[f]=b.dataset.v;
+    [].forEach.call(document.querySelectorAll('.fbtn[data-f="'+f+'"]'),function(x){x.classList.remove('on');});
+    b.classList.add('on'); apply();
+  });
+  apply();
+})();
+</script>
 
 </main>
 <footer class="foot">
