@@ -1,6 +1,7 @@
 name: Deploy to Cloudflare Pages
 
-# main 브랜치에 푸시하면 Blazor WebAssembly를 빌드해 Cloudflare Pages로 배포한다.
+# 정적 HTML 사이트라 빌드 과정이 없다. public/ 폴더를 그대로 배포한다.
+# (콘텐츠는 수집기가 SQLite에서 생성해 커밋한다)
 on:
   push:
     branches:
@@ -15,32 +16,17 @@ concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  DOTNET_VERSION: "10.0.x"
-  PUBLISH_DIR: bin/Release/net10.0/publish/wwwroot
-
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
-
-      - name: Restore
-        run: dotnet restore AlbatrossGolf.csproj
-
-      - name: Publish
-        run: dotnet publish AlbatrossGolf.csproj --configuration Release --no-restore
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ${{ env.PUBLISH_DIR }} --project-name=albatrossgolf --branch=${{ github.ref_name }}
+          command: pages deploy public --project-name=albatrossgolf --branch=${{ github.ref_name }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

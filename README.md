@@ -2,7 +2,9 @@
 
 파3 · 야외 인도어 골프 연습장의 **요금 · 좌타석 · 드라이버 사용 여부 · 주차** 정보를 정리해 보여주는 사이트입니다.
 
-Blazor WebAssembly로 만든 정적 사이트이며, Cloudflare Pages로 배포됩니다.
+**정적 HTML 사이트**이며 Cloudflare Pages로 배포됩니다.
+검색엔진이 첫 HTML에서 본문을 그대로 읽을 수 있도록(색인·속도 목적) 페이지를 미리 생성하는 방식입니다.
+빌드 과정이 없고 `public/` 폴더를 그대로 배포합니다.
 
 ## 콘텐츠 파이프라인
 
@@ -24,22 +26,34 @@ Blazor WebAssembly로 만든 정적 사이트이며, Cloudflare Pages로 배포�
 ## 구조
 
 ```
-Pages/
-  Index.razor         연습장 목록 (지역·유형 필터)
-  RangeDetail.razor   연습장 상세 (요금/좌타석/드라이버/주차, 장점·주의점, 출처)
-Shared/
-  NavMenu.razor       상단 네비게이션
-  AdSlot.razor        애드센스 광고 자리 (ID 미설정 시 렌더링하지 않음)
-Models/
-  GolfModels.cs       연습장 데이터 모델
-wwwroot/
-  data/golf-ranges.json   사이트가 읽는 연습장 데이터
+public/                     ← 배포되는 폴더 (수집기가 생성)
+  index.html                연습장 목록 (지역·유형 필터)
+  range/<slug>/index.html   연습장 상세 (+ 지역업체 구조화 데이터)
+  sitemap.xml, robots.txt   검색 색인용
+  css/site.css              스타일 (수동 관리)
+PROMPT-연습장정제.md          LLM 정제 프롬프트
 ```
 
-## 로컬 실행
+`public/` 안의 HTML은 **직접 수정하지 마세요.** 수집기가 다시 생성하면 덮어씁니다.
+내용을 바꾸려면 DB 데이터를 고치고 재생성하면 됩니다.
+
+## 페이지 생성 방법
+
+수집기(별도 저장소 `Albatross`)에서 실행합니다.
 
 ```bash
-dotnet run
+# LLM이 정제한 JSON을 DB에 넣고 → 정적 페이지까지 생성
+dotnet run --project Albatross.Collector --configuration Release -- --import-golf "경로\ranges.json"
+
+# 데이터 변경 없이 페이지만 다시 생성
+dotnet run --project Albatross.Collector --configuration Release -- --export-golf
+```
+
+## 로컬 확인
+
+```bash
+cd public
+python -m http.server 8080    # 또는 아무 정적 서버
 ```
 
 ## 배포
@@ -55,9 +69,5 @@ dotnet run
 
 ## 애드센스
 
-승인 후 아래 두 곳을 채우면 광고가 노출됩니다.
-
-- `Shared/AdSlot.razor` 의 `ClientId`, `SlotId`
-- `wwwroot/index.html` 의 애드센스 스크립트 주석 해제
-
-미설정 상태에서는 광고 영역이 아예 렌더링되지 않습니다.
+승인 후 생성기(`GolfSiteGenerator.cs`)의 페이지 템플릿에 애드센스 스크립트와 광고 단위를 넣으면
+모든 페이지에 일괄 적용됩니다. 콘텐츠가 충분히 쌓인 뒤 신청하는 것을 권장합니다.
