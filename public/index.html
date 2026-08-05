@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>골프 연습장 정보 1곳 — Albatross Golf</title>
-<meta name="description" content="수도권을 비롯한 골프 연습장 1곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
+<title>골프 연습장 정보 — Albatross Golf</title>
+<meta name="description" content="파3&#183;야외 인도어 골프 연습장의 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
 <link rel="canonical" href="https://albatrossgolf.pages.dev/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="골프 연습장 정보 1곳 — Albatross Golf">
-<meta property="og:description" content="수도권을 비롯한 골프 연습장 1곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
+<meta property="og:title" content="골프 연습장 정보 — Albatross Golf">
+<meta property="og:description" content="파3&#183;야외 인도어 골프 연습장의 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 정리했습니다.">
 <meta property="og:url" content="https://albatrossgolf.pages.dev/">
 <meta property="og:site_name" content="Albatross Golf">
 <link rel="stylesheet" href="/css/site.css">
@@ -22,49 +22,7 @@
 <main>
 <h1>수도권·전국 골프 연습장 정보</h1>
 <p class="lede">파3·야외 인도어 연습장의 <strong>일일 요금, 좌타석 유무, 드라이버 사용 가능 여부, 주차</strong> 정보를 한곳에 정리했습니다.</p>
-<div class="filters" id="filters">
-<div class="fgroup"><span class="flabel">지역</span><button class="fbtn on" data-f="region" data-v="">전체</button>
-<button class="fbtn" data-f="region" data-v="수도권">수도권</button>
-</div>
-<div class="fgroup"><span class="flabel">유형</span><button class="fbtn on" data-f="type" data-v="">전체</button>
-<button class="fbtn" data-f="type" data-v="파3">파3</button>
-</div></div>
-<div class="tablewrap"><table class="ranges"><thead><tr>
-<th>연습장</th><th>지역</th><th>유형</th><th>일일 요금</th><th>좌타석</th><th>드라이버</th><th>주차</th>
-</tr></thead><tbody>
-<tr data-region="수도권" data-type="파3">
-  <td><a href="/range/샘플-파3-골프클럽/">샘플 파3 골프클럽</a></td>
-  <td>경기 성남시</td>
-  <td>파3</td>
-  <td>평일 20,000원 / 주말 25,000원 (1시간 기준)</td>
-  <td>좌타석 2개 보유</td>
-  <td>불가 (아이언&#183;웨지만 가능)</td>
-  <td>2시간 무료, 이후 30분당 1,000원</td>
-</tr>
-</tbody></table></div>
-<p class="count" id="count"></p>
-<script>
-(function(){
-  var sel={region:'',type:''};
-  var rows=[].slice.call(document.querySelectorAll('table.ranges tbody tr'));
-  var count=document.getElementById('count');
-  function apply(){
-    var n=0;
-    rows.forEach(function(tr){
-      var ok=(!sel.region||tr.dataset.region===sel.region)&&(!sel.type||tr.dataset.type===sel.type);
-      tr.style.display=ok?'':'none'; if(ok)n++;
-    });
-    count.textContent=n+'곳';
-  }
-  document.getElementById('filters').addEventListener('click',function(e){
-    var b=e.target.closest('.fbtn'); if(!b)return;
-    var f=b.dataset.f; sel[f]=b.dataset.v;
-    [].forEach.call(document.querySelectorAll('.fbtn[data-f="'+f+'"]'),function(x){x.classList.remove('on');});
-    b.classList.add('on'); apply();
-  });
-  apply();
-})();
-</script>
+<p class="empty">연습장 정보를 준비하고 있습니다.</p>
 
 </main>
 <footer class="foot">
