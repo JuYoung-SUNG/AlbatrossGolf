@@ -1,0 +1,19 @@
+## .NET 빌드 산출물
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+.vs/
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## OS
+Thumbs.db
+.DS_Store
+
+## 로컬 데이터베이스 (수집기가 별도 저장소에서 관리)
+*.db
+*.db-wal
+*.db-shm
