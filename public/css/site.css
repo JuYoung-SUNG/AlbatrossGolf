@@ -253,6 +253,53 @@ ul.linklist a:hover{text-decoration:underline}
   border-radius:0 var(--r) var(--r) 0;padding:.9rem 1.15rem;margin-top:1.4rem}
 .note p{margin:0;font-size:.92rem;color:var(--ink2)}
 
+/* ── 기록 · 선수 ──────────────────────────────────────────────── */
+.hero.compact{padding:1.9rem 0 1.6rem;margin-bottom:1.2rem}
+.topbar nav{flex-wrap:wrap;gap:.9rem}
+
+.recgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.9rem}
+.reccard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:1rem 1.1rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.6rem}
+.reccard[hidden]{display:none}
+.reccard h2,.reccard h3{margin:0;font-size:.95rem;font-weight:800;letter-spacing:-.01em;
+  color:var(--green);padding-bottom:.5rem;border-bottom:1px solid var(--line2)}
+ol.ranklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.42rem}
+ol.ranklist li{display:grid;grid-template-columns:1.4rem minmax(0,auto) 1fr auto;
+  align-items:baseline;gap:.5rem;font-size:.88rem}
+ol.ranklist .rk{font-family:var(--serif);font-size:.85rem;color:var(--muted);
+  font-variant-numeric:tabular-nums;text-align:right}
+ol.ranklist .pn{font-weight:700;text-decoration:none;color:var(--ink);white-space:nowrap}
+ol.ranklist .pn:hover{color:var(--green);text-decoration:underline}
+ol.ranklist .tm{font-size:.76rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ol.ranklist .vl{font-weight:700;font-variant-numeric:tabular-nums;color:var(--green-deep);
+  white-space:nowrap;font-size:.85rem}
+
+/* 선수 카드 */
+.card.pcard .cardlink{gap:.35rem}
+.card.pcard h3{margin:0;font-size:1.1rem;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+.card.pcard .team{margin:0;font-size:.82rem;color:var(--muted)}
+.card.pcard .best{margin:.4rem 0 0;font-size:.9rem;color:var(--ink2)}
+.card.pcard .best strong{color:var(--green-deep);font-weight:800}
+.card.pcard .cnt{margin:0;font-size:.79rem;color:var(--muted);
+  border-top:1px solid var(--line2);padding-top:.5rem;margin-top:.35rem}
+
+/* 선수 상세 부문표 */
+table.rank{width:100%;border-collapse:collapse;font-size:.89rem;background:var(--card)}
+table.rank th,table.rank td{text-align:left;padding:.55rem .85rem;border-bottom:1px solid var(--line2)}
+table.rank tr:last-child th,table.rank tr:last-child td{border-bottom:none}
+table.rank th{font-weight:600;color:var(--ink2)}
+table.rank td.rk{white-space:nowrap;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums;width:4.5rem}
+table.rank td.vl{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2);white-space:nowrap}
+.dim{color:var(--muted);font-size:.82rem}
+
+/* 우승 목록 — 2부 투어 우승이 정규투어처럼 보이면 안 된다 */
+ul.linklist.wins li{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+.wyear{font-family:var(--serif);font-size:.85rem;color:var(--muted);
+  font-variant-numeric:tabular-nums;flex:none;min-width:2.6rem}
+.wtag{font-size:.7rem;font-weight:800;padding:.08rem .48rem;border-radius:30px;white-space:nowrap}
+.wtag.major{background:var(--sand-soft);color:var(--sand)}
+.wtag.sub{background:var(--line);color:var(--muted)}
+
 /* ── 하단 ─────────────────────────────────────────────────────── */
 .foot{max-width:1060px;margin:0 auto;padding:1.6rem 1.4rem 3rem;border-top:1px solid var(--line);
   color:var(--muted);font-size:.85rem;display:flex;flex-direction:column;gap:.35rem}
