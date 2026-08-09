@@ -29,14 +29,15 @@
   <p class="lede">상금과 대상포인트부터 벙커세이브율까지 <strong>35개 부문</strong>의
      상위 선수입니다. 부문마다 잘하는 선수가 다릅니다.</p>
 </section>
-<section class="toolbar" id="filters">
-  <label class="search"><input type="search" id="q" placeholder="부문 이름으로 찾기" autocomplete="off"></label>
-</section>
-<p class="count" id="count"></p>
-<div class="recgrid" id="grid">
-<section class="reccard" data-search="상금순위">
-  <h2>상금순위</h2>
-  <ol class="ranklist">
+<nav class="tabs" id="tabs">
+<button class="tab on" data-tab="0">주요</button>
+<button class="tab" data-tab="1">타수&#183;스코어</button>
+<button class="tab" data-tab="2">버디&#183;이글</button>
+<button class="tab" data-tab="3">샷</button>
+<button class="tab" data-tab="4">퍼팅&#183;리커버리</button>
+</nav>
+<div class="tabpanel recgrid" data-tab="0">
+<section class="reccard"><h2>상금순위</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10725/">김민솔</a>
@@ -68,9 +69,7 @@
   <span class="vl">530,741,190</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="대상포인트">
-  <h2>대상포인트</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>대상포인트</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10725/">김민솔</a>
@@ -102,9 +101,7 @@
   <span class="vl">233</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="신인상포인트">
-  <h2>신인상포인트</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>신인상포인트</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10725/">김민솔</a>
@@ -136,9 +133,7 @@
   <span class="vl">824</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="평균타수">
-  <h2>평균타수</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>평균타수</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/9130/">박현경</a>
@@ -170,9 +165,7 @@
   <span class="vl">70.5510</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="드라이브 거리">
-  <h2>드라이브 거리</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>드라이브 거리</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/9752/">김나현2</a>
@@ -204,9 +197,7 @@
   <span class="vl">252.8343</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="그린적중률">
-  <h2>그린적중률</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>그린적중률</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/8300/">김수지</a>
@@ -238,9 +229,7 @@
   <span class="vl">77.4074</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="평균퍼팅">
-  <h2>평균퍼팅</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>평균퍼팅</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/8434/">김지영2</a>
@@ -272,9 +261,7 @@
   <span class="vl">29.4390</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="페어웨이안착률">
-  <h2>페어웨이안착률</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>페어웨이안착률</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/4905/">안선주</a>
@@ -306,383 +293,41 @@
   <span class="vl">76.4881</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="60타대 라운드획득률">
-  <h2>60타대 라운드획득률</h2>
-  <ol class="ranklist">
+</div>
+<div class="tabpanel recgrid" data-tab="1" hidden>
+<section class="reccard"><h2>평균타수</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
-  <a class="pn" href="/player/9082/">전예성</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">41.1765</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">39.0244</span>
-</li>
-<li>
-  <span class="rk">3</span>
   <a class="pn" href="/player/9130/">박현경</a>
   <span class="tm">메디힐</span>
-  <span class="vl">37.7778</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/11134/">서교림</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">35.8491</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10097/">김민선7</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">34.6939</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="k-랭킹">
-  <h2>K-랭킹</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">9.1979</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/10146/">유현조</a>
-  <span class="tm">롯데</span>
-  <span class="vl">8.2442</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/8392/">이다연</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">7.1261</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10095/">방신실</a>
-  <span class="tm">KB금융그룹</span>
-  <span class="vl">6.8820</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9113/">노승희</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">6.5691</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="드라이빙 지수">
-  <h2>드라이빙 지수</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">40</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9820/">정윤지</a>
-  <span class="tm">NH투자증권</span>
-  <span class="vl">42</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10097/">김민선7</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">46</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/9788/">박혜준</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">50</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">55</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="리커버리율">
-  <h2>리커버리율</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">70.8920</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9130/">박현경</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">70.4918</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/9235/">최은우</a>
-  <span class="tm">아마노코리아</span>
-  <span class="vl">70.4641</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10586/">홍진영2</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">70.3297</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10146/">유현조</a>
-  <span class="tm">롯데</span>
-  <span class="vl">68.3673</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="버디율">
-  <h2>버디율</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10296/">문정민</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">21.0240</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/8392/">이다연</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">20.7729</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/9082/">전예성</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">20.5882</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">20.5556</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10112/">고지우</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">20.3704</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="벙커세이브율">
-  <h2>벙커세이브율</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/9705/">홍지원</a>
-  <span class="tm">요진건설산업</span>
-  <span class="vl">56.6667</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/8840/">정수빈</a>
-  <span class="tm">휴온스</span>
-  <span class="vl">56.2500</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10586/">홍진영2</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">55.2632</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/8380/">김새로미</a>
-  <span class="tm">넥센그룹</span>
-  <span class="vl">55.1724</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9937/">황유나</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">55.1724</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="아이언샷 지수">
-  <h2>아이언샷 지수</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/11770/">짜라위 분짠(I)</a>
-  <span class="tm">하나금융그룹</span>
-  <span class="vl">85.8974</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/10296/">문정민</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">85.1852</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/9759/">이율린</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">84.6154</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/9788/">박혜준</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">83.0028</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/8589/">배소현</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">82.9787</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="이글">
-  <h2>이글</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">9</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9788/">박혜준</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">6</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/11134/">서교림</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">5</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10112/">고지우</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">4</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10790/">김하은2</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">4</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="종합 능력 지수">
-  <h2>종합 능력 지수</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">153</span>
+  <span class="vl">70.3798</span>
 </li>
 <li>
   <span class="rk">2</span>
   <a class="pn" href="/player/9082/">전예성</a>
   <span class="tm">삼천리</span>
-  <span class="vl">172</span>
+  <span class="vl">70.4706</span>
 </li>
 <li>
   <span class="rk">3</span>
-  <a class="pn" href="/player/11134/">서교림</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">180</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">187</span>
-</li>
-<li>
-  <span class="rk">5</span>
   <a class="pn" href="/player/8392/">이다연</a>
   <span class="tm">메디힐</span>
-  <span class="vl">195</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="탑텐피니쉬율">
-  <h2>탑텐피니쉬율</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/8392/">이다연</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">46.1538</span>
+  <span class="vl">70.5000</span>
 </li>
 <li>
-  <span class="rk">2</span>
+  <span class="rk">4</span>
   <a class="pn" href="/player/11134/">서교림</a>
   <span class="tm">삼천리</span>
-  <span class="vl">41.1765</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10097/">김민선7</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">40</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/8300/">김수지</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">40</span>
+  <span class="vl">70.5087</span>
 </li>
 <li>
   <span class="rk">5</span>
-  <a class="pn" href="/player/10146/">유현조</a>
-  <span class="tm">롯데</span>
-  <span class="vl">40</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파3그린적중률">
-  <h2>파3그린적중률</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/8838/">김우정</a>
-  <span class="tm">OK저축은행</span>
-  <span class="vl">83.5106</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9401/">마다솜</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">82.8125</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10146/">유현조</a>
-  <span class="tm">롯데</span>
-  <span class="vl">82.2917</span>
-</li>
-<li>
-  <span class="rk">4</span>
   <a class="pn" href="/player/10097/">김민선7</a>
   <span class="tm">대방건설</span>
-  <span class="vl">82.1429</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9990/">윤수아</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">80.0926</span>
+  <span class="vl">70.5510</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="파3성적">
-  <h2>파3성적</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>파3성적</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10097/">김민선7</a>
@@ -714,111 +359,7 @@
   <span class="vl">2.9118</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="파3평균버디">
-  <h2>파3평균버디</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/8392/">이다연</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">23.3696</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9082/">전예성</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">20.0980</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10146/">유현조</a>
-  <span class="tm">롯데</span>
-  <span class="vl">19.7917</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/9113/">노승희</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">19</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10097/">김민선7</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">18.8776</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파3평균퍼팅">
-  <h2>파3평균퍼팅</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/8434/">김지영2</a>
-  <span class="tm">휴온스</span>
-  <span class="vl">1.6486</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/11143/">김시현</a>
-  <span class="tm">NH투자증권</span>
-  <span class="vl">1.6522</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/8392/">이다연</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">1.6557</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10789/">리 슈잉</a>
-  <span class="tm">리쥬란</span>
-  <span class="vl">1.6648</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9750/">홍정민</a>
-  <span class="tm">HJ중공업</span>
-  <span class="vl">1.6667</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파4그린적중률">
-  <h2>파4그린적중률</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10296/">문정민</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">78.6982</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/11770/">짜라위 분짠(I)</a>
-  <span class="tm">하나금융그룹</span>
-  <span class="vl">77.0950</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/8589/">배소현</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">76.2264</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/8300/">김수지</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">75.6604</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/9788/">박혜준</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">75.3012</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파4성적">
-  <h2>파4성적</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>파4성적</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/11134/">서교림</a>
@@ -850,111 +391,7 @@
   <span class="vl">3.9731</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="파4평균버디">
-  <h2>파4평균버디</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/10112/">고지우</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">20.4268</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/10296/">문정민</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">19.5266</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/11143/">김시현</a>
-  <span class="tm">NH투자증권</span>
-  <span class="vl">18.4483</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/11134/">서교림</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">18.4211</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10095/">방신실</a>
-  <span class="tm">KB금융그룹</span>
-  <span class="vl">17.9167</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파4평균퍼팅">
-  <h2>파4평균퍼팅</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/8434/">김지영2</a>
-  <span class="tm">휴온스</span>
-  <span class="vl">1.6295</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/11066/">유서연2</a>
-  <span class="tm"></span>
-  <span class="vl">1.6344</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/11447/">한아름</a>
-  <span class="tm">DB손해보험</span>
-  <span class="vl">1.6356</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/11134/">서교림</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">1.6379</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10095/">방신실</a>
-  <span class="tm">KB금융그룹</span>
-  <span class="vl">1.6435</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파5그린적중률">
-  <h2>파5그린적중률</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/9130/">박현경</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">89.6739</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/8300/">김수지</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">85.3774</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/8881/">성유진</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">85</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10095/">방신실</a>
-  <span class="tm">KB금융그룹</span>
-  <span class="vl">84.3750</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10097/">김민선7</a>
-  <span class="tm">대방건설</span>
-  <span class="vl">84.1837</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파5성적">
-  <h2>파5성적</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>파5성적</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/9130/">박현경</a>
@@ -986,77 +423,7 @@
   <span class="vl">4.7660</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="파5평균버디">
-  <h2>파5평균버디</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">33.3333</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/10296/">문정민</a>
-  <span class="tm">동부건설</span>
-  <span class="vl">32.8502</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10095/">방신실</a>
-  <span class="tm">KB금융그룹</span>
-  <span class="vl">32.8125</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/10081/">김민주</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">32.7586</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10725/">김민솔</a>
-  <span class="tm">두산건설 We&#39;ve</span>
-  <span class="vl">32.5000</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파5평균퍼팅">
-  <h2>파5평균퍼팅</h2>
-  <ol class="ranklist">
-<li>
-  <span class="rk">1</span>
-  <a class="pn" href="/player/9807/">김서윤2</a>
-  <span class="tm">셀트리온</span>
-  <span class="vl">1.5342</span>
-</li>
-<li>
-  <span class="rk">2</span>
-  <a class="pn" href="/player/9784/">이예원</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">1.5528</span>
-</li>
-<li>
-  <span class="rk">3</span>
-  <a class="pn" href="/player/10081/">김민주</a>
-  <span class="tm">삼천리</span>
-  <span class="vl">1.5870</span>
-</li>
-<li>
-  <span class="rk">4</span>
-  <a class="pn" href="/player/9503/">이슬기2</a>
-  <span class="tm">큐캐피탈 파트너스</span>
-  <span class="vl">1.5926</span>
-</li>
-<li>
-  <span class="rk">5</span>
-  <a class="pn" href="/player/10022/">손예빈</a>
-  <span class="tm">메디힐</span>
-  <span class="vl">1.5951</span>
-</li>
-</ol></section>
-<section class="reccard" data-search="파브레이크율">
-  <h2>파브레이크율</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>파브레이크율</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10725/">김민솔</a>
@@ -1088,9 +455,73 @@
   <span class="vl">20.6972</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="평균버디">
-  <h2>평균버디</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>60타대 라운드획득률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9082/">전예성</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">41.1765</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">39.0244</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/9130/">박현경</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">37.7778</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">35.8491</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">34.6939</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>탑텐피니쉬율</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">46.1538</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">41.1765</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">40</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/8300/">김수지</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">40</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10146/">유현조</a>
+  <span class="tm">롯데</span>
+  <span class="vl">40</span>
+</li>
+</ol></section>
+</div>
+<div class="tabpanel recgrid" data-tab="2" hidden>
+<section class="reccard"><h2>평균버디</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10296/">문정민</a>
@@ -1122,43 +553,167 @@
   <span class="vl">3.6667</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="필드샷과 퍼팅비율">
-  <h2>필드샷과 퍼팅비율</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>버디율</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
-  <a class="pn" href="/player/8434/">김지영2</a>
-  <span class="tm">휴온스</span>
-  <span class="vl">61.9092</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">21.0240</span>
 </li>
 <li>
   <span class="rk">2</span>
-  <a class="pn" href="/player/11926/">유다겸(I)</a>
-  <span class="tm">세기P&amp;C</span>
-  <span class="vl">61.3854</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">20.7729</span>
 </li>
 <li>
   <span class="rk">3</span>
-  <a class="pn" href="/player/8840/">정수빈</a>
-  <span class="tm">휴온스</span>
-  <span class="vl">61</span>
+  <a class="pn" href="/player/9082/">전예성</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">20.5882</span>
 </li>
 <li>
   <span class="rk">4</span>
-  <a class="pn" href="/player/8972/">조정민</a>
-  <span class="tm"></span>
-  <span class="vl">60.3503</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">20.5556</span>
 </li>
 <li>
   <span class="rk">5</span>
-  <a class="pn" href="/player/10178/">김희지</a>
-  <span class="tm"></span>
-  <span class="vl">60.1368</span>
+  <a class="pn" href="/player/10112/">고지우</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">20.3704</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="홀인원">
-  <h2>홀인원</h2>
-  <ol class="ranklist">
+<section class="reccard"><h2>파3평균버디</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">23.3696</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9082/">전예성</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">20.0980</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10146/">유현조</a>
+  <span class="tm">롯데</span>
+  <span class="vl">19.7917</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9113/">노승희</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">19</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">18.8776</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파4평균버디</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10112/">고지우</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">20.4268</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">19.5266</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/11143/">김시현</a>
+  <span class="tm">NH투자증권</span>
+  <span class="vl">18.4483</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">18.4211</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10095/">방신실</a>
+  <span class="tm">KB금융그룹</span>
+  <span class="vl">17.9167</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파5평균버디</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">33.3333</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">32.8502</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10095/">방신실</a>
+  <span class="tm">KB금융그룹</span>
+  <span class="vl">32.8125</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10081/">김민주</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">32.7586</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">32.5000</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>이글</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">9</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9788/">박혜준</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">6</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">5</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10112/">고지우</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">4</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10790/">김하은2</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">4</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>홀인원</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10109/">고지원</a>
@@ -1190,9 +745,265 @@
   <span class="vl">1</span>
 </li>
 </ol></section>
-<section class="reccard" data-search="히팅능력지수">
-  <h2>히팅능력지수</h2>
-  <ol class="ranklist">
+</div>
+<div class="tabpanel recgrid" data-tab="3" hidden>
+<section class="reccard"><h2>드라이브 거리</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9752/">김나현2</a>
+  <span class="tm"></span>
+  <span class="vl">260.4300</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">258.1773</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">256.7375</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/11040/">이세영</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">253.6285</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">252.8343</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>페어웨이안착률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/4905/">안선주</a>
+  <span class="tm">만수정</span>
+  <span class="vl">82.0276</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">80.1394</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/9134/">서어진</a>
+  <span class="tm">대보건설</span>
+  <span class="vl">78.0323</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9130/">박현경</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">76.5079</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9937/">황유나</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">76.4881</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>그린적중률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8300/">김수지</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">78.0922</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11770/">짜라위 분짠(I)</a>
+  <span class="tm">하나금융그룹</span>
+  <span class="vl">77.9321</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">77.7778</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">77.6688</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9130/">박현경</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">77.4074</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파3그린적중률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8838/">김우정</a>
+  <span class="tm">OK저축은행</span>
+  <span class="vl">83.5106</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9401/">마다솜</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">82.8125</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10146/">유현조</a>
+  <span class="tm">롯데</span>
+  <span class="vl">82.2917</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">82.1429</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9990/">윤수아</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">80.0926</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파4그린적중률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">78.6982</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11770/">짜라위 분짠(I)</a>
+  <span class="tm">하나금융그룹</span>
+  <span class="vl">77.0950</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/8589/">배소현</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">76.2264</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/8300/">김수지</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">75.6604</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9788/">박혜준</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">75.3012</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파5그린적중률</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9130/">박현경</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">89.6739</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/8300/">김수지</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">85.3774</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/8881/">성유진</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">85</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10095/">방신실</a>
+  <span class="tm">KB금융그룹</span>
+  <span class="vl">84.3750</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">84.1837</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>아이언샷 지수</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/11770/">짜라위 분짠(I)</a>
+  <span class="tm">하나금융그룹</span>
+  <span class="vl">85.8974</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/10296/">문정민</a>
+  <span class="tm">동부건설</span>
+  <span class="vl">85.1852</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/9759/">이율린</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">84.6154</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9788/">박혜준</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">83.0028</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/8589/">배소현</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">82.9787</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>드라이빙 지수</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">40</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9820/">정윤지</a>
+  <span class="tm">NH투자증권</span>
+  <span class="vl">42</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10097/">김민선7</a>
+  <span class="tm">대방건설</span>
+  <span class="vl">46</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9788/">박혜준</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">50</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">55</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>히팅능력지수</h2><ol class="ranklist">
 <li>
   <span class="rk">1</span>
   <a class="pn" href="/player/10097/">김민선7</a>
@@ -1224,31 +1035,309 @@
   <span class="vl">75</span>
 </li>
 </ol></section>
-</div><p class="noresult" id="noresult" hidden>해당 부문이 없습니다.</p>
+</div>
+<div class="tabpanel recgrid" data-tab="4" hidden>
+<section class="reccard"><h2>평균퍼팅</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8434/">김지영2</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">29.0714</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">29.3396</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">29.3902</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/8770/">조아연</a>
+  <span class="tm">HJ중공업</span>
+  <span class="vl">29.4054</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10022/">손예빈</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">29.4390</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파3평균퍼팅</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8434/">김지영2</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">1.6486</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11143/">김시현</a>
+  <span class="tm">NH투자증권</span>
+  <span class="vl">1.6522</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">1.6557</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10789/">리 슈잉</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">1.6648</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9750/">홍정민</a>
+  <span class="tm">HJ중공업</span>
+  <span class="vl">1.6667</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파4평균퍼팅</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8434/">김지영2</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">1.6295</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11066/">유서연2</a>
+  <span class="tm"></span>
+  <span class="vl">1.6344</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/11447/">한아름</a>
+  <span class="tm">DB손해보험</span>
+  <span class="vl">1.6356</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">1.6379</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10095/">방신실</a>
+  <span class="tm">KB금융그룹</span>
+  <span class="vl">1.6435</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>파5평균퍼팅</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9807/">김서윤2</a>
+  <span class="tm">셀트리온</span>
+  <span class="vl">1.5342</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">1.5528</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10081/">김민주</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">1.5870</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9503/">이슬기2</a>
+  <span class="tm">큐캐피탈 파트너스</span>
+  <span class="vl">1.5926</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10022/">손예빈</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">1.5951</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>벙커세이브율</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9705/">홍지원</a>
+  <span class="tm">요진건설산업</span>
+  <span class="vl">56.6667</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/8840/">정수빈</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">56.2500</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/10586/">홍진영2</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">55.2632</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/8380/">김새로미</a>
+  <span class="tm">넥센그룹</span>
+  <span class="vl">55.1724</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9937/">황유나</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">55.1724</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>리커버리율</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">70.8920</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9130/">박현경</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">70.4918</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/9235/">최은우</a>
+  <span class="tm">아마노코리아</span>
+  <span class="vl">70.4641</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10586/">홍진영2</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">70.3297</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10146/">유현조</a>
+  <span class="tm">롯데</span>
+  <span class="vl">68.3673</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>필드샷과 퍼팅비율</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/8434/">김지영2</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">61.9092</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/11926/">유다겸(I)</a>
+  <span class="tm">세기P&amp;C</span>
+  <span class="vl">61.3854</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/8840/">정수빈</a>
+  <span class="tm">휴온스</span>
+  <span class="vl">61</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/8972/">조정민</a>
+  <span class="tm"></span>
+  <span class="vl">60.3503</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/10178/">김희지</a>
+  <span class="tm"></span>
+  <span class="vl">60.1368</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>종합 능력 지수</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">153</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/9082/">전예성</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">172</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/11134/">서교림</a>
+  <span class="tm">삼천리</span>
+  <span class="vl">180</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/9784/">이예원</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">187</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">195</span>
+</li>
+</ol></section>
+<section class="reccard"><h2>K-랭킹</h2><ol class="ranklist">
+<li>
+  <span class="rk">1</span>
+  <a class="pn" href="/player/10725/">김민솔</a>
+  <span class="tm">두산건설 We&#39;ve</span>
+  <span class="vl">9.1979</span>
+</li>
+<li>
+  <span class="rk">2</span>
+  <a class="pn" href="/player/10146/">유현조</a>
+  <span class="tm">롯데</span>
+  <span class="vl">8.2442</span>
+</li>
+<li>
+  <span class="rk">3</span>
+  <a class="pn" href="/player/8392/">이다연</a>
+  <span class="tm">메디힐</span>
+  <span class="vl">7.1261</span>
+</li>
+<li>
+  <span class="rk">4</span>
+  <a class="pn" href="/player/10095/">방신실</a>
+  <span class="tm">KB금융그룹</span>
+  <span class="vl">6.8820</span>
+</li>
+<li>
+  <span class="rk">5</span>
+  <a class="pn" href="/player/9113/">노승희</a>
+  <span class="tm">리쥬란</span>
+  <span class="vl">6.5691</span>
+</li>
+</ol></section>
+</div>
 <script>
 (function(){
-  var sel='', q='';
-  var items=[].slice.call(document.querySelectorAll('.reccard'));
-  var count=document.getElementById('count'), none=document.getElementById('noresult');
-  function apply(){
-    var n=0;
-    items.forEach(function(el){
-      var ok=(!sel||el.dataset.search===sel)&&(!q||el.dataset.search.indexOf(q)>-1);
-      el.hidden=!ok; if(ok)n++;
+  var nav=document.getElementById('tabs');
+  if(!nav)return;
+  nav.addEventListener('click',function(e){
+    var b=e.target.closest('.tab'); if(!b)return;
+    [].forEach.call(nav.querySelectorAll('.tab'),function(x){x.classList.remove('on');});
+    b.classList.add('on');
+    [].forEach.call(document.querySelectorAll('.tabpanel'),function(p){
+      p.hidden = p.dataset.tab !== b.dataset.tab;
     });
-    if(count)count.textContent=n+'개';
-    if(none)none.hidden=n>0;
-  }
-  var f=document.getElementById('filters');
-  if(f)f.addEventListener('click',function(e){
-    var b=e.target.closest('.fbtn'); if(!b)return;
-    sel=b.dataset.v;
-    [].forEach.call(f.querySelectorAll('.fbtn'),function(x){x.classList.remove('on');});
-    b.classList.add('on'); apply();
   });
-  var qi=document.getElementById('q');
-  if(qi)qi.addEventListener('input',function(e){q=e.target.value.trim().toLowerCase();apply();});
-  apply();
 })();
 </script>
 <section class="provenance">

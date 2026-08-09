@@ -1,313 +1,347 @@
 /* ── Albatross Golf ────────────────────────────────────────────────
-   골프장 재료에서 가져온 팔레트: 페어웨이 초록, 벙커 모래, 아침 안개.
-   정보 카탈로그라 "훑어보기"가 최우선 — 확인된 값은 또렷하게,
-   미확인은 가라앉혀서 페이지가 비어 보이지 않게 한다.            */
+   색·구성은 gtour.com 계열을 따랐다.
+   깊은 네이비 바탕 + 블루 기본색 + 오렌지 강조, 상태 라벨과 탭 전환이 축.
+
+   토큰은 :root(라이트)에 전부 정의하고, 다크는 토큰만 덮어쓴다.
+   컴포넌트에서 색 리터럴을 직접 쓰지 않는다 — 한쪽 테마에서만 보이는 사고를 막는다. */
 
 :root{
-  --paper:#f3f5f0; --card:#ffffff; --card2:#fafbf8;
-  --ink:#131a15; --ink2:#3d4a42; --muted:#79857c;
-  --line:#e0e4dc; --line2:#eef1ea;
-  --green:#276b45; --green-soft:#e5efe8; --green-deep:#17402a;
-  --sand:#96702c; --sand-soft:#f7eeda;
-  --shadow:0 1px 2px rgba(19,26,21,.05), 0 8px 24px -12px rgba(19,26,21,.16);
-  --shadow-up:0 2px 4px rgba(19,26,21,.06), 0 16px 32px -14px rgba(19,26,21,.24);
-  --r:14px;
+  /* 바탕 */
+  --paper:#f4f5f6; --card:#ffffff; --card2:#fafbfc;
+  --ink:#141a22; --ink2:#3f4954; --muted:#767c86;
+  --line:#e2e5e9; --line2:#eef0f3;
+
+  /* 어두운 면 — 상단바·히어로·푸터가 여기 올라간다 */
+  --navy:#0f1c2f; --navy2:#172130; --navy3:#1b293e;
+  --on-navy:#ffffff; --on-navy2:#a8b2c0;
+
+  /* 기본 강조 */
+  --blue:#2272ed; --blue-deep:#14448e; --blue-soft:#e8f0fe;
+  /* 보조 강조 — 아껴 쓴다 */
+  --orange:#e35f13; --orange-soft:#fdeee4;
+
+  /* 상태 */
+  --live:#0f9d34; --live-soft:#e4f6e9;
+  --planned:#2272ed; --planned-soft:#e8f0fe;
+  --done:#767c86; --done-soft:#eef0f3;
+
+  --shadow:0 1px 2px rgba(15,28,47,.06), 0 10px 24px -16px rgba(15,28,47,.28);
+  --shadow-up:0 2px 6px rgba(15,28,47,.09), 0 18px 34px -18px rgba(15,28,47,.4);
+  --r:12px;
   --sans:'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',
          -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
   --mono:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace;
 }
+
 @media (prefers-color-scheme:dark){
-  :root{
-    --paper:#0e1210; --card:#171d19; --card2:#1c231e;
-    --ink:#e9ede8; --ink2:#b3bcb5; --muted:#7f8a82;
-    --line:#28302a; --line2:#212823;
-    --green:#6cc294; --green-soft:#152520; --green-deep:#a8ddc0;
-    --sand:#d3a75d; --sand-soft:#241d10;
-    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
-    --shadow-up:0 2px 4px rgba(0,0,0,.5), 0 16px 32px -14px rgba(0,0,0,.7);
+  :root:not([data-theme="light"]){
+    --paper:#0b131f; --card:#141d2b; --card2:#1a2434;
+    --ink:#e8ecf1; --ink2:#aeb8c5; --muted:#7d8794;
+    --line:#243043; --line2:#1c2636;
+    --navy:#08101b; --navy2:#101a28; --navy3:#182435;
+    --on-navy:#ffffff; --on-navy2:#9aa6b6;
+    --blue:#5b9bff; --blue-deep:#a9c9ff; --blue-soft:#132443;
+    --orange:#ff9354; --orange-soft:#2a1a10;
+    --live:#4bd06f; --live-soft:#0f2417;
+    --planned:#5b9bff; --planned-soft:#132443;
+    --done:#8b95a3; --done-soft:#1c2636;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 24px -16px rgba(0,0,0,.8);
+    --shadow-up:0 2px 6px rgba(0,0,0,.55), 0 18px 34px -18px rgba(0,0,0,.9);
   }
 }
 :root[data-theme="dark"]{
-  --paper:#0e1210; --card:#171d19; --card2:#1c231e;
-  --ink:#e9ede8; --ink2:#b3bcb5; --muted:#7f8a82;
-  --line:#28302a; --line2:#212823;
-  --green:#6cc294; --green-soft:#152520; --green-deep:#a8ddc0;
-  --sand:#d3a75d; --sand-soft:#241d10;
-  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
-  --shadow-up:0 2px 4px rgba(0,0,0,.5), 0 16px 32px -14px rgba(0,0,0,.7);
-}
-:root[data-theme="light"]{
-  --paper:#f3f5f0; --card:#ffffff; --card2:#fafbf8;
-  --ink:#131a15; --ink2:#3d4a42; --muted:#79857c;
-  --line:#e0e4dc; --line2:#eef1ea;
-  --green:#276b45; --green-soft:#e5efe8; --green-deep:#17402a;
-  --sand:#96702c; --sand-soft:#f7eeda;
-  --shadow:0 1px 2px rgba(19,26,21,.05), 0 8px 24px -12px rgba(19,26,21,.16);
-  --shadow-up:0 2px 4px rgba(19,26,21,.06), 0 16px 32px -14px rgba(19,26,21,.24);
+  --paper:#0b131f; --card:#141d2b; --card2:#1a2434;
+  --ink:#e8ecf1; --ink2:#aeb8c5; --muted:#7d8794;
+  --line:#243043; --line2:#1c2636;
+  --navy:#08101b; --navy2:#101a28; --navy3:#182435;
+  --on-navy:#ffffff; --on-navy2:#9aa6b6;
+  --blue:#5b9bff; --blue-deep:#a9c9ff; --blue-soft:#132443;
+  --orange:#ff9354; --orange-soft:#2a1a10;
+  --live:#4bd06f; --live-soft:#0f2417;
+  --planned:#5b9bff; --planned-soft:#132443;
+  --done:#8b95a3; --done-soft:#1c2636;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 10px 24px -16px rgba(0,0,0,.8);
+  --shadow-up:0 2px 6px rgba(0,0,0,.55), 0 18px 34px -18px rgba(0,0,0,.9);
 }
 
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
-  line-height:1.7;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-a{color:var(--green)}
-:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
+  line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--blue)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
 
-/* ── 상단바 ───────────────────────────────────────────────────── */
-.topbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.6rem;
-  max-width:1060px;margin:0 auto;padding:1.15rem 1.4rem}
-.topbar .brand{display:flex;align-items:center;gap:.45rem;font-weight:800;font-size:1.08rem;
-  letter-spacing:-.02em;color:var(--ink);text-decoration:none}
-.topbar .brand em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--green)}
-.topbar .brand .mark{font-size:1.05rem}
-.topbar nav{display:flex;gap:1.1rem}
-.topbar nav a{font-size:.88rem;color:var(--muted);text-decoration:none}
-.topbar nav a:hover{color:var(--green)}
+/* ── 상단바 (어두운 면) ───────────────────────────────────────── */
+.topbar{background:var(--navy);display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:.7rem;padding:.95rem 1.4rem;position:sticky;top:0;z-index:20}
+.topbar .brand{display:flex;align-items:center;gap:.45rem;font-weight:800;font-size:1.05rem;
+  letter-spacing:-.02em;color:var(--on-navy);text-decoration:none}
+.topbar .brand em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--blue)}
+:root[data-theme="dark"] .topbar .brand em{color:var(--blue)}
+.topbar nav{display:flex;flex-wrap:wrap;gap:.2rem}
+.topbar nav a{position:relative;padding:.4rem .8rem;border-radius:8px;font-size:.9rem;
+  font-weight:600;color:var(--on-navy2);text-decoration:none;transition:color .15s,background .15s}
+.topbar nav a:hover{color:var(--on-navy);background:var(--navy3)}
 
-main{max-width:1060px;margin:0 auto;padding:.5rem 1.4rem 4rem}
+main{max-width:1120px;margin:0 auto;padding:0 1.4rem 4rem}
 
-/* ── 히어로 ───────────────────────────────────────────────────── */
-.hero{padding:2.2rem 0 2.6rem;display:flex;flex-direction:column;gap:.85rem;
-  border-bottom:1px solid var(--line);margin-bottom:1.8rem}
-.hero .kicker{margin:0;font-family:var(--serif);font-style:italic;color:var(--sand);font-size:1rem}
+/* ── 히어로 (어두운 면) ───────────────────────────────────────── */
+.hero{background:var(--navy2);color:var(--on-navy);margin:0 -1.4rem 2rem;
+  padding:3rem 1.4rem 2.6rem;display:flex;flex-direction:column;gap:.8rem}
+.hero.compact{padding:2.2rem 1.4rem 1.9rem;margin-bottom:1.4rem}
+.hero .kicker{margin:0;font-family:var(--serif);font-style:italic;color:var(--orange);font-size:1rem}
 .hero h1{margin:0;font-size:clamp(1.85rem,5.2vw,2.9rem);line-height:1.18;letter-spacing:-.035em;
-  font-weight:800;text-wrap:balance}
-.hero .lede{margin:0;color:var(--ink2);font-size:1.03rem;max-width:52ch}
-.hero .answers{list-style:none;margin:.5rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
-.hero .answers li{display:flex;align-items:center;gap:.42rem;background:var(--card);
-  border:1px solid var(--line);border-radius:30px;padding:.32rem .9rem .32rem .42rem;
-  font-size:.87rem;font-weight:600;color:var(--ink2)}
-.hero .answers span{display:grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:50%;
-  background:var(--green-soft);color:var(--green);font-size:.78rem;font-weight:800}
+  font-weight:800;text-wrap:balance;color:var(--on-navy)}
+.hero .lede{margin:0;color:var(--on-navy2);font-size:1.02rem;max-width:54ch}
+.hero .lede strong{color:var(--on-navy)}
+.hero .answers{list-style:none;margin:.4rem 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.45rem}
+.hero .answers li{display:flex;align-items:center;gap:.4rem;background:var(--navy3);
+  border-radius:30px;padding:.3rem .85rem .3rem .38rem;font-size:.85rem;font-weight:600;color:var(--on-navy2)}
+.hero .answers span{display:grid;place-items:center;width:1.45rem;height:1.45rem;border-radius:50%;
+  background:var(--blue);color:#fff;font-size:.74rem;font-weight:800}
 
-/* ── 필터 ─────────────────────────────────────────────────────── */
-.toolbar{display:flex;flex-direction:column;gap:.7rem;margin-bottom:1rem}
-.fgroup{display:flex;flex-wrap:wrap;gap:.38rem;align-items:center}
-.flabel{font-size:.73rem;font-weight:800;letter-spacing:.07em;color:var(--muted);
-  margin-right:.45rem;text-transform:uppercase}
-.fbtn{padding:.34rem .9rem;border-radius:30px;border:1px solid var(--line);background:var(--card);
+/* ── 요약 지표 ────────────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin-bottom:1.8rem}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:.9rem 1.05rem;display:flex;flex-direction:column;gap:.1rem;box-shadow:var(--shadow)}
+.stat b{font-size:1.6rem;font-weight:800;letter-spacing:-.03em;line-height:1.2;
+  color:var(--blue-deep);font-variant-numeric:tabular-nums}
+.stat span{font-size:.78rem;color:var(--muted)}
+
+/* ── 다음 대회 ────────────────────────────────────────────────── */
+.next{background:var(--navy3);border-radius:var(--r);padding:1.2rem 1.3rem;
+  display:flex;flex-direction:column;gap:.35rem;margin-bottom:2rem}
+.next .label{margin:0;font-size:.73rem;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--orange)}
+.next h2{margin:0;font-size:1.3rem;letter-spacing:-.025em;line-height:1.35}
+.next h2 a{color:var(--on-navy);text-decoration:none}
+.next h2 a:hover{text-decoration:underline}
+.next .when{margin:0;font-size:.9rem;color:var(--on-navy2);font-variant-numeric:tabular-nums}
+.next .badge{margin-top:.3rem}
+
+/* ── 필터 · 탭 ────────────────────────────────────────────────── */
+.toolbar{display:flex;flex-direction:column;gap:.65rem;margin-bottom:1rem}
+.fgroup{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+.flabel{font-size:.72rem;font-weight:800;letter-spacing:.08em;color:var(--muted);
+  margin-right:.4rem;text-transform:uppercase}
+.fbtn{padding:.35rem .9rem;border-radius:8px;border:1px solid var(--line);background:var(--card);
   color:var(--ink2);font-size:.86rem;font-weight:600;cursor:pointer;font-family:inherit;
   transition:border-color .15s,color .15s,background .15s}
-.fbtn:hover{border-color:var(--green);color:var(--green)}
-/* 선택된 칩은 초록 배경. 다크에서는 초록이 밝아지므로 글자를 어둡게 뒤집는다. */
-.fbtn.on{background:var(--green);border-color:var(--green);color:var(--paper);font-weight:700}
-.search{display:block;margin-top:.15rem}
-.search input{width:100%;padding:.72rem 1rem;border-radius:var(--r);border:1px solid var(--line);
-  background:var(--card);color:var(--ink);font-family:inherit;font-size:.95rem}
-.search input::placeholder{color:var(--muted)}
-.search input:focus{outline:none;border-color:var(--green);box-shadow:0 0 0 3px var(--green-soft)}
+.fbtn:hover{border-color:var(--blue);color:var(--blue)}
+.fbtn.on{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:700}
 
-.count{margin:0 0 1.1rem;color:var(--muted);font-size:.86rem;font-variant-numeric:tabular-nums}
+.search input{width:100%;padding:.72rem 1rem;border-radius:var(--r);border:1px solid var(--line);
+  background:var(--card);color:var(--ink);font-family:inherit;font-size:.94rem}
+.search input::placeholder{color:var(--muted)}
+.search input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+.count{margin:0 0 1.1rem;color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums}
 .noresult,.empty{text-align:center;color:var(--muted);padding:3rem 0}
 
+/* 기록 부문 탭 — 밑줄로 현재 위치를 표시한다 */
+.tabs{display:flex;gap:.15rem;overflow-x:auto;border-bottom:2px solid var(--line);
+  margin-bottom:1.4rem;scrollbar-width:thin}
+.tab{flex:none;padding:.7rem 1.05rem;border:0;background:none;cursor:pointer;font-family:inherit;
+  font-size:.92rem;font-weight:700;color:var(--muted);position:relative;white-space:nowrap;
+  transition:color .15s}
+.tab:hover{color:var(--ink)}
+.tab.on{color:var(--blue)}
+.tab.on::after{content:"";position:absolute;left:.5rem;right:.5rem;bottom:-2px;height:2px;
+  background:var(--blue);border-radius:2px}
+
 /* ── 카드 그리드 ──────────────────────────────────────────────── */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(275px,1fr));gap:1rem}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
-  box-shadow:var(--shadow);overflow:hidden;transition:transform .16s,box-shadow .16s,border-color .16s}
-.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-up);border-color:var(--green)}
+  box-shadow:var(--shadow);overflow:hidden;
+  transition:transform .16s,box-shadow .16s,border-color .16s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-up);border-color:var(--blue)}
 .card[hidden]{display:none}
-.cardlink{display:flex;flex-direction:column;gap:.7rem;padding:1.15rem 1.2rem 1rem;
+.cardlink{display:flex;flex-direction:column;gap:.5rem;padding:1.1rem 1.15rem 1rem;
   text-decoration:none;color:inherit;height:100%}
-.card h2{margin:0;font-size:1.08rem;font-weight:800;letter-spacing:-.02em;line-height:1.35;
+
+/* 상태 라벨 — 일정표에서 제일 먼저 읽히는 정보 */
+.labels{display:flex;flex-wrap:wrap;gap:.3rem;margin:0}
+.label{font-size:.71rem;font-weight:800;padding:.16rem .58rem;border-radius:6px;white-space:nowrap}
+.label.live{background:var(--live-soft);color:var(--live)}
+.label.planned{background:var(--planned-soft);color:var(--planned)}
+.label.done{background:var(--done-soft);color:var(--done)}
+.label.tier.tmajor{background:var(--orange-soft);color:var(--orange)}
+.label.tier.tpremier{background:var(--blue-soft);color:var(--blue-deep)}
+.label.tier.tregular,.label.tier.tsecond,.label.tier.tother{background:var(--line2);color:var(--muted)}
+
+.card h3{margin:0;font-size:1.02rem;font-weight:800;letter-spacing:-.02em;line-height:1.42;
   color:var(--ink);text-wrap:balance}
-.card .where{margin:.15rem 0 0;font-size:.82rem;color:var(--muted)}
-.card .price{margin:0;font-size:.95rem;font-weight:700;color:var(--green-deep);
-  background:var(--green-soft);border-radius:9px;padding:.5rem .7rem;line-height:1.5;
+.card .when{margin:0;font-size:.83rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.card .course{margin:0;font-size:.84rem;color:var(--ink2)}
+.card .divider{display:block;height:1px;background:var(--line2);margin:.15rem 0}
+.card .prize,.card .winner{margin:0;display:flex;align-items:baseline;justify-content:space-between;
+  gap:.6rem;font-size:.86rem;color:var(--muted)}
+.card .prize strong{font-size:.98rem;font-weight:800;color:var(--blue-deep);
+  font-variant-numeric:tabular-nums}
+.card .winner strong{font-weight:800;color:var(--ink)}
+.card .more{margin-top:auto;padding-top:.55rem;font-size:.82rem;font-weight:700;color:var(--blue)}
+.card:hover .more::after{content:" →"}
+
+/* 연습장 카드 */
+.card .where{margin:.1rem 0 0;font-size:.82rem;color:var(--muted)}
+.card .price{margin:0;font-size:.92rem;font-weight:700;color:var(--blue-deep);
+  background:var(--blue-soft);border-radius:8px;padding:.5rem .7rem;line-height:1.5;
   font-variant-numeric:tabular-nums}
 .card .price.none{background:transparent;border:1px dashed var(--line);color:var(--muted);
   font-weight:500;font-style:italic}
 .card .facts{margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:.3rem;
-  border-top:1px solid var(--line2);padding-top:.75rem}
+  border-top:1px solid var(--line2);padding-top:.7rem}
 .card .facts div{display:flex;flex-direction:column;gap:.1rem;min-width:0}
-.card .facts dt{font-size:.7rem;color:var(--muted);letter-spacing:.02em}
+.card .facts dt{font-size:.7rem;color:var(--muted)}
 .card .facts dd{margin:0;font-size:.83rem;font-weight:700;color:var(--ink);
   overflow-wrap:anywhere;line-height:1.4}
 .card .facts dd.unk{font-weight:400;font-style:italic;color:var(--muted)}
-.card .more{margin-top:auto;padding-top:.55rem;font-size:.82rem;font-weight:700;color:var(--green)}
-.card:hover .more::after{content:" →"}
 
-/* ── 상세 ─────────────────────────────────────────────────────── */
-.crumb{font-size:.85rem;color:var(--muted);margin:1.2rem 0 .6rem}
+/* 선수 카드 */
+.card.pcard h3{font-size:1.1rem}
+.card.pcard .team{margin:0;font-size:.82rem;color:var(--muted)}
+.card.pcard .best{margin:.35rem 0 0;font-size:.9rem;color:var(--ink2)}
+.card.pcard .best strong{color:var(--blue-deep);font-weight:800}
+.card.pcard .cnt{margin:.35rem 0 0;font-size:.79rem;color:var(--muted);
+  border-top:1px solid var(--line2);padding-top:.5rem}
+
+/* ── 기록 (부문별 랭킹) ───────────────────────────────────────── */
+.recgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.9rem}
+.tabpanel[hidden]{display:none}
+.reccard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:1rem 1.1rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.6rem}
+.reccard h2,.reccard h3{margin:0;font-size:.94rem;font-weight:800;letter-spacing:-.01em;
+  color:var(--ink);padding-bottom:.55rem;border-bottom:2px solid var(--blue)}
+ol.ranklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.45rem}
+ol.ranklist li{display:grid;grid-template-columns:1.5rem minmax(0,auto) 1fr auto;
+  align-items:baseline;gap:.5rem;font-size:.88rem}
+ol.ranklist .rk{font-weight:800;font-size:.82rem;color:var(--muted);
+  font-variant-numeric:tabular-nums;text-align:center}
+ol.ranklist li:first-child .rk{color:var(--orange)}
+ol.ranklist .pn{font-weight:700;text-decoration:none;color:var(--ink);white-space:nowrap}
+ol.ranklist .pn:hover{color:var(--blue);text-decoration:underline}
+ol.ranklist .tm{font-size:.75rem;color:var(--muted);overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+ol.ranklist .vl{font-weight:800;font-variant-numeric:tabular-nums;color:var(--blue-deep);
+  white-space:nowrap;font-size:.85rem}
+
+/* ── 상세 공통 ────────────────────────────────────────────────── */
+.crumb{font-size:.85rem;color:var(--muted);margin:1.3rem 0 .6rem}
 .crumb a{text-decoration:none}
-main h1{font-size:clamp(1.65rem,4.4vw,2.35rem);line-height:1.22;letter-spacing:-.03em;
-  font-weight:800;margin:0 0 .55rem;text-wrap:balance}
-.chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 1rem;padding:0}
-.chip{display:inline-block;padding:.2rem .7rem;border-radius:30px;background:var(--green-soft);
-  color:var(--green);font-size:.78rem;font-weight:700}
-.lede{color:var(--ink2);font-size:1.03rem;margin:0 0 1.6rem;max-width:62ch}
+main h1{font-size:clamp(1.6rem,4.4vw,2.3rem);line-height:1.24;letter-spacing:-.03em;
+  font-weight:800;margin:.3rem 0 .55rem;text-wrap:balance}
+.engtitle{margin:-.25rem 0 1rem;color:var(--muted);font-size:.92rem;font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 1.1rem;padding:0}
+.chip{display:inline-block;padding:.2rem .7rem;border-radius:6px;background:var(--line2);
+  color:var(--ink2);font-size:.78rem;font-weight:700}
+.lede{color:var(--ink2);font-size:1.02rem;margin:0 0 1.5rem;max-width:62ch}
 
-.keyfacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.7rem;
-  margin-bottom:1.4rem}
+.badge{display:inline-block;font-size:.73rem;font-weight:800;padding:.18rem .65rem;
+  border-radius:6px;white-space:nowrap;align-self:flex-start}
+.badge.tmajor{background:var(--orange-soft);color:var(--orange)}
+.badge.tpremier{background:var(--blue-soft);color:var(--blue-deep)}
+.badge.tregular,.badge.tsecond,.badge.tother{background:var(--line2);color:var(--muted)}
+
+.tierbox{background:var(--blue-soft);border-left:3px solid var(--blue);
+  border-radius:0 var(--r) var(--r) 0;padding:.95rem 1.15rem;margin-bottom:1.4rem;
+  display:flex;flex-direction:column;gap:.25rem}
+.tierbox .label{margin:0;font-size:.72rem;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--blue-deep)}
+.tierbox p{margin:0;color:var(--ink2);font-size:.95rem}
+
+.keyfacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:.7rem;
+  margin-bottom:1.5rem}
 .kf{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
   padding:.9rem 1rem;display:flex;flex-direction:column;gap:.25rem;box-shadow:var(--shadow)}
-.kf.lead{grid-column:1/-1;background:var(--green-soft);border-color:transparent}
-.kf dt{font-size:.74rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.kf.lead dt{color:var(--green)}
-.kf dd{margin:0;font-size:.98rem;font-weight:700;color:var(--ink);line-height:1.55;
+.kf.lead{grid-column:1/-1;background:var(--blue-soft);border-color:transparent}
+.kf dt{font-size:.73rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.kf.lead dt{color:var(--blue-deep)}
+.kf dd{margin:0;font-size:.97rem;font-weight:700;color:var(--ink);line-height:1.55;
   font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
-.kf.lead dd{font-size:1.12rem;color:var(--green-deep)}
+.kf.lead dd{font-size:1.12rem;color:var(--blue-deep)}
 .kf.unknown{background:transparent;border-style:dashed;box-shadow:none}
 .kf.unknown dd{font-weight:400;font-style:italic;color:var(--muted)}
 
-table.info{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
-  border-radius:var(--r);overflow:hidden;margin-bottom:.6rem;font-size:.92rem}
-table.info th,table.info td{text-align:left;padding:.7rem .95rem;border-bottom:1px solid var(--line2);
-  vertical-align:top}
-table.info tr:last-child th,table.info tr:last-child td{border-bottom:none}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--card)}
+table.info,table.rank{width:100%;border-collapse:collapse;font-size:.9rem;background:var(--card)}
+table.info{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-bottom:.6rem}
+table.info th,table.info td,table.rank th,table.rank td{text-align:left;padding:.65rem .9rem;
+  border-bottom:1px solid var(--line2);vertical-align:top}
+table.info tr:last-child th,table.info tr:last-child td,
+table.rank tr:last-child th,table.rank tr:last-child td{border-bottom:none}
 table.info th{width:6.5rem;white-space:nowrap;color:var(--muted);font-weight:600;font-size:.86rem}
 table.info td{color:var(--ink);overflow-wrap:anywhere}
+table.rank th{font-weight:600;color:var(--ink2)}
+table.rank td.rk{white-space:nowrap;font-weight:800;color:var(--blue);
+  font-variant-numeric:tabular-nums;width:4.5rem}
+table.rank td.vl{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2);white-space:nowrap}
 
-.block{margin-top:1.9rem}
-.block h2{font-size:1.1rem;font-weight:800;letter-spacing:-.02em;margin:0 0 .7rem}
-.block ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.5rem}
-.block li{position:relative;padding-left:1.7rem;color:var(--ink2);font-size:.95rem}
-.block li::before{position:absolute;left:0;top:0;font-weight:800;font-size:.9rem}
-.block.good li::before{content:"✓";color:var(--green)}
-.block.caution li::before{content:"!";color:var(--sand);
-  background:var(--sand-soft);width:1.1rem;height:1.1rem;border-radius:50%;
-  display:grid;place-items:center;top:.28rem;font-size:.72rem}
-
-.provenance{margin-top:2.4rem;padding-top:1.2rem;border-top:1px solid var(--line)}
-.asof{margin:0;color:var(--muted);font-size:.86rem}
-.provenance details{margin-top:.7rem}
-.provenance summary{cursor:pointer;font-size:.86rem;color:var(--muted);font-weight:600}
-.provenance summary:hover{color:var(--green)}
-ul.sources{margin:.6rem 0 0;padding-left:1.2rem;font-size:.82rem;word-break:break-all;
-  display:flex;flex-direction:column;gap:.3rem;color:var(--muted)}
-.back{margin:2rem 0 0}
-.back a{font-weight:700;text-decoration:none;font-size:.92rem}
-.back a:hover{text-decoration:underline}
-
-/* ── 대회 ─────────────────────────────────────────────────────── */
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin-bottom:1.6rem}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
-  padding:.85rem 1rem;display:flex;flex-direction:column;gap:.1rem;box-shadow:var(--shadow)}
-.stat b{font-size:1.65rem;font-weight:800;letter-spacing:-.03em;line-height:1.2;
-  color:var(--green);font-variant-numeric:tabular-nums}
-.stat span{font-size:.78rem;color:var(--muted)}
-
-/* 등급 뱃지 — 색으로 급이 바로 읽혀야 한다 */
-.badge{display:inline-block;font-size:.73rem;font-weight:800;padding:.16rem .62rem;
-  border-radius:30px;white-space:nowrap;align-self:flex-start}
-.badge.tmajor{background:var(--sand-soft);color:var(--sand)}
-.badge.tpremier{background:var(--accent-soft);color:var(--accent)}
-.badge.tregular{background:var(--line);color:var(--muted)}
-.badge.tsecond{background:var(--line);color:var(--muted)}
-.badge.tother{background:var(--line);color:var(--muted)}
-
-.next{background:var(--accent-soft);border-radius:var(--r);padding:1.15rem 1.25rem;
-  display:flex;flex-direction:column;gap:.35rem;margin-bottom:1.8rem}
-.next .label{margin:0;font-size:.74rem;font-weight:800;letter-spacing:.07em;
-  text-transform:uppercase;color:var(--green)}
-.next h2{margin:0;font-size:1.25rem;letter-spacing:-.025em;line-height:1.35}
-.next h2 a{color:var(--green-deep);text-decoration:none}
-.next h2 a:hover{text-decoration:underline}
-.next .when{margin:0;font-size:.9rem;color:var(--ink2);font-variant-numeric:tabular-nums}
-
-.block{margin-top:2.4rem;display:flex;flex-direction:column;gap:.7rem}
+.block{margin-top:2.3rem;display:flex;flex-direction:column;gap:.7rem}
 .blockhead{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
-.block h2{margin:0;font-size:1.25rem;font-weight:800;letter-spacing:-.025em}
+.block h2{margin:0;font-size:1.22rem;font-weight:800;letter-spacing:-.025em}
+.block ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.5rem}
+.block.good li,.block.caution li{position:relative;padding-left:1.7rem;color:var(--ink2);font-size:.95rem}
+.block.good li::before{content:"✓";position:absolute;left:0;font-weight:800;color:var(--blue)}
+.block.caution li::before{content:"!";position:absolute;left:0;top:.28rem;font-weight:800;
+  font-size:.72rem;color:var(--orange);background:var(--orange-soft);
+  width:1.1rem;height:1.1rem;border-radius:50%;display:grid;place-items:center}
 .more{font-size:.86rem;font-weight:700;text-decoration:none;white-space:nowrap}
 .more:hover{text-decoration:underline}
 .sidelink{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
   padding:1.1rem 1.2rem;box-shadow:var(--shadow)}
 .sidelink p{margin:0;color:var(--ink2);font-size:.93rem}
-
-/* 대회 카드 — 연습장 카드와 클래스를 공유하되 내용이 다르다 */
-.card .cardlink h3{margin:0;font-size:1.03rem;font-weight:800;letter-spacing:-.02em;
-  line-height:1.4;color:var(--ink);text-wrap:balance}
-.card .when{margin:0;font-size:.83rem;color:var(--muted);font-variant-numeric:tabular-nums}
-.card .prize{margin:0;font-size:.94rem;font-weight:800;color:var(--green-deep);
-  font-variant-numeric:tabular-nums}
-.card .course{margin:0;font-size:.85rem;color:var(--ink2)}
-.card .winner{margin:.15rem 0 0;font-size:.85rem;color:var(--muted);
-  border-top:1px solid var(--line2);padding-top:.5rem}
-.card .winner strong{color:var(--ink)}
-
 .tourlist{display:flex;flex-direction:column;gap:.4rem}
-.tourrow{display:flex;align-items:center;gap:.7rem;background:var(--card);
-  border:1px solid var(--line);border-radius:10px;padding:.6rem .9rem;font-size:.88rem;color:var(--ink2)}
+.tourrow{display:flex;align-items:center;gap:.7rem;background:var(--card);border:1px solid var(--line);
+  border-radius:8px;padding:.6rem .9rem;font-size:.88rem;color:var(--ink2)}
 
-/* 대회 상세 */
-.engtitle{margin:-.3rem 0 1rem;color:var(--muted);font-size:.92rem;font-style:italic}
-.tierbox{background:var(--sand-soft);border-radius:var(--r);padding:.95rem 1.15rem;
-  margin-bottom:1.4rem;display:flex;flex-direction:column;gap:.25rem}
-.tierbox .label{margin:0;font-size:.73rem;font-weight:800;letter-spacing:.07em;
-  text-transform:uppercase;color:var(--sand)}
-.tierbox p{margin:0;color:var(--ink2);font-size:.95rem}
 ul.linklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.4rem}
 ul.linklist a{font-weight:600;text-decoration:none;font-size:.94rem}
 ul.linklist a:hover{text-decoration:underline}
+ul.linklist.wins li{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
+.wyear{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums;
+  flex:none;min-width:2.6rem;font-weight:700}
+.wtag{font-size:.7rem;font-weight:800;padding:.08rem .5rem;border-radius:6px;white-space:nowrap}
+.wtag.major{background:var(--orange-soft);color:var(--orange)}
+.wtag.sub{background:var(--line2);color:var(--muted)}
+.dim{color:var(--muted);font-size:.82rem}
 
 /* 등급 안내 */
 .tiers{display:flex;flex-direction:column;gap:.8rem;margin:1.4rem 0}
 .tiercard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
   padding:1.05rem 1.2rem;display:flex;flex-direction:column;gap:.5rem;box-shadow:var(--shadow);
   border-left:3px solid var(--tc,var(--line))}
-.tiercard.t-major{--tc:var(--sand)}
-.tiercard.t-premier{--tc:var(--accent)}
-.tiercard.t-regular{--tc:var(--muted)}
-.tiercard.t-second{--tc:var(--line)}
-.tiercard p{margin:0;font-size:.94rem}
-.note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--sand);
+.tiercard.t-major{--tc:var(--orange)}
+.tiercard.t-premier{--tc:var(--blue)}
+.tiercard.t-regular,.tiercard.t-second{--tc:var(--muted)}
+.tiercard p{margin:0;font-size:.94rem;color:var(--ink2)}
+.note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--orange);
   border-radius:0 var(--r) var(--r) 0;padding:.9rem 1.15rem;margin-top:1.4rem}
 .note p{margin:0;font-size:.92rem;color:var(--ink2)}
 
-/* ── 기록 · 선수 ──────────────────────────────────────────────── */
-.hero.compact{padding:1.9rem 0 1.6rem;margin-bottom:1.2rem}
-.topbar nav{flex-wrap:wrap;gap:.9rem}
+.provenance{margin-top:2.4rem;padding-top:1.2rem;border-top:1px solid var(--line)}
+.asof{margin:0;color:var(--muted);font-size:.86rem}
+.provenance details{margin-top:.7rem}
+.provenance summary{cursor:pointer;font-size:.86rem;color:var(--muted);font-weight:600}
+.provenance summary:hover{color:var(--blue)}
+ul.sources{margin:.6rem 0 0;padding-left:1.2rem;font-size:.82rem;word-break:break-all;
+  display:flex;flex-direction:column;gap:.3rem;color:var(--muted);list-style:disc}
+.back{margin:2rem 0 0}
+.back a{font-weight:700;text-decoration:none;font-size:.92rem}
+.back a:hover{text-decoration:underline}
 
-.recgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.9rem}
-.reccard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
-  padding:1rem 1.1rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.6rem}
-.reccard[hidden]{display:none}
-.reccard h2,.reccard h3{margin:0;font-size:.95rem;font-weight:800;letter-spacing:-.01em;
-  color:var(--green);padding-bottom:.5rem;border-bottom:1px solid var(--line2)}
-ol.ranklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.42rem}
-ol.ranklist li{display:grid;grid-template-columns:1.4rem minmax(0,auto) 1fr auto;
-  align-items:baseline;gap:.5rem;font-size:.88rem}
-ol.ranklist .rk{font-family:var(--serif);font-size:.85rem;color:var(--muted);
-  font-variant-numeric:tabular-nums;text-align:right}
-ol.ranklist .pn{font-weight:700;text-decoration:none;color:var(--ink);white-space:nowrap}
-ol.ranklist .pn:hover{color:var(--green);text-decoration:underline}
-ol.ranklist .tm{font-size:.76rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-ol.ranklist .vl{font-weight:700;font-variant-numeric:tabular-nums;color:var(--green-deep);
-  white-space:nowrap;font-size:.85rem}
+/* ── 푸터 (어두운 면) ─────────────────────────────────────────── */
+.foot{background:var(--navy);color:var(--on-navy2);padding:2rem 1.4rem 2.6rem;
+  display:flex;flex-direction:column;gap:.4rem}
+.foot p{margin:0 auto;max-width:1120px;width:100%;font-size:.85rem}
+.foot .warn strong{color:var(--on-navy)}
+.foot em{font-style:normal;color:var(--orange);font-weight:600}
+.foot .copy{margin-top:.6rem;font-size:.8rem;opacity:.75}
 
-/* 선수 카드 */
-.card.pcard .cardlink{gap:.35rem}
-.card.pcard h3{margin:0;font-size:1.1rem;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
-.card.pcard .team{margin:0;font-size:.82rem;color:var(--muted)}
-.card.pcard .best{margin:.4rem 0 0;font-size:.9rem;color:var(--ink2)}
-.card.pcard .best strong{color:var(--green-deep);font-weight:800}
-.card.pcard .cnt{margin:0;font-size:.79rem;color:var(--muted);
-  border-top:1px solid var(--line2);padding-top:.5rem;margin-top:.35rem}
-
-/* 선수 상세 부문표 */
-table.rank{width:100%;border-collapse:collapse;font-size:.89rem;background:var(--card)}
-table.rank th,table.rank td{text-align:left;padding:.55rem .85rem;border-bottom:1px solid var(--line2)}
-table.rank tr:last-child th,table.rank tr:last-child td{border-bottom:none}
-table.rank th{font-weight:600;color:var(--ink2)}
-table.rank td.rk{white-space:nowrap;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums;width:4.5rem}
-table.rank td.vl{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink2);white-space:nowrap}
-.dim{color:var(--muted);font-size:.82rem}
-
-/* 우승 목록 — 2부 투어 우승이 정규투어처럼 보이면 안 된다 */
-ul.linklist.wins li{display:flex;align-items:baseline;gap:.5rem;flex-wrap:wrap}
-.wyear{font-family:var(--serif);font-size:.85rem;color:var(--muted);
-  font-variant-numeric:tabular-nums;flex:none;min-width:2.6rem}
-.wtag{font-size:.7rem;font-weight:800;padding:.08rem .48rem;border-radius:30px;white-space:nowrap}
-.wtag.major{background:var(--sand-soft);color:var(--sand)}
-.wtag.sub{background:var(--line);color:var(--muted)}
-
-/* ── 하단 ─────────────────────────────────────────────────────── */
-.foot{max-width:1060px;margin:0 auto;padding:1.6rem 1.4rem 3rem;border-top:1px solid var(--line);
-  color:var(--muted);font-size:.85rem;display:flex;flex-direction:column;gap:.35rem}
-.foot p{margin:0;max-width:64ch}
-.foot .warn strong{color:var(--ink2)}
-.foot em{font-style:normal;color:var(--sand);font-weight:600}
-.foot .copy{margin-top:.5rem;font-size:.8rem}
-
+@media (max-width:600px){
+  .topbar{padding:.8rem 1rem}
+  .topbar nav a{padding:.35rem .6rem;font-size:.85rem}
+  ol.ranklist li{grid-template-columns:1.5rem minmax(0,auto) auto;row-gap:.1rem}
+  ol.ranklist .tm{grid-column:2/-1;font-size:.72rem}
+}
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}
   .card:hover{transform:none}
