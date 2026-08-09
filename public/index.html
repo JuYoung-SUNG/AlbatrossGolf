@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>수도권 골프 연습장 10곳 요금&#183;좌타석 정보 — Albatross Golf</title>
-<meta name="description" content="수도권 골프 연습장 10곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 공식 안내 기준으로 정리했습니다.">
+<title>KLPGA 2026 대회 등급&#183;일정&#183;총상금 — Albatross Golf</title>
+<meta name="description" content="KLPGA 2026 시즌 정규투어 29개 대회의 등급, 총상금, 개최 코스, 우승자를 정리했습니다. 메이저 4개 포함.">
 <link rel="canonical" href="https://albatrossgolf.pages.dev/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="수도권 골프 연습장 10곳 요금&#183;좌타석 정보 — Albatross Golf">
-<meta property="og:description" content="수도권 골프 연습장 10곳의 일일 요금, 좌타석, 드라이버 사용 여부, 주차 정보를 공식 안내 기준으로 정리했습니다.">
+<meta property="og:title" content="KLPGA 2026 대회 등급&#183;일정&#183;총상금 — Albatross Golf">
+<meta property="og:description" content="KLPGA 2026 시즌 정규투어 29개 대회의 등급, 총상금, 개최 코스, 우승자를 정리했습니다. 메이저 4개 포함.">
 <meta property="og:url" content="https://albatrossgolf.pages.dev/">
 <meta property="og:site_name" content="Albatross Golf">
 <link rel="stylesheet" href="/css/site.css">
@@ -17,202 +17,355 @@
 <body>
 <header class="topbar">
   <a class="brand" href="/"><span class="mark">⛳</span> Albatross <em>Golf</em></a>
-  <nav><a href="/">연습장 찾기</a><a href="https://albatross.pages.dev">Albatross 홈</a></nav>
+  <nav><a href="/">대회</a><a href="/tier/">등급 기준</a><a href="/ranges/">연습장</a></nav>
 </header>
 <main>
 <section class="hero">
-  <p class="kicker">수도권 골프 연습장 10곳</p>
-  <h1>연습장 갈 때마다<br>매번 전화로 물어보던 것들</h1>
-  <p class="lede">요금이 얼마인지, 좌타석은 있는지, 드라이버를 쳐도 되는지, 주차는 되는지.
-     공식 안내를 확인해 한곳에 정리했습니다.</p>
-  <ul class="answers">
-    <li><span>₩</span>일일 요금</li>
-    <li><span>↰</span>좌타석</li>
-    <li><span>🏌</span>드라이버</li>
-    <li><span>P</span>주차</li>
-  </ul>
+  <p class="kicker">KLPGA 2026 시즌</p>
+  <h1>어느 대회가<br>어느 정도 급인가</h1>
+  <p class="lede">우승 상금만 봐서는 대회의 무게를 알기 어렵습니다.
+     메이저인지, 상금은 얼마인지, 몇 명이 나오는지를 정리하고
+     <strong>왜 그 등급인지 근거까지</strong> 함께 적었습니다.</p>
+</section>
+<section class="stats">
+  <div class="stat"><b>29</b><span>정규투어 대회</span></div>
+  <div class="stat"><b>4</b><span>메이저</span></div>
+  <div class="stat"><b>330억원</b><span>정규투어 총상금</span></div>
+</section>
+<section class="next">
+  <p class="label">다음 정규투어</p>
+  <h2><a href="/tournament/mediheal-hankookilbo-championship/">메디힐 &#183; 한국일보 챔피언십</a></h2>
+  <p class="when">2026-08-13 ~ 16 · 몽베르</p>
+  <span class="badge tpremier">특급</span>
+</section>
+<section class="block">
+  <div class="blockhead">
+    <h2>2026 정규투어 일정</h2>
+    <a class="more" href="/tier/">등급은 어떻게 나눴나 →</a>
+  </div>
 </section>
 <section class="toolbar" id="filters">
-<div class="fgroup"><span class="flabel">지역</span><button class="fbtn on" data-f="city" data-v="">전체</button>
-<button class="fbtn" data-f="city" data-v="경기">경기</button>
-<button class="fbtn" data-f="city" data-v="서울">서울</button>
-<button class="fbtn" data-f="city" data-v="인천">인천</button>
+<div class="fgroup"><span class="flabel">등급</span><button class="fbtn on" data-f="tier" data-v="">전체</button>
+<button class="fbtn" data-f="tier" data-v="메이저">메이저</button>
+<button class="fbtn" data-f="tier" data-v="특급">특급</button>
+<button class="fbtn" data-f="tier" data-v="정규투어">정규투어</button>
 </div>
-<div class="fgroup"><span class="flabel">유형</span><button class="fbtn on" data-f="type" data-v="">전체</button>
-<button class="fbtn" data-f="type" data-v="야외인도어">야외인도어</button>
-<button class="fbtn" data-f="type" data-v="파3">파3</button>
-</div>
-<label class="search"><input type="search" id="q" placeholder="연습장 이름이나 지역으로 찾기" autocomplete="off"></label>
+<label class="search"><input type="search" id="q" placeholder="대회 이름이나 골프장으로 찾기" autocomplete="off"></label>
+</section><p class="count" id="count"></p><div class="grid" id="grid">
+<article class="card" data-tier="특급" data-search="리쥬란 챔피언십 rejuran championship 아마타스프링">
+  <a class="cardlink" href="/tournament/rejuran-championship/">
+    <span class="badge tpremier">특급</span>
+    <h3>리쥬란 챔피언십</h3>
+    <p class="when">2026-03-12 ~ 15</p>
+<p class="prize">총상금 12억원</p>
+<p class="course">아마타스프링</p>
+<p class="winner">우승 <strong>임진영</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="더 시에나 오픈 2026 the siena open 2026 더 시에나 벨루토">
+  <a class="cardlink" href="/tournament/the-siena-open-2026/">
+    <span class="badge tregular">정규투어</span>
+    <h3>더 시에나 오픈 2026</h3>
+    <p class="when">2026-04-02 ~ 05</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">더 시에나 벨루토</p>
+<p class="winner">우승 <strong>고지원</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="im금융오픈 2026 im financial group open 2026 골프존카운티 선산">
+  <a class="cardlink" href="/tournament/im-financial-group-open-2026/">
+    <span class="badge tregular">정규투어</span>
+    <h3>iM금융오픈 2026</h3>
+    <p class="when">2026-04-09 ~ 12</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">골프존카운티 선산</p>
+<p class="winner">우승 <strong>김민솔</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="넥센 &#183; 세인트나인 masters 2026 nexen &#183; saintnine masters 2026 가야">
+  <a class="cardlink" href="/tournament/nexen-saintnine-masters-2026/">
+    <span class="badge tregular">정규투어</span>
+    <h3>넥센 &#183; 세인트나인 Masters 2026</h3>
+    <p class="when">2026-04-17 ~ 19</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">가야</p>
+<p class="winner">우승 <strong>김민선7</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="제2회 덕신epc 챔피언십 the 2nd dukshin epc championship 킹스데일">
+  <a class="cardlink" href="/tournament/the-2nd-dukshin-epc-championship/">
+    <span class="badge tregular">정규투어</span>
+    <h3>제2회 덕신EPC 챔피언십</h3>
+    <p class="when">2026-04-24 ~ 26</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">킹스데일</p>
+<p class="winner">우승 <strong>이예원</strong></p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="제1회 db 위민스 챔피언십 the 1st db women’s championship 레인보우힐스">
+  <a class="cardlink" href="/tournament/the-1st-db-women-s-championship/">
+    <span class="badge tpremier">특급</span>
+    <h3>제1회 DB 위민스 챔피언십</h3>
+    <p class="when">2026-04-30 ~ 2026-05-03</p>
+<p class="prize">총상금 12억원</p>
+<p class="course">레인보우힐스</p>
+<p class="winner">우승 <strong>유현조</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="2026 nh투자증권 레이디스 챔피언십 2026 nh investment &amp; securities ladies championship 수원">
+  <a class="cardlink" href="/tournament/2026-nh-investment-securities-ladies-championship/">
+    <span class="badge tregular">정규투어</span>
+    <h3>2026 NH투자증권 레이디스 챔피언십</h3>
+    <p class="when">2026-05-08 ~ 10</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">수원</p>
+<p class="winner">우승 <strong>김효주</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="제18회 두산 매치플레이 the 18th doosan match play 라데나">
+  <a class="cardlink" href="/tournament/the-18th-doosan-match-play/">
+    <span class="badge tregular">정규투어</span>
+    <h3>제18회 두산 매치플레이</h3>
+    <p class="when">2026-05-13 ~ 17</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">라데나</p>
+<p class="winner">우승 <strong>방신실</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="제14회 e1 채리티 오픈 the 14th e1 charity open 페럼">
+  <a class="cardlink" href="/tournament/the-14th-e1-charity-open/">
+    <span class="badge tregular">정규투어</span>
+    <h3>제14회 E1 채리티 오픈</h3>
+    <p class="when">2026-05-22 ~ 24</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">페럼</p>
+<p class="winner">우승 <strong>짜라위 분짠(I)</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="sh수협은행 mbn 여자오픈 suhyup bank mbn ladies open 더스타휴">
+  <a class="cardlink" href="/tournament/suhyup-bank-mbn-ladies-open/">
+    <span class="badge tregular">정규투어</span>
+    <h3>Sh수협은행 MBN 여자오픈</h3>
+    <p class="when">2026-05-29 ~ 31</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">더스타휴</p>
+<p class="winner">우승 <strong>박민지</strong></p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="2026 셀트리온 퀸즈 마스터즈 2026 celltrion queens masters 성문안">
+  <a class="cardlink" href="/tournament/2026-celltrion-queens-masters/">
+    <span class="badge tpremier">특급</span>
+    <h3>2026 셀트리온 퀸즈 마스터즈</h3>
+    <p class="when">2026-06-05 ~ 07</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">성문안</p>
+<p class="winner">우승 <strong>서교림</strong></p>
+</a></article>
+
+<article class="card" data-tier="메이저" data-search="메르세데스-벤츠 제40회 한국여자오픈골프선수권대회 mercedes-benz the 40th korea womens open golf championship 레이크우드">
+  <a class="cardlink" href="/tournament/mercedes-benz-the-40th-korea-womens-open-golf-championship/">
+    <span class="badge tmajor">메이저</span>
+    <h3>메르세데스-벤츠 제40회 한국여자오픈골프선수권대회</h3>
+    <p class="when">2026-06-11 ~ 14</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">레이크우드</p>
+<p class="winner">우승 <strong>김민솔</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="인카금융 더헤븐 마스터즈 incar financial the heaven masters 더헤븐">
+  <a class="cardlink" href="/tournament/incar-financial-the-heaven-masters/">
+    <span class="badge tregular">정규투어</span>
+    <h3>인카금융 더헤븐 마스터즈</h3>
+    <p class="when">2026-06-19 ~ 21</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">더헤븐</p>
+<p class="winner">우승 <strong>서교림</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="맥콜 &#183; 모나 용평 오픈 with sbs golf mccol &#183; mona yongpyong open with sbs golf 버치힐">
+  <a class="cardlink" href="/tournament/mccol-mona-yongpyong-open-with-sbs-golf/">
+    <span class="badge tregular">정규투어</span>
+    <h3>맥콜 &#183; 모나 용평 오픈 with SBS Golf</h3>
+    <p class="when">2026-06-26 ~ 28</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">버치힐</p>
+<p class="winner">우승 <strong>김민솔</strong></p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="제16회 롯데 오픈 the 16th lotte open 베어즈베스트 청라">
+  <a class="cardlink" href="/tournament/the-16th-lotte-open/">
+    <span class="badge tpremier">특급</span>
+    <h3>제16회 롯데 오픈</h3>
+    <p class="when">2026-07-02 ~ 05</p>
+<p class="prize">총상금 12억원</p>
+<p class="course">베어즈베스트 청라</p>
+<p class="winner">우승 <strong>김효주</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="하이원리조트 여자오픈 2026 high1 resort ladies open 2026 하이원">
+  <a class="cardlink" href="/tournament/high1-resort-ladies-open-2026/">
+    <span class="badge tregular">정규투어</span>
+    <h3>하이원리조트 여자오픈 2026</h3>
+    <p class="when">2026-07-09 ~ 12</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">하이원</p>
+<p class="winner">우승 <strong>고지우</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="2026 오로라월드 챔피언십 2026 aurora world championship 오로라 골프&amp;리조트">
+  <a class="cardlink" href="/tournament/2026-aurora-world-championship/">
+    <span class="badge tregular">정규투어</span>
+    <h3>2026 오로라월드 챔피언십</h3>
+    <p class="when">2026-07-30 ~ 2026-08-02</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">오로라 골프&amp;리조트</p>
+<p class="winner">우승 <strong>이다연</strong></p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="제13회 제주삼다수 마스터스 the 13th jejusamdasoo masters 테디밸리 골프앤리조트">
+  <a class="cardlink" href="/tournament/the-13th-jejusamdasoo-masters/">
+    <span class="badge tregular">정규투어</span>
+    <h3>제13회 제주삼다수 마스터스</h3>
+    <p class="when">2026-08-06 ~ 09</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">테디밸리 골프앤리조트</p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="메디힐 &#183; 한국일보 챔피언십 mediheal &#183; hankookilbo championship 몽베르">
+  <a class="cardlink" href="/tournament/mediheal-hankookilbo-championship/">
+    <span class="badge tpremier">특급</span>
+    <h3>메디힐 &#183; 한국일보 챔피언십</h3>
+    <p class="when">2026-08-13 ~ 16</p>
+<p class="prize">총상금 12억원</p>
+<p class="course">몽베르</p>
+</a></article>
+
+<article class="card" data-tier="메이저" data-search="bc카드 &#183; 한경 제48회 klpga 챔피언십 bc card &#183; hankyung the 48th klpga championship 포천힐스">
+  <a class="cardlink" href="/tournament/bc-card-hankyung-the-48th-klpga-championship/">
+    <span class="badge tmajor">메이저</span>
+    <h3>BC카드 &#183; 한경 제48회 KLPGA 챔피언십</h3>
+    <p class="when">2026-08-20 ~ 23</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">포천힐스</p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="제15회 kg 레이디스 오픈 the 15th kg ladies open 써닝포인트">
+  <a class="cardlink" href="/tournament/the-15th-kg-ladies-open/">
+    <span class="badge tregular">정규투어</span>
+    <h3>제15회 KG 레이디스 오픈</h3>
+    <p class="when">2026-08-27 ~ 30</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">써닝포인트</p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="ok저축은행 읏맨 오픈 ok savings bank ok man open 포천아도니스">
+  <a class="cardlink" href="/tournament/ok-savings-bank-ok-man-open/">
+    <span class="badge tregular">정규투어</span>
+    <h3>OK저축은행 읏맨 오픈</h3>
+    <p class="when">2026-09-04 ~ 06</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">포천아도니스</p>
+</a></article>
+
+<article class="card" data-tier="메이저" data-search="kb금융 골든라이프 챔피언십 kb financial group golden life championship (working title) 블랙스톤 이천">
+  <a class="cardlink" href="/tournament/kb-financial-group-golden-life-championship-working-title/">
+    <span class="badge tmajor">메이저</span>
+    <h3>KB금융 골든라이프 챔피언십</h3>
+    <p class="when">2026-09-10 ~ 13</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">블랙스톤 이천</p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="하나금융그룹 챔피언십 hana financial group championship 더헤븐">
+  <a class="cardlink" href="/tournament/hana-financial-group-championship/">
+    <span class="badge tpremier">특급</span>
+    <h3>하나금융그룹 챔피언십</h3>
+    <p class="when">2026-09-17 ~ 20</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">더헤븐</p>
+</a></article>
+
+<article class="card" data-tier="메이저" data-search="제26회 하이트진로 챔피언십 the 26th hite jinro championship 블루헤런">
+  <a class="cardlink" href="/tournament/the-26th-hite-jinro-championship/">
+    <span class="badge tmajor">메이저</span>
+    <h3>제26회 하이트진로 챔피언십</h3>
+    <p class="when">2026-10-01 ~ 04</p>
+<p class="prize">총상금 15억원</p>
+<p class="course">블루헤런</p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="2026 hj중공업 &#183; 동부건설 챔피언십 2026 hj shipbuilding &amp; construction  &#183;  dongbu construction championship 에이원">
+  <a class="cardlink" href="/tournament/2026-hj-shipbuilding-construction-dongbu-construction-champi/">
+    <span class="badge tregular">정규투어</span>
+    <h3>2026 HJ중공업 &#183; 동부건설 챔피언십</h3>
+    <p class="when">2026-10-08 ~ 11</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">에이원</p>
+</a></article>
+
+<article class="card" data-tier="특급" data-search="000 오픈 000 open 미정">
+  <a class="cardlink" href="/tournament/000-open/">
+    <span class="badge tpremier">특급</span>
+    <h3>000 오픈</h3>
+    <p class="when">2026-10-15 ~ 18</p>
+<p class="prize">총상금 12억원</p>
+<p class="course">미정</p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="s-oil 챔피언십 2026 s-oil championship 2026 엘리시안 제주">
+  <a class="cardlink" href="/tournament/s-oil-championship-2026/">
+    <span class="badge tregular">정규투어</span>
+    <h3>S-OIL 챔피언십 2026</h3>
+    <p class="when">2026-10-29 ~ 2026-11-01</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">엘리시안 제주</p>
+</a></article>
+
+<article class="card" data-tier="정규투어" data-search="대보 하우스디 챔피언십 daebo hausd championship 서원힐스">
+  <a class="cardlink" href="/tournament/daebo-hausd-championship/">
+    <span class="badge tregular">정규투어</span>
+    <h3>대보 하우스디 챔피언십</h3>
+    <p class="when">2026-11-06 ~ 08</p>
+<p class="prize">총상금 10억원</p>
+<p class="course">서원힐스</p>
+</a></article>
+
+</div><p class="noresult" id="noresult" hidden>조건에 맞는 대회가 없습니다.</p>
+<section class="block"><h2>그 밖의 투어</h2><div class="tourlist">
+<div class="tourrow"><span class="badge tsecond">2부 드림투어</span><span>21개 대회</span></div>
+<div class="tourrow"><span class="badge tsecond">3부 점프투어</span><span>16개 대회</span></div>
+<div class="tourrow"><span class="badge tother">챔피언스</span><span>11개 대회</span></div>
+<div class="tourrow"><span class="badge tother">특별대회</span><span>1개 대회</span></div>
+<div class="tourrow"><span class="badge tother">해외 공동주관</span><span>2개 대회</span></div>
+</div></section>
+<section class="block sidelink">
+  <h2>연습장도 정리하고 있습니다</h2>
+  <p>수도권 파3·야외 연습장 10곳의 요금과 좌타석 정보입니다.</p>
+  <a class="more" href="/ranges/">연습장 보기 →</a>
 </section>
-<p class="count" id="count"></p>
-<div class="grid" id="grid">
-<article class="card" data-city="경기" data-type="야외인도어" data-search="광명골프연습장 경기 광명시 수도권 야외인도어 경기도 광명시 하안로 287">
-  <a class="cardlink" href="/range/gwangmyeong-golf-range/">
-  <header>
-    <h2>광명골프연습장</h2>
-    <p class="where">경기 광명시 · 야외인도어</p>
-  </header>
-<p class="price">1회권 30분 11,000원, 60분 19,000원, 100분 30,000원 (주중&#183;주말 구분 표기 없음)</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="파3" data-search="비전힐스 파3 경기 남양주시 수도권 파3 경기도 남양주시 화도읍 마치로 226-220">
-  <a class="cardlink" href="/range/vision-hills-par3/">
-  <header>
-    <h2>비전힐스 파3</h2>
-    <p class="where">경기 남양주시 · 파3</p>
-  </header>
-<p class="price">평일 22,000원 / 주말 27,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd>코스 특성상 드라이버 사용 없음</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="야외인도어" data-search="스포츠아일랜드 골프연습장 경기 수원시 수도권 야외인도어 경기도 수원시 팔달구 월드컵로 310">
-  <a class="cardlink" href="/range/sports-island-golf/">
-  <header>
-    <h2>스포츠아일랜드 골프연습장</h2>
-    <p class="where">경기 수원시 · 야외인도어</p>
-  </header>
-<p class="price">30분 12,000원, 쿠폰 종류에 따라 17,000원&#183;22,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="야외인도어" data-search="88컨트리클럽 실외 골프연습장 경기 용인시 수도권 야외인도어 경기도 용인시 기흥구 석성로521번길 169">
-  <a class="cardlink" href="/range/88cc-driving-range/">
-  <header>
-    <h2>88컨트리클럽 실외 골프연습장</h2>
-    <p class="where">경기 용인시 · 야외인도어</p>
-  </header>
-<p class="price">주중 30분 11,000원&#183;60분 19,000원&#183;90분 23,000원 / 주말&#183;공휴일 30분 13,000원&#183;60분 21,000원&#183;90분 26,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="파3" data-search="88컨트리클럽 파3 골프장 경기 용인시 수도권 파3 경기도 용인시 기흥구 석성로521번길 169">
-  <a class="cardlink" href="/range/88cc-par3/">
-  <header>
-    <h2>88컨트리클럽 파3 골프장</h2>
-    <p class="where">경기 용인시 · 파3</p>
-  </header>
-<p class="price">주중 23,000원 / 주말&#183;공휴일 28,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd>코스 특성상 드라이버 사용 없음</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="파3" data-search="조일프라자골프클럽 경기 용인시 수도권 파3 경기도 용인시 처인구 지삼로 470">
-  <a class="cardlink" href="/range/joil-plaza-golf/">
-  <header>
-    <h2>조일프라자골프클럽</h2>
-    <p class="where">경기 용인시 · 파3</p>
-  </header>
-<p class="price">파3 9홀 주중 19,000원(조조 17,000원)&#183;주말&#183;공휴일 24,000원, 18홀 주중 32,000원&#183;주말&#183;공휴일 45,000원 / 연습장 타석 70분 4,000원&#183;90분 6,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="경기" data-type="야외인도어" data-search="지산포레스트리조트 골프연습장 경기 용인시 수도권 야외인도어 경기도 용인시 처인구 원삼면 죽양대로2000번길 60">
-  <a class="cardlink" href="/range/jisan-forest-range/">
-  <header>
-    <h2>지산포레스트리조트 골프연습장</h2>
-    <p class="where">경기 용인시 · 야외인도어</p>
-  </header>
-<p class="price">주중 40분 10,000원&#183;60분 12,000원&#183;80분 15,000원 / 주말 40분 12,000원&#183;60분 14,000원&#183;80분 17,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="서울" data-type="야외인도어" data-search="오동골프클럽 서울 강북구 수도권 야외인도어 서울 강북구 오현로 117">
-  <a class="cardlink" href="/range/odong-golf-club/">
-  <header>
-    <h2>오동골프클럽</h2>
-    <p class="where">서울 강북구 · 야외인도어</p>
-  </header>
-<p class="price none">요금 미확인</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd>주차장 보유</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="인천" data-type="야외인도어" data-search="청라m골프연습장 인천 서구 수도권 야외인도어 인천광역시 서구 북항로32번안길 36">
-  <a class="cardlink" href="/range/cheongna-m-golf/">
-  <header>
-    <h2>청라M골프연습장</h2>
-    <p class="where">인천 서구 · 야외인도어</p>
-  </header>
-<p class="price">60분 14,000원 (이벤트 요금 기준이라 변동 가능)</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-<article class="card" data-city="인천" data-type="야외인도어" data-search="송도골프클럽 연습장 인천 연수구 수도권 야외인도어 인천시 연수구 능허대로 236">
-  <a class="cardlink" href="/range/songdo-golf-club/">
-  <header>
-    <h2>송도골프클럽 연습장</h2>
-    <p class="where">인천 연수구 · 야외인도어</p>
-  </header>
-<p class="price">주중 40분 12,000원&#183;60분 16,000원&#183;80분 19,000원 / 주말&#183;공휴일 40분 14,000원&#183;60분 18,000원&#183;80분 21,000원</p>
-<dl class="facts">
-<div><dt>좌타석</dt><dd class="unk">미확인</dd></div>
-<div><dt>드라이버</dt><dd class="unk">미확인</dd></div>
-<div><dt>주차</dt><dd class="unk">미확인</dd></div>
-</dl>
-<span class="more">자세히 보기</span></a></article>
-
-</div>
-<p class="noresult" id="noresult" hidden>조건에 맞는 연습장이 없습니다.</p>
 <script>
 (function(){
-  var sel={city:'',type:''}, q='';
-  var cards=[].slice.call(document.querySelectorAll('.card'));
+  var sel='', q='';
+  var items=[].slice.call(document.querySelectorAll('.card'));
   var count=document.getElementById('count'), none=document.getElementById('noresult');
   function apply(){
     var n=0;
-    cards.forEach(function(el){
-      var ok=(!sel.city||el.dataset.city===sel.city)
-          && (!sel.type||el.dataset.type===sel.type)
-          && (!q||el.dataset.search.indexOf(q)>-1);
+    items.forEach(function(el){
+      var ok=(!sel||el.dataset.tier===sel)&&(!q||el.dataset.search.indexOf(q)>-1);
       el.hidden=!ok; if(ok)n++;
     });
-    count.textContent=n+'곳';
-    none.hidden=n>0;
+    if(count)count.textContent=n+'개';
+    if(none)none.hidden=n>0;
   }
-  document.getElementById('filters').addEventListener('click',function(e){
+  var f=document.getElementById('filters');
+  if(f)f.addEventListener('click',function(e){
     var b=e.target.closest('.fbtn'); if(!b)return;
-    var f=b.dataset.f; sel[f]=b.dataset.v;
-    [].forEach.call(document.querySelectorAll('.fbtn[data-f="'+f+'"]'),function(x){x.classList.remove('on');});
+    sel=b.dataset.v;
+    [].forEach.call(f.querySelectorAll('.fbtn'),function(x){x.classList.remove('on');});
     b.classList.add('on'); apply();
   });
-  document.getElementById('q').addEventListener('input',function(e){
-    q=e.target.value.trim().toLowerCase(); apply();
-  });
+  var qi=document.getElementById('q');
+  if(qi)qi.addEventListener('input',function(e){q=e.target.value.trim().toLowerCase();apply();});
   apply();
 })();
 </script>

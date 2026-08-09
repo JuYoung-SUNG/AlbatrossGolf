@@ -178,6 +178,81 @@ ul.sources{margin:.6rem 0 0;padding-left:1.2rem;font-size:.82rem;word-break:brea
 .back a{font-weight:700;text-decoration:none;font-size:.92rem}
 .back a:hover{text-decoration:underline}
 
+/* ── 대회 ─────────────────────────────────────────────────────── */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin-bottom:1.6rem}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:.85rem 1rem;display:flex;flex-direction:column;gap:.1rem;box-shadow:var(--shadow)}
+.stat b{font-size:1.65rem;font-weight:800;letter-spacing:-.03em;line-height:1.2;
+  color:var(--green);font-variant-numeric:tabular-nums}
+.stat span{font-size:.78rem;color:var(--muted)}
+
+/* 등급 뱃지 — 색으로 급이 바로 읽혀야 한다 */
+.badge{display:inline-block;font-size:.73rem;font-weight:800;padding:.16rem .62rem;
+  border-radius:30px;white-space:nowrap;align-self:flex-start}
+.badge.tmajor{background:var(--sand-soft);color:var(--sand)}
+.badge.tpremier{background:var(--accent-soft);color:var(--accent)}
+.badge.tregular{background:var(--line);color:var(--muted)}
+.badge.tsecond{background:var(--line);color:var(--muted)}
+.badge.tother{background:var(--line);color:var(--muted)}
+
+.next{background:var(--accent-soft);border-radius:var(--r);padding:1.15rem 1.25rem;
+  display:flex;flex-direction:column;gap:.35rem;margin-bottom:1.8rem}
+.next .label{margin:0;font-size:.74rem;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--green)}
+.next h2{margin:0;font-size:1.25rem;letter-spacing:-.025em;line-height:1.35}
+.next h2 a{color:var(--green-deep);text-decoration:none}
+.next h2 a:hover{text-decoration:underline}
+.next .when{margin:0;font-size:.9rem;color:var(--ink2);font-variant-numeric:tabular-nums}
+
+.block{margin-top:2.4rem;display:flex;flex-direction:column;gap:.7rem}
+.blockhead{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+.block h2{margin:0;font-size:1.25rem;font-weight:800;letter-spacing:-.025em}
+.more{font-size:.86rem;font-weight:700;text-decoration:none;white-space:nowrap}
+.more:hover{text-decoration:underline}
+.sidelink{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:1.1rem 1.2rem;box-shadow:var(--shadow)}
+.sidelink p{margin:0;color:var(--ink2);font-size:.93rem}
+
+/* 대회 카드 — 연습장 카드와 클래스를 공유하되 내용이 다르다 */
+.card .cardlink h3{margin:0;font-size:1.03rem;font-weight:800;letter-spacing:-.02em;
+  line-height:1.4;color:var(--ink);text-wrap:balance}
+.card .when{margin:0;font-size:.83rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.card .prize{margin:0;font-size:.94rem;font-weight:800;color:var(--green-deep);
+  font-variant-numeric:tabular-nums}
+.card .course{margin:0;font-size:.85rem;color:var(--ink2)}
+.card .winner{margin:.15rem 0 0;font-size:.85rem;color:var(--muted);
+  border-top:1px solid var(--line2);padding-top:.5rem}
+.card .winner strong{color:var(--ink)}
+
+.tourlist{display:flex;flex-direction:column;gap:.4rem}
+.tourrow{display:flex;align-items:center;gap:.7rem;background:var(--card);
+  border:1px solid var(--line);border-radius:10px;padding:.6rem .9rem;font-size:.88rem;color:var(--ink2)}
+
+/* 대회 상세 */
+.engtitle{margin:-.3rem 0 1rem;color:var(--muted);font-size:.92rem;font-style:italic}
+.tierbox{background:var(--sand-soft);border-radius:var(--r);padding:.95rem 1.15rem;
+  margin-bottom:1.4rem;display:flex;flex-direction:column;gap:.25rem}
+.tierbox .label{margin:0;font-size:.73rem;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--sand)}
+.tierbox p{margin:0;color:var(--ink2);font-size:.95rem}
+ul.linklist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:.4rem}
+ul.linklist a{font-weight:600;text-decoration:none;font-size:.94rem}
+ul.linklist a:hover{text-decoration:underline}
+
+/* 등급 안내 */
+.tiers{display:flex;flex-direction:column;gap:.8rem;margin:1.4rem 0}
+.tiercard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  padding:1.05rem 1.2rem;display:flex;flex-direction:column;gap:.5rem;box-shadow:var(--shadow);
+  border-left:3px solid var(--tc,var(--line))}
+.tiercard.t-major{--tc:var(--sand)}
+.tiercard.t-premier{--tc:var(--accent)}
+.tiercard.t-regular{--tc:var(--muted)}
+.tiercard.t-second{--tc:var(--line)}
+.tiercard p{margin:0;font-size:.94rem}
+.note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--sand);
+  border-radius:0 var(--r) var(--r) 0;padding:.9rem 1.15rem;margin-top:1.4rem}
+.note p{margin:0;font-size:.92rem;color:var(--ink2)}
+
 /* ── 하단 ─────────────────────────────────────────────────────── */
 .foot{max-width:1060px;margin:0 auto;padding:1.6rem 1.4rem 3rem;border-top:1px solid var(--line);
   color:var(--muted);font-size:.85rem;display:flex;flex-direction:column;gap:.35rem}
