@@ -17,7 +17,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "짜라위 분짠(I)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026010001"
     },
     {
       "slug": "philippine-ladies-masters-2026",
@@ -36,7 +37,8 @@
       "par": 72,
       "entryCount": 122,
       "winnerName": "황 칭",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026020001"
     },
     {
       "slug": "rejuran-championship",
@@ -55,7 +57,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "임진영",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026030001"
     },
     {
       "slug": "klpga-2026-muancc-allforyou-dream-tour-1st-tournament",
@@ -74,7 +77,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "윤혜림",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026040006"
     },
     {
       "slug": "the-siena-open-2026",
@@ -93,7 +97,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "고지원",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026040003"
     },
     {
       "slug": "klpga-2026-gunsancc-dream-tour-2nd-tournament",
@@ -112,7 +117,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "강지선",
-      "defendingName": "윤혜림"
+      "defendingName": "윤혜림",
+      "gameCode": "2026040007"
     },
     {
       "slug": "im-financial-group-open-2026",
@@ -131,7 +137,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김민솔",
-      "defendingName": "김민주"
+      "defendingName": "김민주",
+      "gameCode": "2026040001"
     },
     {
       "slug": "klpga-2026-gunsancc-dream-tour-3rd-tournament",
@@ -150,7 +157,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "유아현",
-      "defendingName": "강지선"
+      "defendingName": "강지선",
+      "gameCode": "2026040008"
     },
     {
       "slug": "klpga-2026-jeju-airport-rent-a-car-baekjecc-jump-tour-1st-to",
@@ -169,7 +177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "성아진(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026040011"
     },
     {
       "slug": "klpga-2026-jeju-airport-rent-a-car-baekjecc-jump-tour-2nd-to",
@@ -188,7 +197,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "홍수민(S)",
-      "defendingName": "성아진"
+      "defendingName": "성아진",
+      "gameCode": "2026040012"
     },
     {
       "slug": "nexen-saintnine-masters-2026",
@@ -207,7 +217,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김민선7",
-      "defendingName": "방신실"
+      "defendingName": "방신실",
+      "gameCode": "2026040004"
     },
     {
       "slug": "klpga-2026-jeju-airport-rent-a-car-baekjecc-jump-tour-3rd-to",
@@ -226,7 +237,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "신예지(S)",
-      "defendingName": "홍수민"
+      "defendingName": "홍수민",
+      "gameCode": "2026040013"
     },
     {
       "slug": "klpga-2026-jeju-airport-rent-a-car-baekjecc-jump-tour-4th-to",
@@ -245,7 +257,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김나사(S)",
-      "defendingName": "신예지"
+      "defendingName": "신예지",
+      "gameCode": "2026040014"
     },
     {
       "slug": "klpga-2026-muancc-allforyou-dream-tour-4th-tournament",
@@ -264,7 +277,8 @@
       "par": 73,
       "entryCount": 127,
       "winnerName": "유아현",
-      "defendingName": "유아현"
+      "defendingName": "유아현",
+      "gameCode": "2026040009"
     },
     {
       "slug": "the-2nd-dukshin-epc-championship",
@@ -283,7 +297,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이예원",
-      "defendingName": "김민선7"
+      "defendingName": "김민선7",
+      "gameCode": "2026040002"
     },
     {
       "slug": "klpga-2026-champions-classic-1st-tournament",
@@ -302,7 +317,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김보경",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026040010"
     },
     {
       "slug": "the-1st-db-women-s-championship",
@@ -321,7 +337,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "유현조",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026040005"
     },
     {
       "slug": "klpga-2026-muancc-allforyou-dream-tour-5th-tournament",
@@ -340,7 +357,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정지현",
-      "defendingName": "유아현"
+      "defendingName": "유아현",
+      "gameCode": "2026050005"
     },
     {
       "slug": "2026-nh-investment-securities-ladies-championship",
@@ -359,7 +377,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김효주",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2026050001"
     },
     {
       "slug": "klpga-2026-dbhitek-dream-tour-6th-tournament",
@@ -378,7 +397,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "강채연",
-      "defendingName": "정지현"
+      "defendingName": "정지현",
+      "gameCode": "2026050006"
     },
     {
       "slug": "the-18th-doosan-match-play",
@@ -397,7 +417,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "방신실",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2026050002"
     },
     {
       "slug": "klpga-2026-high1-resort-dream-tour-7th-tournament",
@@ -416,7 +437,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "박소혜",
-      "defendingName": "강채연"
+      "defendingName": "강채연",
+      "gameCode": "2026050007"
     },
     {
       "slug": "klpga-2026-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -435,7 +457,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "김도희E(S)",
-      "defendingName": "김나사"
+      "defendingName": "김나사",
+      "gameCode": "2026050010"
     },
     {
       "slug": "klpga-2026-gunsancc-dream-tour-8th-tournament",
@@ -454,7 +477,8 @@
       "par": 72,
       "entryCount": 117,
       "winnerName": "정지효",
-      "defendingName": "박소혜"
+      "defendingName": "박소혜",
+      "gameCode": "2026050008"
     },
     {
       "slug": "the-14th-e1-charity-open",
@@ -473,7 +497,8 @@
       "par": 72,
       "entryCount": 140,
       "winnerName": "짜라위 분짠(I)",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2026050003"
     },
     {
       "slug": "klpga-2026-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -492,7 +517,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김도희E(S)",
-      "defendingName": "김도희3"
+      "defendingName": "김도희3",
+      "gameCode": "2026050011"
     },
     {
       "slug": "klpga-2026-champions-classic-2nd-tournament",
@@ -511,7 +537,8 @@
       "par": 72,
       "entryCount": 101,
       "winnerName": "홍진주",
-      "defendingName": "김보경"
+      "defendingName": "김보경",
+      "gameCode": "2026050009"
     },
     {
       "slug": "suhyup-bank-mbn-ladies-open",
@@ -530,7 +557,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "정윤지"
+      "defendingName": "정윤지",
+      "gameCode": "2026050004"
     },
     {
       "slug": "klpga-2026-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -549,7 +577,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "지연아(S)",
-      "defendingName": "김도희3"
+      "defendingName": "김도희3",
+      "gameCode": "2026060007"
     },
     {
       "slug": "2026-celltrion-queens-masters",
@@ -568,7 +597,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "서교림",
-      "defendingName": "이가영"
+      "defendingName": "이가영",
+      "gameCode": "2026060001"
     },
     {
       "slug": "klpga-2026-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -587,7 +617,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "김도희E(S)",
-      "defendingName": "지연아"
+      "defendingName": "지연아",
+      "gameCode": "2026060008"
     },
     {
       "slug": "klpga-2026-phoenix-cc-dream-tour-9th-tournament",
@@ -606,7 +637,8 @@
       "par": 71,
       "entryCount": 128,
       "winnerName": "신유진",
-      "defendingName": "정지효"
+      "defendingName": "정지효",
+      "gameCode": "2026060005"
     },
     {
       "slug": "mercedes-benz-the-40th-korea-womens-open-golf-championship",
@@ -625,7 +657,8 @@
       "par": 71,
       "entryCount": 132,
       "winnerName": "김민솔",
-      "defendingName": "이동은"
+      "defendingName": "이동은",
+      "gameCode": "2026060003"
     },
     {
       "slug": "incar-financial-the-heaven-masters",
@@ -644,7 +677,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "서교림",
-      "defendingName": "노승희"
+      "defendingName": "노승희",
+      "gameCode": "2026060004"
     },
     {
       "slug": "klpga-2026-muancc-allforyou-dream-tour-10th-tournament",
@@ -663,7 +697,8 @@
       "par": 73,
       "entryCount": 128,
       "winnerName": "신지우",
-      "defendingName": "신유진"
+      "defendingName": "신유진",
+      "gameCode": "2026060006"
     },
     {
       "slug": "mccol-mona-yongpyong-open-with-sbs-golf",
@@ -682,7 +717,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김민솔",
-      "defendingName": "고지우"
+      "defendingName": "고지우",
+      "gameCode": "2026060002"
     },
     {
       "slug": "the-16th-lotte-open",
@@ -701,7 +737,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김효주",
-      "defendingName": "박혜준"
+      "defendingName": "박혜준",
+      "gameCode": "2026070003"
     },
     {
       "slug": "klpga-2026-phoenix-cc-dream-tour-11th-tournament",
@@ -720,7 +757,8 @@
       "par": 71,
       "entryCount": 128,
       "winnerName": "김나현2",
-      "defendingName": "신지우"
+      "defendingName": "신지우",
+      "gameCode": "2026070004"
     },
     {
       "slug": "high1-resort-ladies-open-2026",
@@ -739,7 +777,8 @@
       "par": 73,
       "entryCount": 108,
       "winnerName": "고지우",
-      "defendingName": "방신실"
+      "defendingName": "방신실",
+      "gameCode": "2026070002"
     },
     {
       "slug": "klpga-2026-east-one-ocean-beach-dream-tour-12th-tournament",
@@ -758,7 +797,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "성아진",
-      "defendingName": "김나현2"
+      "defendingName": "김나현2",
+      "gameCode": "2026070005"
     },
     {
       "slug": "klpga-2026-sollago-jump-tour-9th-tournament",
@@ -777,7 +817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이한음(S)",
-      "defendingName": "김도희3"
+      "defendingName": "김도희3",
+      "gameCode": "2026070009"
     },
     {
       "slug": "klpga-2026-eastone-ocean-beach-champions-tour-3rd-tournament",
@@ -796,7 +837,8 @@
       "par": 72,
       "entryCount": 81,
       "winnerName": "배경은",
-      "defendingName": "홍진주"
+      "defendingName": "홍진주",
+      "gameCode": "2026070007"
     },
     {
       "slug": "klpga-2026-db-dream-tour-13th-tournament",
@@ -815,7 +857,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "남가연",
-      "defendingName": "성아진"
+      "defendingName": "성아진",
+      "gameCode": "2026070006"
     },
     {
       "slug": "klpga-2026-sollago-jump-tour-10th-tournament",
@@ -834,7 +877,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "이민서(S)",
-      "defendingName": "이한음"
+      "defendingName": "이한음",
+      "gameCode": "2026070010"
     },
     {
       "slug": "klpga-2026-sollago-jump-tour-11th-tournament",
@@ -853,7 +897,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "배성은(S)",
-      "defendingName": "이민서"
+      "defendingName": "이민서",
+      "gameCode": "2026070011"
     },
     {
       "slug": "klpga-2026-dong-a-membership-group-champions-tour-4th-tourna",
@@ -872,7 +917,8 @@
       "par": 72,
       "entryCount": 105,
       "winnerName": "이정은3",
-      "defendingName": "배경은"
+      "defendingName": "배경은",
+      "gameCode": "2026070008"
     },
     {
       "slug": "2026-aurora-world-championship",
@@ -891,7 +937,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이다연",
-      "defendingName": "배소현"
+      "defendingName": "배소현",
+      "gameCode": "2026070001"
     },
     {
       "slug": "klpga-2026-sollago-jump-tour-12th-tournament",
@@ -910,7 +957,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "배성은(S)",
-      "defendingName": "배성은"
+      "defendingName": "배성은",
+      "gameCode": "2026080010"
     },
     {
       "slug": "klpga-2026-grand-cc-samdaein-hongsamball-champions-tour-5th",
@@ -929,7 +977,8 @@
       "par": 72,
       "entryCount": 87,
       "winnerName": "배경은",
-      "defendingName": "이정은3"
+      "defendingName": "이정은3",
+      "gameCode": "2026080007"
     },
     {
       "slug": "the-13th-jejusamdasoo-masters",
@@ -948,7 +997,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장은수",
-      "defendingName": "고지원"
+      "defendingName": "고지원",
+      "gameCode": "2026080004"
     },
     {
       "slug": "klpga-2026-east-one-ocean-beach-dream-tour-14th-tournament",
@@ -967,7 +1017,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": null,
-      "defendingName": "남가연"
+      "defendingName": "남가연",
+      "gameCode": "2026080005"
     },
     {
       "slug": "klpga-2026-eastone-ocean-beach-champions-tour-6th-tournament",
@@ -986,7 +1037,8 @@
       "par": 72,
       "entryCount": 70,
       "winnerName": null,
-      "defendingName": "배경은"
+      "defendingName": "배경은",
+      "gameCode": "2026080008"
     },
     {
       "slug": "mediheal-hankookilbo-championship",
@@ -1005,7 +1057,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": null,
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2026080003"
     },
     {
       "slug": "klpga-2026-dbhitek-dream-tour-15th-tournament",
@@ -1024,7 +1077,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026080006"
     },
     {
       "slug": "bc-card-hankyung-the-48th-klpga-championship",
@@ -1043,7 +1097,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2026080002"
     },
     {
       "slug": "klpga-2026-the-honors-golf-champions-tour-7th-tournament",
@@ -1062,7 +1117,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026080009"
     },
     {
       "slug": "the-15th-kg-ladies-open",
@@ -1081,7 +1137,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "신다인"
+      "defendingName": "신다인",
+      "gameCode": "2026080001"
     },
     {
       "slug": "klpga-2026-east-one-ocean-beach-dream-tour-16th-tournament",
@@ -1100,7 +1157,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090004"
     },
     {
       "slug": "klpga-2026-grand-cc-samdaein-hongsamball-jump-tour-13th-tour",
@@ -1119,7 +1177,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "배성은"
+      "defendingName": "배성은",
+      "gameCode": "2026080011"
     },
     {
       "slug": "klpga-2026-eastone-ocean-beach-champions-tour-8th-tournament",
@@ -1138,7 +1197,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090008"
     },
     {
       "slug": "klpga-2026-grand-cc-samdaein-hongsamball-jump-tour-14th-tour",
@@ -1157,7 +1217,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090010"
     },
     {
       "slug": "ok-savings-bank-ok-man-open",
@@ -1176,7 +1237,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "방신실"
+      "defendingName": "방신실",
+      "gameCode": "2026120001"
     },
     {
       "slug": "klpga-2026-phoenix-cc-dream-tour-17th-tournament",
@@ -1195,7 +1257,8 @@
       "par": 71,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090005"
     },
     {
       "slug": "klpga-2026-champions-classic-9th-tournament",
@@ -1214,7 +1277,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090009"
     },
     {
       "slug": "kb-financial-group-golden-life-championship-working-title",
@@ -1233,7 +1297,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "유현조"
+      "defendingName": "유현조",
+      "gameCode": "2026090003"
     },
     {
       "slug": "klpga-2026-grand-cc-samdaein-hongsamball-jump-tour-15th-tour",
@@ -1252,7 +1317,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090011"
     },
     {
       "slug": "klpga-2026-db-dream-tour-18th-tournament",
@@ -1271,7 +1337,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090006"
     },
     {
       "slug": "klpga-2026-grand-cc-samdaein-hongsamball-jump-tour-16th-tour",
@@ -1290,7 +1357,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090012"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -1309,7 +1377,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2026090002"
     },
     {
       "slug": "klpga-2026-gunsancc-dream-tour-19th-tournament",
@@ -1328,7 +1397,8 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026090007"
     },
     {
       "slug": "the-26th-hite-jinro-championship",
@@ -1347,7 +1417,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "성유진"
+      "defendingName": "성유진",
+      "gameCode": "2026100005"
     },
     {
       "slug": "2026-hj-shipbuilding-construction-dongbu-construction-champi",
@@ -1366,7 +1437,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "김민솔"
+      "defendingName": "김민솔",
+      "gameCode": "2026100004"
     },
     {
       "slug": "klpga-2026-db-dream-tour-20th-tournament",
@@ -1385,7 +1457,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100006"
     },
     {
       "slug": "klpga-2026-champions-classic-10th-tournament-group-gold-grou",
@@ -1404,7 +1477,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100010"
     },
     {
       "slug": "000-open",
@@ -1423,7 +1497,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100003"
     },
     {
       "slug": "klpga-2026-muancc-allforyou-dream-tour-21th-tournament",
@@ -1442,7 +1517,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100007"
     },
     {
       "slug": "bmw-ladies-championship",
@@ -1461,7 +1537,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100016"
     },
     {
       "slug": "klpga-2026-kbi-group-gyeongbuk-construction-association-invi",
@@ -1480,7 +1557,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2026100015"
     },
     {
       "slug": "s-oil-championship-2026",
@@ -1499,7 +1577,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "고지원"
+      "defendingName": "고지원",
+      "gameCode": "2026100001"
     },
     {
       "slug": "daebo-hausd-championship",
@@ -1518,7 +1597,8 @@
       "par": null,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": "황유민"
+      "defendingName": "황유민",
+      "gameCode": "2026110001"
     },
     {
       "slug": "indonesia-women-s-open",
@@ -1537,7 +1617,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "황유나",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025010001"
     },
     {
       "slug": "klpga-2025-dream-tour-philippine-ladies-masters",
@@ -1556,7 +1637,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김가영",
-      "defendingName": "황유나"
+      "defendingName": "황유나",
+      "gameCode": "2025020001"
     },
     {
       "slug": "blue-canyon-ladies-championship",
@@ -1575,7 +1657,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박보겸",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2025030001"
     },
     {
       "slug": "doosan-e-c-we-ve-championship",
@@ -1594,7 +1677,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이예원",
-      "defendingName": "황유민"
+      "defendingName": "황유민",
+      "gameCode": "2025040001"
     },
     {
       "slug": "klpga-2025-gunsancc-dream-tour-1st-tournament",
@@ -1613,7 +1697,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "김민솔",
-      "defendingName": "김가영"
+      "defendingName": "김가영",
+      "gameCode": "2025040017"
     },
     {
       "slug": "im-financial-group-open-2025",
@@ -1632,7 +1717,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김민주",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025040002"
     },
     {
       "slug": "klpga-2025-baekjecc-samdaein-hongsamball-jump-tour-1st-tourn",
@@ -1651,7 +1737,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "송지윤(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025040007"
     },
     {
       "slug": "klpga-2025-muancc-allforyou-dream-tour-2nd-tournament",
@@ -1670,7 +1757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김민솔",
-      "defendingName": "김민솔"
+      "defendingName": "김민솔",
+      "gameCode": "2025040018"
     },
     {
       "slug": "nexen-saintnine-masters-2025",
@@ -1689,7 +1777,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "방신실",
-      "defendingName": "최은우"
+      "defendingName": "최은우",
+      "gameCode": "2025040003"
     },
     {
       "slug": "klpga-2025-gunsancc-dream-tour-3rd-tournament",
@@ -1708,7 +1797,8 @@
       "par": 72,
       "entryCount": 121,
       "winnerName": "황유나",
-      "defendingName": "김민솔"
+      "defendingName": "김민솔",
+      "gameCode": "2025040019"
     },
     {
       "slug": "klpga-2025-baekjecc-samdaein-hongsamball-jump-tour-2nd-tourn",
@@ -1727,7 +1817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이다빈B(S)",
-      "defendingName": "송지윤"
+      "defendingName": "송지윤",
+      "gameCode": "2025040008"
     },
     {
       "slug": "klpga-2025-baekjecc-samdaein-hongsamball-jump-tour-3rd-tourn",
@@ -1746,7 +1837,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김재린(S)",
-      "defendingName": "이다빈"
+      "defendingName": "이다빈",
+      "gameCode": "2025040009"
     },
     {
       "slug": "dukshinepc-championship",
@@ -1765,7 +1857,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김민선7",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025040005"
     },
     {
       "slug": "klpga-2025-champions-classic-1st-tournament",
@@ -1784,7 +1877,8 @@
       "par": 72,
       "entryCount": 111,
       "winnerName": "민인숙",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025040020"
     },
     {
       "slug": "klpga-2025-ooo-dream-tour-4th-tournament",
@@ -1803,7 +1897,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정영화",
-      "defendingName": "황유나"
+      "defendingName": "황유나",
+      "gameCode": "2025040022"
     },
     {
       "slug": "klpga-2025-baekjecc-samdaein-hongsamball-jump-tour-4th-tourn",
@@ -1822,7 +1917,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "이다빈B(S)",
-      "defendingName": "김재린"
+      "defendingName": "김재린",
+      "gameCode": "2025040010"
     },
     {
       "slug": "creas-f-c-the-47th-klpga-championship",
@@ -1841,7 +1937,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "홍정민",
-      "defendingName": "이정민"
+      "defendingName": "이정민",
+      "gameCode": "2025040004"
     },
     {
       "slug": "klpga-2025-muancc-allforyou-dream-tour-5th-tournament",
@@ -1860,7 +1957,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김지수",
-      "defendingName": "정영화"
+      "defendingName": "정영화",
+      "gameCode": "2025050011"
     },
     {
       "slug": "2025-nh-investment-securities-ladies-championship",
@@ -1879,7 +1977,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "이예원",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2025050001"
     },
     {
       "slug": "klpga-2025-champions-classic-2nd-tournament",
@@ -1898,7 +1997,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "우선화",
-      "defendingName": "민인숙"
+      "defendingName": "민인숙",
+      "gameCode": "2025050013"
     },
     {
       "slug": "the-17th-doosan-match-play",
@@ -1917,7 +2017,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "이예원",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2025050002"
     },
     {
       "slug": "klpga-2025-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -1936,7 +2037,8 @@
       "par": 72,
       "entryCount": 122,
       "winnerName": "강민진 0610(A)",
-      "defendingName": "이다빈"
+      "defendingName": "이다빈",
+      "gameCode": "2025050005"
     },
     {
       "slug": "the-13th-e1-charity-open",
@@ -1955,7 +2057,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "박현경",
-      "defendingName": "배소현"
+      "defendingName": "배소현",
+      "gameCode": "2025050003"
     },
     {
       "slug": "klpga-2025-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -1974,7 +2077,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "황보민(S)",
-      "defendingName": "강민진"
+      "defendingName": "강민진",
+      "gameCode": "2025050006"
     },
     {
       "slug": "klpga-2025-gunsancc-dream-tour-6th-tournament",
@@ -1993,7 +2097,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "안재희",
-      "defendingName": "김지수"
+      "defendingName": "김지수",
+      "gameCode": "2025050012"
     },
     {
       "slug": "suhyup-bank-mbn-ladies-open",
@@ -2012,7 +2117,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "정윤지",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2025050004"
     },
     {
       "slug": "klpga-2025-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -2031,7 +2137,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "조하리(S)",
-      "defendingName": "황보민"
+      "defendingName": "황보민",
+      "gameCode": "2025060007"
     },
     {
       "slug": "2025-celltrion-queens-masters",
@@ -2050,7 +2157,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이가영",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2025060001"
     },
     {
       "slug": "klpga-2025-ooo-dream-tour-7th-tournament",
@@ -2069,7 +2177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황유나",
-      "defendingName": "안재희"
+      "defendingName": "안재희",
+      "gameCode": "2025060017"
     },
     {
       "slug": "klpga-2025-dasan-beache-golf-resort-jump-tour-with-sbs-golf",
@@ -2088,7 +2197,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "문서영(S)",
-      "defendingName": "조하리"
+      "defendingName": "조하리",
+      "gameCode": "2025060008"
     },
     {
       "slug": "db-group-the-39th-korea-women-s-open-golf-championship",
@@ -2107,7 +2217,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "이동은",
-      "defendingName": "노승희"
+      "defendingName": "노승희",
+      "gameCode": "2025060002"
     },
     {
       "slug": "the-heaven-masters",
@@ -2126,7 +2237,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "노승희",
-      "defendingName": "배소현"
+      "defendingName": "배소현",
+      "gameCode": "2025070003"
     },
     {
       "slug": "klpga-2025-muancc-allforyou-dream-tour-8th-tournament",
@@ -2145,7 +2257,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김민솔",
-      "defendingName": "황유나"
+      "defendingName": "황유나",
+      "gameCode": "2025060009"
     },
     {
       "slug": "mccol-mona-yongpyong-open-with-sbs-golf",
@@ -2164,7 +2277,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "고지우",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2025060004"
     },
     {
       "slug": "the-15th-lotte-open",
@@ -2183,7 +2297,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박혜준",
-      "defendingName": "이가영"
+      "defendingName": "이가영",
+      "gameCode": "2025070001"
     },
     {
       "slug": "klpga-2025-muancc-allforyou-dream-tour-9th-tournament",
@@ -2202,7 +2317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김아현",
-      "defendingName": "김민솔"
+      "defendingName": "김민솔",
+      "gameCode": "2025070014"
     },
     {
       "slug": "high1-resort-ladies-open-2025",
@@ -2221,7 +2337,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "방신실",
-      "defendingName": "고지우"
+      "defendingName": "고지우",
+      "gameCode": "2025070002"
     },
     {
       "slug": "klpga-2025-uniisland-golf-spa-resort-saeki-p-c-dream-tour-wi",
@@ -2240,7 +2357,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김새로미",
-      "defendingName": "김아현"
+      "defendingName": "김아현",
+      "gameCode": "2025070015"
     },
     {
       "slug": "klpga-2025-sollago-jump-tour-9th-tournament",
@@ -2259,7 +2377,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최정원B(S)",
-      "defendingName": "문서영"
+      "defendingName": "문서영",
+      "gameCode": "2025070006"
     },
     {
       "slug": "klpga-2025-ooo-dream-tour-11th-tournament",
@@ -2278,7 +2397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김민솔",
-      "defendingName": "김새로미"
+      "defendingName": "김새로미",
+      "gameCode": "2025070016"
     },
     {
       "slug": "klpga-2025-sollago-jump-tour-10th-tournament",
@@ -2297,7 +2417,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "길예람(S)",
-      "defendingName": "최정원"
+      "defendingName": "최정원",
+      "gameCode": "2025070007"
     },
     {
       "slug": "klpga-2025-sbs-golf-champions-tour-3rd-tournament",
@@ -2316,7 +2437,8 @@
       "par": 72,
       "entryCount": 111,
       "winnerName": "최혜정",
-      "defendingName": "우선화"
+      "defendingName": "우선화",
+      "gameCode": "2025080013"
     },
     {
       "slug": "klpga-2025-sollago-jump-tour-11th-tournament",
@@ -2335,7 +2457,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "양효진(S)",
-      "defendingName": "길예람"
+      "defendingName": "길예람",
+      "gameCode": "2025070008"
     },
     {
       "slug": "2025-aurora-world-ladies-championship",
@@ -2354,7 +2477,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "배소현",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025070004"
     },
     {
       "slug": "klpga-2025-sollago-jump-tour-12th-tournament",
@@ -2373,7 +2497,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "양효진(S)",
-      "defendingName": "양효진"
+      "defendingName": "양효진",
+      "gameCode": "2025080004"
     },
     {
       "slug": "the-12th-jejusamdasoo-masters",
@@ -2392,7 +2517,8 @@
       "par": 72,
       "entryCount": 131,
       "winnerName": "고지원",
-      "defendingName": "윤이나"
+      "defendingName": "윤이나",
+      "gameCode": "2025070005"
     },
     {
       "slug": "klpga-2025-uniisland-golf-spa-resort-saeki-p-c-dream-tour-wi",
@@ -2411,7 +2537,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김새로미",
-      "defendingName": "김민솔"
+      "defendingName": "김민솔",
+      "gameCode": "2025080011"
     },
     {
       "slug": "mediheal-hankookilbo-championship",
@@ -2430,7 +2557,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "홍정민",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2025080001"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2025",
@@ -2449,7 +2577,8 @@
       "par": 72,
       "entryCount": 119,
       "winnerName": "김민솔",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2025060003"
     },
     {
       "slug": "klpga-2025-monarchcc-symarketing-dream-tour-13th-tournament",
@@ -2468,7 +2597,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김지영2",
-      "defendingName": "김새로미"
+      "defendingName": "김새로미",
+      "gameCode": "2025080012"
     },
     {
       "slug": "klpga-2025-sbs-golf-champions-tour-4th-tournament",
@@ -2487,7 +2617,8 @@
       "par": 72,
       "entryCount": 105,
       "winnerName": "이정연",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2025080014"
     },
     {
       "slug": "the-14th-kg-ladies-open",
@@ -2506,7 +2637,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "신다인",
-      "defendingName": "배소현"
+      "defendingName": "배소현",
+      "gameCode": "2025080003"
     },
     {
       "slug": "klpga-2025-grand-cc-samdaein-hongsamball-jump-tour-13th-tour",
@@ -2525,7 +2657,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이세영B(S)",
-      "defendingName": "양효진"
+      "defendingName": "양효진",
+      "gameCode": "2025090005"
     },
     {
       "slug": "klpga-2025-grand-cc-samdaein-hongsamball-jump-tour-14th-tour",
@@ -2544,7 +2677,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "지신비(S)",
-      "defendingName": "이세영"
+      "defendingName": "이세영",
+      "gameCode": "2025090006"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -2563,7 +2697,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "유현조",
-      "defendingName": "유현조"
+      "defendingName": "유현조",
+      "gameCode": "2025090001"
     },
     {
       "slug": "klpga-2025-champions-classic-5th-tournament-group-gold",
@@ -2582,7 +2717,8 @@
       "par": 72,
       "entryCount": 46,
       "winnerName": "김미경(T)",
-      "defendingName": "이정연"
+      "defendingName": "이정연",
+      "gameCode": "2025090011"
     },
     {
       "slug": "klpga-2025-dream-tour-14th-tournament",
@@ -2601,7 +2737,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장소희",
-      "defendingName": "김지영2"
+      "defendingName": "김지영2",
+      "gameCode": "2025090016"
     },
     {
       "slug": "klpga-2025-champions-classic-5th-tournament-group-green",
@@ -2620,7 +2757,8 @@
       "par": 72,
       "entryCount": 76,
       "winnerName": "김선미",
-      "defendingName": "이정연"
+      "defendingName": "이정연",
+      "gameCode": "2025090012"
     },
     {
       "slug": "ok-savings-bank-ok-man-open",
@@ -2639,7 +2777,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "방신실",
-      "defendingName": "노승희"
+      "defendingName": "노승희",
+      "gameCode": "2025090002"
     },
     {
       "slug": "klpga-2025-grand-cc-samdaein-hongsamball-jump-tour-15th-tour",
@@ -2658,7 +2797,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "정윤경(S)",
-      "defendingName": "지신비"
+      "defendingName": "지신비",
+      "gameCode": "2025090007"
     },
     {
       "slug": "klpga-2025-skyview-cc-saeki-p-c-dream-tour-with-sbs-golf-15t",
@@ -2677,7 +2817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이지민",
-      "defendingName": "장소희"
+      "defendingName": "장소희",
+      "gameCode": "2025090009"
     },
     {
       "slug": "klpga-2025-grand-cc-samdaein-hongsamball-jump-tour-16th-tour",
@@ -2696,7 +2837,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "손예지(S)",
-      "defendingName": "정윤경"
+      "defendingName": "정윤경",
+      "gameCode": "2025090008"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -2715,7 +2857,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이다연",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2025090003"
     },
     {
       "slug": "klpga-2025-west-ocean-champions-tour-6th-tournament",
@@ -2734,7 +2877,8 @@
       "par": 72,
       "entryCount": 93,
       "winnerName": "조윤주",
-      "defendingName": "김미경(T)"
+      "defendingName": "김미경(T)",
+      "gameCode": "2025090013"
     },
     {
       "slug": "klpga-2025-gunsan-dream-tour-16th-tournament",
@@ -2753,7 +2897,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "콘 아야나(I)",
-      "defendingName": "이지민"
+      "defendingName": "이지민",
+      "gameCode": "2025090010"
     },
     {
       "slug": "the-25th-hite-jinro-championship",
@@ -2772,7 +2917,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "성유진",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2025090004"
     },
     {
       "slug": "klpga-2025-west-oceancc-champions-tour-7th-tournament",
@@ -2791,7 +2937,8 @@
       "par": 72,
       "entryCount": 86,
       "winnerName": "최혜정",
-      "defendingName": "조윤주"
+      "defendingName": "조윤주",
+      "gameCode": "2025090014"
     },
     {
       "slug": "mansujeong-klpga-2025-dream-tour-17th-tournament",
@@ -2810,7 +2957,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장은수",
-      "defendingName": "콘 아야나(I)"
+      "defendingName": "콘 아야나(I)",
+      "gameCode": "2025090017"
     },
     {
       "slug": "2025-dongbu-construction-koreit-championship",
@@ -2829,7 +2977,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김민솔",
-      "defendingName": "김민별"
+      "defendingName": "김민별",
+      "gameCode": "2025100001"
     },
     {
       "slug": "k-food-nolboo-hwami-masters",
@@ -2848,7 +2997,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "홍정민",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025100012"
     },
     {
       "slug": "klpga-2025-muancc-allforyou-dream-tour-18th-tournament",
@@ -2867,7 +3017,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최정원",
-      "defendingName": "장은수"
+      "defendingName": "장은수",
+      "gameCode": "2025100006"
     },
     {
       "slug": "sangsangin-hankyung-wownet-open-2025",
@@ -2886,7 +3037,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이율린",
-      "defendingName": "박보겸"
+      "defendingName": "박보겸",
+      "gameCode": "2025100003"
     },
     {
       "slug": "klpga-pharmaresearch-rejuran-dream-tour-grand-final-2025",
@@ -2905,7 +3057,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "정수빈",
-      "defendingName": "최정원"
+      "defendingName": "최정원",
+      "gameCode": "2025100007"
     },
     {
       "slug": "gwangnamilbo-happiness-open",
@@ -2924,7 +3077,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "리 슈잉(I)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025100004"
     },
     {
       "slug": "klpga-2025-bella45-champions-tour-with-palm-springs-8th-tour",
@@ -2943,7 +3097,8 @@
       "par": 72,
       "entryCount": 86,
       "winnerName": "최혜정",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2025060010"
     },
     {
       "slug": "s-oil-championship-2025",
@@ -2962,7 +3117,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "고지원",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2025100005"
     },
     {
       "slug": "daebo-hausd-championship",
@@ -2981,7 +3137,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "황유민",
-      "defendingName": "문정민"
+      "defendingName": "문정민",
+      "gameCode": "2025100002"
     },
     {
       "slug": "wemix-championship-2025",
@@ -3000,7 +3157,8 @@
       "par": 71,
       "entryCount": 24,
       "winnerName": null,
-      "defendingName": "김민선7"
+      "defendingName": "김민선7",
+      "gameCode": "2025110008"
     },
     {
       "slug": "2025-taiwan-mobile-ladies-open",
@@ -3019,7 +3177,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "빳차라쭈딴 콩끄라판",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2025120001"
     },
     {
       "slug": "hana-financial-group-singapore-women-s-open",
@@ -3038,7 +3197,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김재희",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2024030016"
     },
     {
       "slug": "blue-canyon-ladies-championship",
@@ -3057,7 +3217,8 @@
       "par": 72,
       "entryCount": 72,
       "winnerName": "이예원",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2024030017"
     },
     {
       "slug": "doosan-e-c-we-ve-championship",
@@ -3076,7 +3237,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "황유민",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2024040017"
     },
     {
       "slug": "klpga-2024-baekjecc-samdaein-hongsamball-jump-tour-1st-tourn",
@@ -3095,7 +3257,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "콘 아야나(I)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2024050005"
     },
     {
       "slug": "klpga-2024-norangtongdak-qcapitalpartners-dream-challenge-1s",
@@ -3114,7 +3277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정주리",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2024110001"
     },
     {
       "slug": "mediheal-hankookilbo-championship",
@@ -3133,7 +3297,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박지영",
-      "defendingName": "이주미"
+      "defendingName": "이주미",
+      "gameCode": "2024040018"
     },
     {
       "slug": "klpga-2024-baekjecc-samdaein-hongsamball-jump-tour-2nd-tourn",
@@ -3152,7 +3317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이세인(S)",
-      "defendingName": "콘 아야나(I)"
+      "defendingName": "콘 아야나(I)",
+      "gameCode": "2024040008"
     },
     {
       "slug": "klpga-2024-muancc-allforyou-dream-tour-2nd-tournament",
@@ -3171,7 +3337,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김효문",
-      "defendingName": "정주리"
+      "defendingName": "정주리",
+      "gameCode": "2024040001"
     },
     {
       "slug": "nexen-saintnine-masters-2024",
@@ -3190,7 +3357,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "최은우",
-      "defendingName": "최은우"
+      "defendingName": "최은우",
+      "gameCode": "2024040019"
     },
     {
       "slug": "klpga-saeki-p-c-gunsancc-dream-tour-2024-3rd-tournament",
@@ -3209,7 +3377,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김지현3",
-      "defendingName": "김효문"
+      "defendingName": "김효문",
+      "gameCode": "2024040002"
     },
     {
       "slug": "klpga-2024-baekjecc-samdaein-hongsamball-jump-tour-3rd-tourn",
@@ -3228,7 +3397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "백송(S)",
-      "defendingName": "이세인"
+      "defendingName": "이세인",
+      "gameCode": "2024040009"
     },
     {
       "slug": "creas-f-c-the-46th-klpga-championship",
@@ -3247,7 +3417,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "이정민",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2024040020"
     },
     {
       "slug": "klpga-champions-classic-2024-1st-tournament",
@@ -3266,7 +3437,8 @@
       "par": 72,
       "entryCount": 113,
       "winnerName": "최혜정",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2024040006"
     },
     {
       "slug": "klpga-2024-baekjecc-samdaein-hongsamball-jump-tour-4th-tourn",
@@ -3285,7 +3457,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "이승민B(S)",
-      "defendingName": "백송"
+      "defendingName": "백송",
+      "gameCode": "2024040010"
     },
     {
       "slug": "the-10th-kyochon-1991-ladies-open",
@@ -3304,7 +3477,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박지영",
-      "defendingName": "박보겸"
+      "defendingName": "박보겸",
+      "gameCode": "2024050014"
     },
     {
       "slug": "klpga-2024-muancc-allforyou-dream-tour-4th-tournament",
@@ -3323,7 +3497,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "황연서",
-      "defendingName": "김지현3"
+      "defendingName": "김지현3",
+      "gameCode": "2024040004"
     },
     {
       "slug": "2024-nh-investment-securities-ladies-championship",
@@ -3342,7 +3517,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "이예원",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2024050015"
     },
     {
       "slug": "2024-doosan-match-play",
@@ -3361,7 +3537,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "박현경",
-      "defendingName": "성유진"
+      "defendingName": "성유진",
+      "gameCode": "2024050016"
     },
     {
       "slug": "klpga-champions-classic-2024-2nd-tournament",
@@ -3380,7 +3557,8 @@
       "par": 72,
       "entryCount": 101,
       "winnerName": "최혜정",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2024040007"
     },
     {
       "slug": "klpga-2024-dream-tour-with-samil-pharm-5th-tournament",
@@ -3399,7 +3577,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "송은아",
-      "defendingName": "황연서"
+      "defendingName": "황연서",
+      "gameCode": "2024040003"
     },
     {
       "slug": "klpga-2024-sbs-golf-jump-tour-with-easysky-cc-5th-tournament",
@@ -3418,7 +3597,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김양현(S)",
-      "defendingName": "이승민"
+      "defendingName": "이승민",
+      "gameCode": "2024040011"
     },
     {
       "slug": "the-12th-e1-charity-open",
@@ -3437,7 +3617,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "배소현",
-      "defendingName": "방신실"
+      "defendingName": "방신실",
+      "gameCode": "2024050017"
     },
     {
       "slug": "klpga-2024-sbs-golf-jump-tour-with-easysky-cc-6th-tournament",
@@ -3456,7 +3637,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "김민경D(S)",
-      "defendingName": "김다인"
+      "defendingName": "김다인",
+      "gameCode": "2024050006"
     },
     {
       "slug": "klpga-2024-sbs-golf-champions-tour-with-easysky-cc-1st-tourn",
@@ -3475,7 +3657,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "홍진주",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2024050003"
     },
     {
       "slug": "suhyup-bank-mbn-ladies-open",
@@ -3494,7 +3677,8 @@
       "par": 72,
       "entryCount": 119,
       "winnerName": "이예원",
-      "defendingName": "황유민"
+      "defendingName": "황유민",
+      "gameCode": "2024050018"
     },
     {
       "slug": "klpga-saeki-p-c-gunsancc-dream-tour-2024-dream-tour-6th-tour",
@@ -3513,7 +3697,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "전승희",
-      "defendingName": "송은아"
+      "defendingName": "송은아",
+      "gameCode": "2024050002"
     },
     {
       "slug": "klpga-2024-sbs-golf-jump-tour-with-easysky-cc-7th-tournament",
@@ -3532,7 +3717,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "신지우(S)",
-      "defendingName": "김민경2"
+      "defendingName": "김민경2",
+      "gameCode": "2024050007"
     },
     {
       "slug": "2024-celltrion-queens-masters",
@@ -3551,7 +3737,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2024060013"
     },
     {
       "slug": "klpga-2024-sbs-golf-jump-tour-with-easysky-cc-8th-tournament",
@@ -3570,7 +3757,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "신지우(S)",
-      "defendingName": "신지우"
+      "defendingName": "신지우",
+      "gameCode": "2024060011"
     },
     {
       "slug": "db-group-the-38th-korea-women-s-open-golf-championship",
@@ -3589,7 +3777,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "노승희",
-      "defendingName": "홍지원"
+      "defendingName": "홍지원",
+      "gameCode": "2024060014"
     },
     {
       "slug": "klpga-2024-sbs-golf-champions-tour-with-easysky-cc-2nd-tourn",
@@ -3608,7 +3797,8 @@
       "par": 72,
       "entryCount": 101,
       "winnerName": "홍진주",
-      "defendingName": "홍진주"
+      "defendingName": "홍진주",
+      "gameCode": "2024050004"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2024",
@@ -3627,7 +3817,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박현경",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2024060015"
     },
     {
       "slug": "mccol-mona-yongpyong-open-with-sbs-golf",
@@ -3646,7 +3837,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박현경",
-      "defendingName": "고지우"
+      "defendingName": "고지우",
+      "gameCode": "2024060016"
     },
     {
       "slug": "lotte-open",
@@ -3665,7 +3857,8 @@
       "par": 72,
       "entryCount": 131,
       "winnerName": "이가영",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2024070016"
     },
     {
       "slug": "klpga-2024-muancc-allforyou-dream-tour-7th-tournament",
@@ -3684,7 +3877,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "마서영",
-      "defendingName": "전승희"
+      "defendingName": "전승희",
+      "gameCode": "2024060001"
     },
     {
       "slug": "high1-resort-ladies-open-2024",
@@ -3703,7 +3897,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "고지우",
-      "defendingName": "한진선"
+      "defendingName": "한진선",
+      "gameCode": "2024070017"
     },
     {
       "slug": "klpga-2024-sbs-golf-champions-tour-with-easysky-cc-3rd-tourn",
@@ -3722,7 +3917,8 @@
       "par": 72,
       "entryCount": 109,
       "winnerName": "홍진주",
-      "defendingName": "홍진주"
+      "defendingName": "홍진주",
+      "gameCode": "2024060010"
     },
     {
       "slug": "klpga-2024-sollago-jump-tour-9th-tournament",
@@ -3741,7 +3937,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "이지민 0607(A)",
-      "defendingName": "신지우"
+      "defendingName": "신지우",
+      "gameCode": "2024060012"
     },
     {
       "slug": "klpga-2024-dream-tour-with-crowning-8th-tournament",
@@ -3760,7 +3957,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "박예지",
-      "defendingName": "마서영"
+      "defendingName": "마서영",
+      "gameCode": "2024070001"
     },
     {
       "slug": "klpga-2024-sollago-jump-tour-10th-tournament",
@@ -3779,7 +3977,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "유다인(S)",
-      "defendingName": "이지민"
+      "defendingName": "이지민",
+      "gameCode": "2024070008"
     },
     {
       "slug": "klpga-saeki-p-c-gunsancc-dream-tour-2024-9th-tournament",
@@ -3798,7 +3997,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "한빛나",
-      "defendingName": "박예지"
+      "defendingName": "박예지",
+      "gameCode": "2024080001"
     },
     {
       "slug": "klpga-2024-sbs-golf-creve9-dream-tour-with-easysky-cc-10th-t",
@@ -3817,7 +4017,8 @@
       "par": 71,
       "entryCount": 128,
       "winnerName": "이지현3",
-      "defendingName": "한빛나"
+      "defendingName": "한빛나",
+      "gameCode": "2024070003"
     },
     {
       "slug": "klpga-2024-sollago-jump-tour-11th-tournament",
@@ -3836,7 +4037,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "유채승(S)",
-      "defendingName": "유다인"
+      "defendingName": "유다인",
+      "gameCode": "2024070009"
     },
     {
       "slug": "the-11th-jejusamdasoo-masters",
@@ -3855,7 +4057,8 @@
       "par": 72,
       "entryCount": 131,
       "winnerName": "윤이나",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2024080014"
     },
     {
       "slug": "klpga-2024-sollago-jump-tour-12th-tournament",
@@ -3874,7 +4077,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "오승(S)",
-      "defendingName": "유채승"
+      "defendingName": "유채승",
+      "gameCode": "2024070010"
     },
     {
       "slug": "klpga-2024-muancc-allforyou-dream-tour-11th-tournament",
@@ -3893,7 +4097,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이재윤",
-      "defendingName": "이지현3"
+      "defendingName": "이지현3",
+      "gameCode": "2024070004"
     },
     {
       "slug": "klpga-2024-the-heaven-masters-dream-tour-with-sbs-golf-12th",
@@ -3912,7 +4117,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김효문",
-      "defendingName": "이재윤"
+      "defendingName": "이재윤",
+      "gameCode": "2024070002"
     },
     {
       "slug": "the-heaven-masters",
@@ -3931,7 +4137,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "배소현",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2024080018"
     },
     {
       "slug": "hanwha-classic-2024",
@@ -3950,7 +4157,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박지영",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2024080015"
     },
     {
       "slug": "klpga-2024-monarch-oracle-dream-tour-13th-tournament",
@@ -3969,7 +4177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "유다겸(I)",
-      "defendingName": "김효문"
+      "defendingName": "김효문",
+      "gameCode": "2024080002"
     },
     {
       "slug": "klpga-2024-grand-cc-samdaein-hongsamball-jump-tour-13th-tour",
@@ -3988,7 +4197,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "서지은(S)",
-      "defendingName": "오승"
+      "defendingName": "오승",
+      "gameCode": "2024080009"
     },
     {
       "slug": "the-13th-kg-ladies-open",
@@ -4007,7 +4217,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "배소현",
-      "defendingName": "서연정"
+      "defendingName": "서연정",
+      "gameCode": "2024080016"
     },
     {
       "slug": "klpga-2024-sbs-golf-champions-tour-with-easysky-cc-4th-tourn",
@@ -4026,7 +4237,8 @@
       "par": 72,
       "entryCount": 104,
       "winnerName": "최혜정",
-      "defendingName": "홍진주"
+      "defendingName": "홍진주",
+      "gameCode": "2024070007"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -4045,7 +4257,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "유현조",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2024090006"
     },
     {
       "slug": "klpga-2024-grand-cc-samdaein-hongsamball-jump-tour-14th-tour",
@@ -4064,7 +4277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장소희(S)",
-      "defendingName": "서지은"
+      "defendingName": "서지은",
+      "gameCode": "2024080010"
     },
     {
       "slug": "klpga-2024-gunsan-dream-tour-14th-tournament",
@@ -4083,7 +4297,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "송은아",
-      "defendingName": "유다겸(I)"
+      "defendingName": "유다겸(I)",
+      "gameCode": "2024080003"
     },
     {
       "slug": "klpga-2024-grand-cc-samdaein-hongsamball-jump-tour-15th-tour",
@@ -4102,7 +4317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "서지은(S)",
-      "defendingName": "장소희"
+      "defendingName": "장소희",
+      "gameCode": "2024090004"
     },
     {
       "slug": "ok-savings-bank-ok-man-open",
@@ -4121,7 +4337,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "노승희",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2024090007"
     },
     {
       "slug": "klpga-2024-grand-cc-samdaein-hongsamball-jump-tour-16th-tour",
@@ -4140,7 +4357,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "조혜지(S)",
-      "defendingName": "서지은"
+      "defendingName": "서지은",
+      "gameCode": "2024090005"
     },
     {
       "slug": "daebo-hausd-open",
@@ -4159,7 +4377,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "문정민",
-      "defendingName": "박주영"
+      "defendingName": "박주영",
+      "gameCode": "2024090008"
     },
     {
       "slug": "klpga-2024-seoul-pharmaceuticals-qcapitalpartners-dream-chal",
@@ -4178,7 +4397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "권서연",
-      "defendingName": "송은아"
+      "defendingName": "송은아",
+      "gameCode": "2024090001"
     },
     {
       "slug": "klpga-champions-classic-2024-3rd-tournament-group-green",
@@ -4197,7 +4417,8 @@
       "par": 72,
       "entryCount": 92,
       "winnerName": "임은아",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2024090011"
     },
     {
       "slug": "klpga-champions-classic-2024-3rd-tournament-group-gold",
@@ -4216,7 +4437,8 @@
       "par": 72,
       "entryCount": 28,
       "winnerName": "김미순",
-      "defendingName": "최혜정"
+      "defendingName": "최혜정",
+      "gameCode": "2024090010"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -4235,7 +4457,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "마다솜",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2024090009"
     },
     {
       "slug": "klpga-gunsancc-saeki-p-c-dream-tour-2024-16th-tournament",
@@ -4254,7 +4477,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "윤수아",
-      "defendingName": "권서연"
+      "defendingName": "권서연",
+      "gameCode": "2024090002"
     },
     {
       "slug": "the-24th-hite-jinro-championship",
@@ -4273,7 +4497,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김수지",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2024100008"
     },
     {
       "slug": "wow-management-group-klpga-dream-tour-2024-17th-tournament",
@@ -4292,7 +4517,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "황민정",
-      "defendingName": "윤수아"
+      "defendingName": "윤수아",
+      "gameCode": "2024050001"
     },
     {
       "slug": "klpga-2024-sbs-golf-champions-tour-with-easysky-cc-5th-tourn",
@@ -4311,7 +4537,8 @@
       "par": 72,
       "entryCount": 100,
       "winnerName": "최혜정",
-      "defendingName": "김미순"
+      "defendingName": "김미순",
+      "gameCode": "2024080008"
     },
     {
       "slug": "2024-dongbu-construction-koreit-championship",
@@ -4330,7 +4557,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김민별",
-      "defendingName": "방신실"
+      "defendingName": "방신실",
+      "gameCode": "2024100009"
     },
     {
       "slug": "klpga-2024-sbs-golf-dream-tour-with-easysky-cc-18th-tourname",
@@ -4349,7 +4577,8 @@
       "par": 71,
       "entryCount": 128,
       "winnerName": "이지현3",
-      "defendingName": "황민정"
+      "defendingName": "황민정",
+      "gameCode": "2024090003"
     },
     {
       "slug": "sangsangin-hankyungtv-wownet-open-2024",
@@ -4368,7 +4597,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "박보겸",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2024100010"
     },
     {
       "slug": "klpga-2024-muancc-allforyou-dream-tour-19th-tournament",
@@ -4387,7 +4617,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "강정현",
-      "defendingName": "이지현3"
+      "defendingName": "이지현3",
+      "gameCode": "2024100001"
     },
     {
       "slug": "dukshin-epc-seoul-economics-ladies-classic",
@@ -4406,7 +4637,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "지한솔",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2024100011"
     },
     {
       "slug": "klpga-pharmaresearch-rejuran-dream-tour-grand-final-2024",
@@ -4425,7 +4657,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "리 슈잉(I)",
-      "defendingName": "강정현"
+      "defendingName": "강정현",
+      "gameCode": "2024100002"
     },
     {
       "slug": "s-oil-championship-2024",
@@ -4444,7 +4677,8 @@
       "par": 72,
       "entryCount": 88,
       "winnerName": "마다솜",
-      "defendingName": "성유진"
+      "defendingName": "성유진",
+      "gameCode": "2024100012"
     },
     {
       "slug": "sk-telecom-sk-shieldus-championship-2024",
@@ -4463,7 +4697,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "마다솜",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2024110007"
     },
     {
       "slug": "wemix-championship-2024",
@@ -4482,7 +4717,8 @@
       "par": 72,
       "entryCount": 24,
       "winnerName": "김민선7",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2024110010"
     },
     {
       "slug": "klpga-2023-sbs-golf-lotte-open-dream-tour-tournament",
@@ -4501,7 +4737,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "장은수",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023060009"
     },
     {
       "slug": "klpga-2023-muancc-allforyou-dream-tour-1st-tournament",
@@ -4520,7 +4757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "전효민",
-      "defendingName": "장은수"
+      "defendingName": "장은수",
+      "gameCode": "2023040005"
     },
     {
       "slug": "lotte-rent-a-car-ladies-open",
@@ -4539,7 +4777,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이예원",
-      "defendingName": "장수연"
+      "defendingName": "장수연",
+      "gameCode": "2023040001"
     },
     {
       "slug": "klpga-2023-baekjecc-samdaein-hongsamball-jump-tour-1st-tourn",
@@ -4558,7 +4797,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "KITSUYA Sayaka",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023040012"
     },
     {
       "slug": "mediheal-hankookilbo-championship",
@@ -4577,7 +4817,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이주미",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2023040002"
     },
     {
       "slug": "klpga-2023-mcsquare-gunsancc-dream-tour-2nd-tournament",
@@ -4596,7 +4837,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "신보민",
-      "defendingName": "전효민"
+      "defendingName": "전효민",
+      "gameCode": "2023040006"
     },
     {
       "slug": "klpga-2023-baekjecc-samdaein-hongsamball-jump-tour-2nd-tourn",
@@ -4615,7 +4857,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박서령(S)",
-      "defendingName": "키츠야 사야카(I)"
+      "defendingName": "키츠야 사야카(I)",
+      "gameCode": "2023040013"
     },
     {
       "slug": "klpga-champions-classic-2023-1st-tournament",
@@ -4634,7 +4877,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "김민기",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023040007"
     },
     {
       "slug": "nexen-saintnine-masters-2023",
@@ -4653,7 +4897,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "최은우",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2023040003"
     },
     {
       "slug": "klpga-2023-dream-tour-3rd-tournament",
@@ -4672,7 +4917,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "임진영",
-      "defendingName": "신보민"
+      "defendingName": "신보민",
+      "gameCode": "2023040010"
     },
     {
       "slug": "klpga-2023-baekjecc-samdaein-hongsamball-jump-tour-3rd-tourn",
@@ -4691,7 +4937,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "강민아(S)",
-      "defendingName": "박서령"
+      "defendingName": "박서령",
+      "gameCode": "2023040014"
     },
     {
       "slug": "creas-f-c-the-45th-klpga-championship",
@@ -4710,7 +4957,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "이다연",
-      "defendingName": "김아림"
+      "defendingName": "김아림",
+      "gameCode": "2023040004"
     },
     {
       "slug": "klpga-2023-baekjecc-samdaein-hongsamball-jump-tour-4th-tourn",
@@ -4729,7 +4977,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정지현(S)",
-      "defendingName": "강민아"
+      "defendingName": "강민아",
+      "gameCode": "2023050007"
     },
     {
       "slug": "the-9th-kyochon-1991-ladies-open",
@@ -4748,7 +4997,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박보겸",
-      "defendingName": "조아연"
+      "defendingName": "조아연",
+      "gameCode": "2023050001"
     },
     {
       "slug": "klpga-2023-muancc-allforyou-dream-tour-4th-tournament",
@@ -4767,7 +5017,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이기쁨",
-      "defendingName": "임진영"
+      "defendingName": "임진영",
+      "gameCode": "2023040011"
     },
     {
       "slug": "klpga-champions-classic-2023-2nd-tournament",
@@ -4786,7 +5037,8 @@
       "par": 72,
       "entryCount": 114,
       "winnerName": "홍진주",
-      "defendingName": "김민기"
+      "defendingName": "김민기",
+      "gameCode": "2023040008"
     },
     {
       "slug": "2023-nh-investment-securities-ladies-championship",
@@ -4805,7 +5057,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "임진희",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023050002"
     },
     {
       "slug": "2023-doosan-match-play-championship",
@@ -4824,7 +5077,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "성유진",
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2023050003"
     },
     {
       "slug": "klpga-2023-dream-tour-5th-tournament",
@@ -4843,7 +5097,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "한승주",
-      "defendingName": "이기쁨"
+      "defendingName": "이기쁨",
+      "gameCode": "2023050005"
     },
     {
       "slug": "klpga-2023-mcsquare-gunsancc-dream-tour-6th-tournament",
@@ -4862,7 +5117,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "유지나",
-      "defendingName": "한승주"
+      "defendingName": "한승주",
+      "gameCode": "2023050006"
     },
     {
       "slug": "the-11th-e1-charity-open",
@@ -4881,7 +5137,8 @@
       "par": 72,
       "entryCount": 142,
       "winnerName": "방신실",
-      "defendingName": "정윤지"
+      "defendingName": "정윤지",
+      "gameCode": "2023050004"
     },
     {
       "slug": "klpga-2023-grand-cc-samdaein-jump-tour-5th-tournament",
@@ -4900,7 +5157,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "임채리(S)",
-      "defendingName": "정지현"
+      "defendingName": "정지현",
+      "gameCode": "2023050009"
     },
     {
       "slug": "klpga-2023-grand-cc-samdaein-jump-tour-6th-tournament",
@@ -4919,7 +5177,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "조이안(S)",
-      "defendingName": "임채리"
+      "defendingName": "임채리",
+      "gameCode": "2023050010"
     },
     {
       "slug": "lotte-open",
@@ -4938,7 +5197,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "최혜진",
-      "defendingName": "성유진"
+      "defendingName": "성유진",
+      "gameCode": "2023060001"
     },
     {
       "slug": "klpga-ansong-engineering-champions-tour-with-easysky-cc",
@@ -4957,7 +5217,8 @@
       "par": 72,
       "entryCount": 110,
       "winnerName": "정시우A(S)",
-      "defendingName": "홍진주"
+      "defendingName": "홍진주",
+      "gameCode": "2023040009"
     },
     {
       "slug": "klpga-2023-grand-cc-samdaein-jump-tour-7th-tournament",
@@ -4976,7 +5237,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박지빈(S)",
-      "defendingName": "조이안"
+      "defendingName": "조이안",
+      "gameCode": "2023050011"
     },
     {
       "slug": "celltrion-queens-masters",
@@ -4995,7 +5257,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023060002"
     },
     {
       "slug": "klpga-2023-grand-cc-samdaein-jump-tour-8th-tournament",
@@ -5014,7 +5277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "손유정(S)",
-      "defendingName": "박지빈"
+      "defendingName": "박지빈",
+      "gameCode": "2023060013"
     },
     {
       "slug": "db-group-the-37th-korea-women-s-open-golf-championship",
@@ -5033,7 +5297,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "홍지원",
-      "defendingName": "임희정"
+      "defendingName": "임희정",
+      "gameCode": "2023060003"
     },
     {
       "slug": "klpga-sbs-golf-champions-tour-with-easysky-cc-2nd-tournament",
@@ -5052,7 +5317,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김서윤",
-      "defendingName": "정시우A(S)"
+      "defendingName": "정시우A(S)",
+      "gameCode": "2023060006"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2023",
@@ -5071,7 +5337,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023060004"
     },
     {
       "slug": "mccol-mona-yongpyong-open-with-sbs-golf",
@@ -5090,7 +5357,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "고지우",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2023060005"
     },
     {
       "slug": "klpga-2023-muancc-allforyou-dream-tour-7th-tournament",
@@ -5109,7 +5377,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "홍현지",
-      "defendingName": "유지나"
+      "defendingName": "유지나",
+      "gameCode": "2023070007"
     },
     {
       "slug": "dayouwinia-mbn-ladies-open",
@@ -5128,7 +5397,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "황유민",
-      "defendingName": "이소영"
+      "defendingName": "이소영",
+      "gameCode": "2023070001"
     },
     {
       "slug": "klpga-2023-mico-gunsancc-dream-tour-8th-tournament",
@@ -5147,7 +5417,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "윤화영",
-      "defendingName": "홍현지"
+      "defendingName": "홍현지",
+      "gameCode": "2023070008"
     },
     {
       "slug": "evercollagen-the-siena-queens-crown-2023",
@@ -5166,7 +5437,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박지영",
-      "defendingName": "윤이나"
+      "defendingName": "윤이나",
+      "gameCode": "2023070002"
     },
     {
       "slug": "klpga-sbs-golf-champions-tour-with-easysky-cc-3rd-tournament",
@@ -5185,7 +5457,8 @@
       "par": 72,
       "entryCount": 107,
       "winnerName": "유재희",
-      "defendingName": "김서윤"
+      "defendingName": "김서윤",
+      "gameCode": "2023060007"
     },
     {
       "slug": "klpga-2023-sollago-jump-tour-9th-tournament",
@@ -5204,7 +5477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최민서(S)",
-      "defendingName": "손유정"
+      "defendingName": "손유정",
+      "gameCode": "2023070011"
     },
     {
       "slug": "klpga-2023-three-h-dream-tour-with-eaysky-cc",
@@ -5223,7 +5497,8 @@
       "par": 71,
       "entryCount": 127,
       "winnerName": "김새로미",
-      "defendingName": "윤화영"
+      "defendingName": "윤화영",
+      "gameCode": "2023070009"
     },
     {
       "slug": "klpga-2023-sollago-jump-tour-10th-tournament",
@@ -5242,7 +5517,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최서윤(S)",
-      "defendingName": "최민서2"
+      "defendingName": "최민서2",
+      "gameCode": "2023070012"
     },
     {
       "slug": "klpga-2023-sollago-jump-tour-11th-tournament",
@@ -5261,7 +5537,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "양진서(S)",
-      "defendingName": "최서윤"
+      "defendingName": "최서윤",
+      "gameCode": "2023070013"
     },
     {
       "slug": "the-10th-jejusamdasoo-masters",
@@ -5280,7 +5557,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "임진희",
-      "defendingName": "지한솔"
+      "defendingName": "지한솔",
+      "gameCode": "2023080001"
     },
     {
       "slug": "klpga-2023-mico-gunsancc-dream-tour-9th-tournament",
@@ -5299,7 +5577,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박아름2",
-      "defendingName": "김새로미"
+      "defendingName": "김새로미",
+      "gameCode": "2023080006"
     },
     {
       "slug": "klpga-2023-muancc-allforyou-dream-tour-10th-tournament",
@@ -5318,7 +5597,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김해인",
-      "defendingName": "박아름2"
+      "defendingName": "박아름2",
+      "gameCode": "2023080007"
     },
     {
       "slug": "klpga-2023-sollago-jump-tour-12th-tournament",
@@ -5337,7 +5617,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "윤지영B(S)",
-      "defendingName": "양진서"
+      "defendingName": "양진서",
+      "gameCode": "2023080009"
     },
     {
       "slug": "doosan-e-c-we-ve-championship",
@@ -5356,7 +5637,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이예원",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023070003"
     },
     {
       "slug": "klpga-2023-tgs-dream-tour-11th-tournament",
@@ -5375,7 +5657,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "한나경",
-      "defendingName": "김해인"
+      "defendingName": "김해인",
+      "gameCode": "2023060008"
     },
     {
       "slug": "klpga-champions-tour-with-easysky-cc-tournament",
@@ -5394,7 +5677,8 @@
       "par": 72,
       "entryCount": 112,
       "winnerName": "차지원",
-      "defendingName": "유재희"
+      "defendingName": "유재희",
+      "gameCode": "2023070005"
     },
     {
       "slug": "high1-resort-ladies-open-2023",
@@ -5413,7 +5697,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "한진선",
-      "defendingName": "한진선"
+      "defendingName": "한진선",
+      "gameCode": "2023080003"
     },
     {
       "slug": "hanwha-classic-2023",
@@ -5432,7 +5717,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김수지",
-      "defendingName": "홍지원"
+      "defendingName": "홍지원",
+      "gameCode": "2023080004"
     },
     {
       "slug": "klpga-2023-monarch-emtelli-dream-tour-12th-tournament",
@@ -5451,7 +5737,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "김하은2",
-      "defendingName": "한나경"
+      "defendingName": "한나경",
+      "gameCode": "2023080008"
     },
     {
       "slug": "klpga-cedars-champions-masters-2023-green",
@@ -5470,7 +5757,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "이광순",
-      "defendingName": "차지원"
+      "defendingName": "차지원",
+      "gameCode": "2023080020"
     },
     {
       "slug": "klpga-cedars-champions-masters-2023-gold",
@@ -5489,7 +5777,8 @@
       "par": 72,
       "entryCount": 32,
       "winnerName": "신미연(S)",
-      "defendingName": "차지원"
+      "defendingName": "차지원",
+      "gameCode": "2023080019"
     },
     {
       "slug": "the-12th-kg-ladies-open",
@@ -5508,7 +5797,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "서연정",
-      "defendingName": "황정미"
+      "defendingName": "황정미",
+      "gameCode": "2023090001"
     },
     {
       "slug": "klpga-2023-moa-savings-bank-seokjeonghillcc-jump-tour-13th-t",
@@ -5527,7 +5817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "전지수(S)",
-      "defendingName": "윤지영2"
+      "defendingName": "윤지영2",
+      "gameCode": "2023090010"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -5546,7 +5837,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "박지영",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023090002"
     },
     {
       "slug": "klpga-2023-dream-tour-13th-tournament",
@@ -5565,7 +5857,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "문정민",
-      "defendingName": "김하은2"
+      "defendingName": "김하은2",
+      "gameCode": "2023090007"
     },
     {
       "slug": "klpga-2023-moa-savings-bank-seokjeonghillcc-jump-tour-14th-t",
@@ -5584,7 +5877,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박지혜E(S)",
-      "defendingName": "전지수"
+      "defendingName": "전지수",
+      "gameCode": "2023090011"
     },
     {
       "slug": "ok-financial-group-ok-man-open",
@@ -5603,7 +5897,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "마다솜",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2023090003"
     },
     {
       "slug": "klpga-2023-sbs-golf-dream-tour-with-easysky-cc-2nd-tournamen",
@@ -5622,7 +5917,8 @@
       "par": 71,
       "entryCount": 128,
       "winnerName": "양진서",
-      "defendingName": "문정민"
+      "defendingName": "문정민",
+      "gameCode": "2023090006"
     },
     {
       "slug": "klpga-2023-moa-savings-bank-seokjeonghillcc-jump-tour-15th-t",
@@ -5641,7 +5937,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박예지(S)",
-      "defendingName": "박지혜3"
+      "defendingName": "박지혜3",
+      "gameCode": "2023090012"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -5660,7 +5957,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이다연",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2023090004"
     },
     {
       "slug": "klpga-2023-gunsancc-dream-tour-14th-tournament",
@@ -5679,7 +5977,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "문정민",
-      "defendingName": "양진서"
+      "defendingName": "양진서",
+      "gameCode": "2023100010"
     },
     {
       "slug": "klpga-2023-moa-savings-bank-seokjeonghillcc-jump-tour-16th-t",
@@ -5698,7 +5997,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박시현B(S)",
-      "defendingName": "박예지"
+      "defendingName": "박예지",
+      "gameCode": "2023090013"
     },
     {
       "slug": "daebo-hausd-open",
@@ -5717,7 +6017,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "박주영",
-      "defendingName": "송가은"
+      "defendingName": "송가은",
+      "gameCode": "2023090005"
     },
     {
       "slug": "klpga-2023-npholding-dream-tour-15th-tournament",
@@ -5736,7 +6037,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이동은",
-      "defendingName": "문정민"
+      "defendingName": "문정민",
+      "gameCode": "2023100009"
     },
     {
       "slug": "the-23rd-hite-jinro-championship",
@@ -5755,7 +6057,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이예원",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023100001"
     },
     {
       "slug": "klpga-artfin-dream-tour-2023-16th-tournament",
@@ -5774,7 +6077,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박혜준",
-      "defendingName": "이동은"
+      "defendingName": "이동은",
+      "gameCode": "2023100015"
     },
     {
       "slug": "2023-dongbu-construction-koreit-championship",
@@ -5793,7 +6097,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "방신실",
-      "defendingName": "이가영"
+      "defendingName": "이가영",
+      "gameCode": "2023100002"
     },
     {
       "slug": "klpga-2023-muancc-allforyou-dream-tour-17th-tournament",
@@ -5812,7 +6117,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최이수",
-      "defendingName": "박혜준"
+      "defendingName": "박혜준",
+      "gameCode": "2023100011"
     },
     {
       "slug": "sangsangin-hankyungtv-open",
@@ -5831,7 +6137,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "임진희",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023100003"
     },
     {
       "slug": "klpga-pharmaresearch-rejuran-dream-tour-grand-final-2023",
@@ -5850,7 +6157,8 @@
       "par": 72,
       "entryCount": 61,
       "winnerName": "이수진3",
-      "defendingName": "최이수"
+      "defendingName": "최이수",
+      "gameCode": "2023100013"
     },
     {
       "slug": "sk-networks-seoul-economics-ladies-classic",
@@ -5869,7 +6177,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "박현경",
-      "defendingName": "이소미"
+      "defendingName": "이소미",
+      "gameCode": "2023100004"
     },
     {
       "slug": "s-oil-championship-2023",
@@ -5888,7 +6197,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "성유진",
-      "defendingName": "이소미"
+      "defendingName": "이소미",
+      "gameCode": "2023110001"
     },
     {
       "slug": "klpga-sbs-golf-champions-tour-with-easysky-cc-5th-tournament",
@@ -5907,7 +6217,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "홍진주",
-      "defendingName": "신미연(S)"
+      "defendingName": "신미연(S)",
+      "gameCode": "2023110003"
     },
     {
       "slug": "sk-shieldus-sk-telecom-championship-2023",
@@ -5926,7 +6237,8 @@
       "par": 72,
       "entryCount": 77,
       "winnerName": "임진희",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2023110002"
     },
     {
       "slug": "wemix-championship-2023",
@@ -5945,7 +6257,8 @@
       "par": 72,
       "entryCount": 24,
       "winnerName": "이예원",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2023110011"
     },
     {
       "slug": "klpga-2022-muancc-allforyou-dream-tour-1st-tournament",
@@ -5964,7 +6277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김서윤2",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022040005"
     },
     {
       "slug": "lotte-rent-a-car-ladies-open",
@@ -5983,7 +6297,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "장수연",
-      "defendingName": "이소미"
+      "defendingName": "이소미",
+      "gameCode": "2022040001"
     },
     {
       "slug": "klpga-2022-baekjecc-xgolf-jump-tour-1st-tournament",
@@ -6002,7 +6317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김민선E(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022100008"
     },
     {
       "slug": "mediheal-hankookilbo-championship",
@@ -6021,7 +6337,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박지영",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022040002"
     },
     {
       "slug": "klpga-2022-baekjecc-xgolf-jump-tour-2nd-tournament",
@@ -6040,7 +6357,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김나영B(S)",
-      "defendingName": "김민선7"
+      "defendingName": "김민선7",
+      "gameCode": "2022040008"
     },
     {
       "slug": "klpga-2022-mcsquare-gunsancc-dream-tour-2nd-tournament",
@@ -6059,7 +6377,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "손주희",
-      "defendingName": "김서윤2"
+      "defendingName": "김서윤2",
+      "gameCode": "2022040006"
     },
     {
       "slug": "nexen-saintnine-masters-2022",
@@ -6078,7 +6397,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "유해란",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022040003"
     },
     {
       "slug": "klpga-2022-baekjecc-xgolf-jump-tour-3rd-tournament",
@@ -6097,7 +6417,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "고지원(S)",
-      "defendingName": "김나영2"
+      "defendingName": "김나영2",
+      "gameCode": "2022040009"
     },
     {
       "slug": "klpga-2022-torbist-phoenixcc-dream-tour-3rd-tournament",
@@ -6116,7 +6437,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김서윤2",
-      "defendingName": "손주희"
+      "defendingName": "손주희",
+      "gameCode": "2022040007"
     },
     {
       "slug": "creas-f-c-the-44th-klpga-championship",
@@ -6135,7 +6457,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김아림",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2022040004"
     },
     {
       "slug": "klpga-2022-muancc-allforyou-dream-tour-4th-tournament",
@@ -6154,7 +6477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이세희",
-      "defendingName": "김서윤2"
+      "defendingName": "김서윤2",
+      "gameCode": "2022050005"
     },
     {
       "slug": "klpga-2022-baekjecc-xgolf-jump-tour-4th-tournament",
@@ -6173,7 +6497,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김수아B(S)",
-      "defendingName": "고지원"
+      "defendingName": "고지원",
+      "gameCode": "2022050007"
     },
     {
       "slug": "the-8th-kyochon-honey-ladies-open",
@@ -6192,7 +6517,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "조아연",
-      "defendingName": "곽보미"
+      "defendingName": "곽보미",
+      "gameCode": "2022050001"
     },
     {
       "slug": "klpga-2022-torbist-phoenixcc-dream-tour-5th-tournament",
@@ -6211,7 +6537,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "손주희",
-      "defendingName": "이세희"
+      "defendingName": "이세희",
+      "gameCode": "2022050006"
     },
     {
       "slug": "klpga-2022-champions-tour-1st-tournament",
@@ -6230,7 +6557,8 @@
       "par": 72,
       "entryCount": 114,
       "winnerName": "김희정",
-      "defendingName": "이광순"
+      "defendingName": "이광순",
+      "gameCode": "2022050008"
     },
     {
       "slug": "2022-nh-investment-securities-ladies-championship",
@@ -6249,7 +6577,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022050002"
     },
     {
       "slug": "2022-doosan-match-play-championship",
@@ -6268,7 +6597,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "홍정민",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022050003"
     },
     {
       "slug": "the-10th-e1-charity-open",
@@ -6287,7 +6617,8 @@
       "par": 72,
       "entryCount": 143,
       "winnerName": "정윤지",
-      "defendingName": "지한솔"
+      "defendingName": "지한솔",
+      "gameCode": "2022050004"
     },
     {
       "slug": "lotte-open",
@@ -6306,7 +6637,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "성유진",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2022060001"
     },
     {
       "slug": "klpga-2022-champions-tour-2nd-tournament",
@@ -6325,7 +6657,8 @@
       "par": 72,
       "entryCount": 111,
       "winnerName": "김선미",
-      "defendingName": "김희정"
+      "defendingName": "김희정",
+      "gameCode": "2022060013"
     },
     {
       "slug": "klpga-2022-grand-cc-samdaein-jump-tour-5th-tournament",
@@ -6344,7 +6677,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "LI Shuying(I)",
-      "defendingName": "김수아2"
+      "defendingName": "김수아2",
+      "gameCode": "2022060009"
     },
     {
       "slug": "klpga-2022-mcsquare-gunsancc-dream-tour-6th-tournament",
@@ -6363,7 +6697,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최가빈",
-      "defendingName": "손주희"
+      "defendingName": "손주희",
+      "gameCode": "2022060005"
     },
     {
       "slug": "klpga-2022-grand-cc-samdaein-jump-tour-6th-tournament",
@@ -6382,7 +6717,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "주가인(S)",
-      "defendingName": "리 슈잉"
+      "defendingName": "리 슈잉",
+      "gameCode": "2022060010"
     },
     {
       "slug": "celltrion-queens-masters",
@@ -6401,7 +6737,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022060002"
     },
     {
       "slug": "klpga-2022-grand-cc-samdaein-jump-tour-7th-tournament",
@@ -6420,7 +6757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "아라타케 마리(S)",
-      "defendingName": "주가인"
+      "defendingName": "주가인",
+      "gameCode": "2022060011"
     },
     {
       "slug": "klpga-2022-torbist-phoenixcc-dream-tour-7th-tournament",
@@ -6439,7 +6777,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정시우",
-      "defendingName": "최가빈"
+      "defendingName": "최가빈",
+      "gameCode": "2022060006"
     },
     {
       "slug": "db-group-the-36th-korea-women-s-open-golf-championship",
@@ -6458,7 +6797,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "임희정",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022060003"
     },
     {
       "slug": "klpga-2022-grand-cc-samdaein-jump-tour-8th-tournament",
@@ -6477,7 +6817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "LI Shuying(I)",
-      "defendingName": "아라타케 마리"
+      "defendingName": "아라타케 마리",
+      "gameCode": "2022060012"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2022",
@@ -6496,7 +6837,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박민지",
-      "defendingName": "임진희"
+      "defendingName": "임진희",
+      "gameCode": "2022060004"
     },
     {
       "slug": "klpga-2022-qcapital-partners-norangtongdak-dream-challenge-1",
@@ -6515,7 +6857,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김하니",
-      "defendingName": "정시우"
+      "defendingName": "정시우",
+      "gameCode": "2022060008"
     },
     {
       "slug": "mccol-mona-park-open-with-sbs-golf",
@@ -6534,7 +6877,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "임진희",
-      "defendingName": "김해림"
+      "defendingName": "김해림",
+      "gameCode": "2022070001"
     },
     {
       "slug": "klpga-2022-muancc-allforyou-dream-tour-8th-tournament",
@@ -6553,7 +6897,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "최가빈",
-      "defendingName": "김하니"
+      "defendingName": "김하니",
+      "gameCode": "2022070006"
     },
     {
       "slug": "daebo-hausd-open",
@@ -6572,7 +6917,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "송가은",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2022070002"
     },
     {
       "slug": "klpga-2022-ga-korea-dream-tour-1st-tournament",
@@ -6591,7 +6937,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박도은",
-      "defendingName": "최가빈"
+      "defendingName": "최가빈",
+      "gameCode": "2022070007"
     },
     {
       "slug": "evercollagen-queens-crown-2022",
@@ -6610,7 +6957,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "윤이나",
-      "defendingName": "전예성"
+      "defendingName": "전예성",
+      "gameCode": "2022070003"
     },
     {
       "slug": "klpga-2022-sollago-jump-tour-9th-tournament",
@@ -6629,7 +6977,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "강정현(S)",
-      "defendingName": "리 슈잉"
+      "defendingName": "리 슈잉",
+      "gameCode": "2022070009"
     },
     {
       "slug": "hoban-seoul-shinmun-women-s-classic",
@@ -6648,7 +6997,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "조아연",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022070021"
     },
     {
       "slug": "klpga-2022-ga-korea-dream-tour-2nd-tournament",
@@ -6667,7 +7017,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "최가빈",
-      "defendingName": "박도은"
+      "defendingName": "박도은",
+      "gameCode": "2022080007"
     },
     {
       "slug": "klpga-2022-sollago-jump-tour-10th-tournament",
@@ -6686,7 +7037,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "강채연(S)",
-      "defendingName": "강정현"
+      "defendingName": "강정현",
+      "gameCode": "2022070010"
     },
     {
       "slug": "klpga-2022-sollago-jump-tour-11th-tournament",
@@ -6705,7 +7057,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "황유민(S)",
-      "defendingName": "강채연"
+      "defendingName": "강채연",
+      "gameCode": "2022080009"
     },
     {
       "slug": "jejusamdasoo-masters",
@@ -6724,7 +7077,8 @@
       "par": 72,
       "entryCount": 115,
       "winnerName": "지한솔",
-      "defendingName": "오지현"
+      "defendingName": "오지현",
+      "gameCode": "2022080001"
     },
     {
       "slug": "klpga-2022-mcsquare-gunsancc-dream-tour-9th-tournament",
@@ -6743,7 +7097,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김규린",
-      "defendingName": "최가빈"
+      "defendingName": "최가빈",
+      "gameCode": "2022090008"
     },
     {
       "slug": "klpga-2022-muancc-allforyou-dream-tour-10th-tournament",
@@ -6762,7 +7117,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황연서",
-      "defendingName": "김규린"
+      "defendingName": "김규린",
+      "gameCode": "2022080006"
     },
     {
       "slug": "klpga-2022-sollago-jump-tour-12th-tournament",
@@ -6781,7 +7137,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "황유민(S)",
-      "defendingName": "황유민"
+      "defendingName": "황유민",
+      "gameCode": "2022080010"
     },
     {
       "slug": "dayouwinia-mbn-ladies-open",
@@ -6800,7 +7157,8 @@
       "par": 72,
       "entryCount": 119,
       "winnerName": "이소영",
-      "defendingName": "이소미"
+      "defendingName": "이소미",
+      "gameCode": "2022080002"
     },
     {
       "slug": "klpga-mcsquare-champions-classic-with-gunsan-city",
@@ -6819,7 +7177,8 @@
       "par": 72,
       "entryCount": 88,
       "winnerName": "김선미",
-      "defendingName": "김선미"
+      "defendingName": "김선미",
+      "gameCode": "2022080025"
     },
     {
       "slug": "high1-resort-ladies-open-2022",
@@ -6838,7 +7197,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "한진선",
-      "defendingName": "임희정"
+      "defendingName": "임희정",
+      "gameCode": "2022080003"
     },
     {
       "slug": "klpga-2022-torbist-phoenixcc-dream-tour-11th-tournament",
@@ -6857,7 +7217,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정시우",
-      "defendingName": "황연서"
+      "defendingName": "황연서",
+      "gameCode": "2022080008"
     },
     {
       "slug": "hanwha-classic-2022",
@@ -6876,7 +7237,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "홍지원",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2022080004"
     },
     {
       "slug": "the-11th-kg-edaily-ladies-open",
@@ -6895,7 +7257,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "황정미",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2022090001"
     },
     {
       "slug": "klpga-2022-qcapital-partners-norangtongdak-dream-challenge-2",
@@ -6914,7 +7277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "조혜림",
-      "defendingName": "정시우"
+      "defendingName": "정시우",
+      "gameCode": "2022060019"
     },
     {
       "slug": "klpga-2022-moa-savings-bank-seokjeonghillcc-jump-tour-13th-t",
@@ -6933,7 +7297,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김지우B(S)",
-      "defendingName": "황유민"
+      "defendingName": "황유민",
+      "gameCode": "2022090009"
     },
     {
       "slug": "klpga-2022-torbist-phoenixcc-dream-tour-12th-tournament",
@@ -6952,7 +7317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "조혜림",
-      "defendingName": "조혜림"
+      "defendingName": "조혜림",
+      "gameCode": "2022090007"
     },
     {
       "slug": "klpga-2022-moa-savings-bank-seokjeonghillcc-jump-tour-14th-t",
@@ -6971,7 +7337,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "문성미(S)",
-      "defendingName": "김지우2"
+      "defendingName": "김지우2",
+      "gameCode": "2022090010"
     },
     {
       "slug": "klpga-plk-champions-classic-2022-1st",
@@ -6990,7 +7357,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김민기",
-      "defendingName": "김선미"
+      "defendingName": "김선미",
+      "gameCode": "2022070011"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -7009,7 +7377,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "박민지",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2022090003"
     },
     {
       "slug": "klpga-2022-moa-savings-bank-seokjeonghillcc-jump-tour-15th-t",
@@ -7028,7 +7397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박해솔(S)",
-      "defendingName": "문성미"
+      "defendingName": "문성미",
+      "gameCode": "2022090011"
     },
     {
       "slug": "ok-financial-group-se-ri-pak-invitational",
@@ -7047,7 +7417,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김수지",
-      "defendingName": "김효주"
+      "defendingName": "김효주",
+      "gameCode": "2022090004"
     },
     {
       "slug": "klpga-2022-moa-savings-bank-seokjeonghillcc-jump-tour-16th-t",
@@ -7066,7 +7437,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "남가연(S)",
-      "defendingName": "박해솔"
+      "defendingName": "박해솔",
+      "gameCode": "2022090012"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -7085,7 +7457,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김수지",
-      "defendingName": "송가은"
+      "defendingName": "송가은",
+      "gameCode": "2022090005"
     },
     {
       "slug": "klpga-2022-mcsquare-gunsancc-dream-tour-13th-tournament",
@@ -7104,7 +7477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정시우",
-      "defendingName": "조혜림"
+      "defendingName": "조혜림",
+      "gameCode": "2022100005"
     },
     {
       "slug": "the-22nd-hite-jinro-championship",
@@ -7123,7 +7497,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "박민지",
-      "defendingName": "김수지"
+      "defendingName": "김수지",
+      "gameCode": "2022100001"
     },
     {
       "slug": "2022-dongbu-construction-koreit-championship",
@@ -7142,7 +7517,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이가영",
-      "defendingName": "이정민"
+      "defendingName": "이정민",
+      "gameCode": "2022100002"
     },
     {
       "slug": "klpga-2022-muancc-allforyou-dream-tour-14th-tournament",
@@ -7161,7 +7537,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "손주희",
-      "defendingName": "정시우"
+      "defendingName": "정시우",
+      "gameCode": "2022100006"
     },
     {
       "slug": "wemix-championship-with-wow-mg-sbs-golf",
@@ -7180,7 +7557,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "유효주",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022100014"
     },
     {
       "slug": "klpga-qcapital-partners-dream-tour-grand-final-2022",
@@ -7199,7 +7577,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "김서윤2",
-      "defendingName": "손주희"
+      "defendingName": "손주희",
+      "gameCode": "2022100007"
     },
     {
       "slug": "sk-networks-seoul-economics-ladies-classic",
@@ -7218,7 +7597,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "이소미",
-      "defendingName": "김효주"
+      "defendingName": "김효주",
+      "gameCode": "2022100004"
     },
     {
       "slug": "klpga-plk-champions-classic-2022-2nd",
@@ -7237,7 +7617,8 @@
       "par": 72,
       "entryCount": 105,
       "winnerName": "부형순",
-      "defendingName": "김민기"
+      "defendingName": "김민기",
+      "gameCode": "2022080011"
     },
     {
       "slug": "s-oil-championship-2022",
@@ -7256,7 +7637,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "이소미",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2022110002"
     },
     {
       "slug": "sk-shieldus-sk-telecom-championship-2022",
@@ -7275,7 +7657,8 @@
       "par": 72,
       "entryCount": 77,
       "winnerName": "박민지",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2022110001"
     },
     {
       "slug": "hana-financial-group-singapore-women-s-open",
@@ -7294,7 +7677,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "박지영",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2022120002"
     },
     {
       "slug": "plk-pacificlinks-korea-championship-with-sbs-golf",
@@ -7313,7 +7697,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "이정민",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2022120003"
     },
     {
       "slug": "klpga-2021-muancc-allforyou-dream-tour-1st-tournament",
@@ -7332,7 +7717,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김보령",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021040001"
     },
     {
       "slug": "lotte-rent-a-car-ladies-open",
@@ -7351,7 +7737,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이소미",
-      "defendingName": "조아연"
+      "defendingName": "조아연",
+      "gameCode": "2021040021"
     },
     {
       "slug": "klpga-2021-xgolf-baekjecc-jump-tour-1st-tournament",
@@ -7370,7 +7757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이예원(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021040002"
     },
     {
       "slug": "klpga-2021-xgolf-baekjecc-jump-tour-2nd-tournament",
@@ -7389,7 +7777,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이예원(S)",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2021040009"
     },
     {
       "slug": "klpga-2021-mcsquare-gunsancc-dream-tour-2nd-tournament",
@@ -7408,7 +7797,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김가윤",
-      "defendingName": "김보령"
+      "defendingName": "김보령",
+      "gameCode": "2021040004"
     },
     {
       "slug": "klpga-2021-xgolf-baekjecc-jump-tour-3rd-tournament",
@@ -7427,7 +7817,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김나영0304(A)",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2021040010"
     },
     {
       "slug": "nexen-saint-nine-masters-2021",
@@ -7446,7 +7837,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "이승연"
+      "defendingName": "이승연",
+      "gameCode": "2021040022"
     },
     {
       "slug": "klpga-2021-torbist-phoenixcc-dream-tour-3rd-tournament",
@@ -7465,7 +7857,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황예나",
-      "defendingName": "김가윤"
+      "defendingName": "김가윤",
+      "gameCode": "2021040005"
     },
     {
       "slug": "klpga-2021-xgolf-baekjecc-jump-tour-4th-tournament",
@@ -7484,7 +7877,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정주리(S)",
-      "defendingName": "김나영"
+      "defendingName": "김나영",
+      "gameCode": "2021040011"
     },
     {
       "slug": "creas-f-c-the-43rd-klpga-championship",
@@ -7503,7 +7897,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박현경",
-      "defendingName": "박현경"
+      "defendingName": "박현경",
+      "gameCode": "2021040023"
     },
     {
       "slug": "klpga-2021-muancc-allforyou-dream-tour-4th-tournament",
@@ -7522,7 +7917,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박단유",
-      "defendingName": "황예나"
+      "defendingName": "황예나",
+      "gameCode": "2021040006"
     },
     {
       "slug": "the-7th-kyochon-honey-ladies-open",
@@ -7541,7 +7937,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "곽보미",
-      "defendingName": "박소연"
+      "defendingName": "박소연",
+      "gameCode": "2021050019"
     },
     {
       "slug": "klpga-2021-torbist-phoenixcc-dream-tour-5th-tournament",
@@ -7560,7 +7957,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "권서연",
-      "defendingName": "박단유"
+      "defendingName": "박단유",
+      "gameCode": "2021040007"
     },
     {
       "slug": "2021-nh-investment-securities-ladies-championship",
@@ -7579,7 +7977,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박민지",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2021050020"
     },
     {
       "slug": "2021-doosan-match-play-championship",
@@ -7598,7 +7997,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "박민지",
-      "defendingName": "김지현"
+      "defendingName": "김지현",
+      "gameCode": "2021050021"
     },
     {
       "slug": "klpga-2021-grand-cc-samdaein-jump-tour-5th-tournament",
@@ -7617,7 +8017,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "조선영(S)",
-      "defendingName": "정주리"
+      "defendingName": "정주리",
+      "gameCode": "2021040012"
     },
     {
       "slug": "the-9th-e1-charity-open",
@@ -7636,7 +8037,8 @@
       "par": 72,
       "entryCount": 129,
       "winnerName": "지한솔",
-      "defendingName": "이소영"
+      "defendingName": "이소영",
+      "gameCode": "2021050022"
     },
     {
       "slug": "lotte-open",
@@ -7655,7 +8057,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "장하나",
-      "defendingName": "김효주"
+      "defendingName": "김효주",
+      "gameCode": "2021060011"
     },
     {
       "slug": "klpga-2021-grand-cc-samdaein-jump-tour-6th-tournament",
@@ -7674,7 +8077,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "전현주B(S)",
-      "defendingName": "조선영"
+      "defendingName": "조선영",
+      "gameCode": "2021050005"
     },
     {
       "slug": "klpga-2021-mcsquare-gunsancc-dream-tour-6th-tournament",
@@ -7693,7 +8097,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김윤교",
-      "defendingName": "권서연"
+      "defendingName": "권서연",
+      "gameCode": "2021040008"
     },
     {
       "slug": "klpga-2021-grand-cc-samdaein-jump-tour-7th-tournament",
@@ -7712,7 +8117,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "윤이나(S)",
-      "defendingName": "전현주"
+      "defendingName": "전현주",
+      "gameCode": "2021060005"
     },
     {
       "slug": "celltrion-queens-masters",
@@ -7731,7 +8137,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "조정민"
+      "defendingName": "조정민",
+      "gameCode": "2021060012"
     },
     {
       "slug": "klpga-2021-torbist-phoenixcc-dream-tour-7th-tournament",
@@ -7750,7 +8157,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "구래현",
-      "defendingName": "김윤교"
+      "defendingName": "김윤교",
+      "gameCode": "2021050002"
     },
     {
       "slug": "klpga-2021-grand-cc-samdaein-jump-tour-8th-tournament",
@@ -7769,7 +8177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김나영C(S)",
-      "defendingName": "윤이나"
+      "defendingName": "윤이나",
+      "gameCode": "2021060006"
     },
     {
       "slug": "db-group-the-35th-korea-women-s-open-golf-championship",
@@ -7788,7 +8197,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "박민지",
-      "defendingName": "유소연"
+      "defendingName": "유소연",
+      "gameCode": "2021060013"
     },
     {
       "slug": "klpga-2021-hoban-dream-tour-1st-tournament",
@@ -7807,7 +8217,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황민정",
-      "defendingName": "구래현"
+      "defendingName": "구래현",
+      "gameCode": "2021060001"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2021",
@@ -7826,7 +8237,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "임진희",
-      "defendingName": "김지영2"
+      "defendingName": "김지영2",
+      "gameCode": "2021060014"
     },
     {
       "slug": "mccol-mona-park-open-with-sbs",
@@ -7845,7 +8257,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김해림",
-      "defendingName": "김시원"
+      "defendingName": "김시원",
+      "gameCode": "2021070017"
     },
     {
       "slug": "klpga-2021-muancc-allforyou-dream-tour-8th-tournament",
@@ -7864,7 +8277,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "문정민",
-      "defendingName": "황민정"
+      "defendingName": "황민정",
+      "gameCode": "2021050003"
     },
     {
       "slug": "daebo-hausd-open",
@@ -7883,7 +8297,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021070018"
     },
     {
       "slug": "klpga-2021-hoban-dream-tour-2nd-tournament",
@@ -7902,7 +8317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장은수",
-      "defendingName": "문정민"
+      "defendingName": "문정민",
+      "gameCode": "2021050004"
     },
     {
       "slug": "evercollagen-queens-crown-2021",
@@ -7921,7 +8337,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "전예성",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021070019"
     },
     {
       "slug": "klpga-2021-sollago-jump-tour-9th-tournament",
@@ -7940,7 +8357,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "유서연B(S)",
-      "defendingName": "김나영"
+      "defendingName": "김나영",
+      "gameCode": "2021060007"
     },
     {
       "slug": "jeju-samdasoo-masters",
@@ -7959,7 +8377,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "오지현",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2021070020"
     },
     {
       "slug": "klpga-2021-sollago-jump-tour-10th-tournament",
@@ -7978,7 +8397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박지혜C(S)",
-      "defendingName": "유서연2"
+      "defendingName": "유서연2",
+      "gameCode": "2021070003"
     },
     {
       "slug": "klpga-2021-hoban-dream-tour-3rd-tournament",
@@ -7997,7 +8417,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박단유",
-      "defendingName": "장은수"
+      "defendingName": "장은수",
+      "gameCode": "2021070002"
     },
     {
       "slug": "klpga-2021-hoban-dream-tour-4th-tournament",
@@ -8016,7 +8437,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "홍진영2",
-      "defendingName": "박단유"
+      "defendingName": "박단유",
+      "gameCode": "2021060003"
     },
     {
       "slug": "klpga-2021-sollago-jump-tour-11th-tournament",
@@ -8035,7 +8457,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박지혜C(S)",
-      "defendingName": "박지혜2"
+      "defendingName": "박지혜2",
+      "gameCode": "2021070004"
     },
     {
       "slug": "klpga-2021-sollago-jump-tour-12th-tournament",
@@ -8054,7 +8477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "유서연B(S)",
-      "defendingName": "박지혜2"
+      "defendingName": "박지혜2",
+      "gameCode": "2021080004"
     },
     {
       "slug": "dayouwinia-mbn-ladies-open",
@@ -8073,7 +8497,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이소미",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2021080023"
     },
     {
       "slug": "klpga-2021-muancc-allforyou-dream-tour-9th-tournament",
@@ -8092,7 +8517,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김세은",
-      "defendingName": "홍진영2"
+      "defendingName": "홍진영2",
+      "gameCode": "2021070001"
     },
     {
       "slug": "highone-resort-ladies-open-2021",
@@ -8111,7 +8537,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "임희정",
-      "defendingName": "임희정"
+      "defendingName": "임희정",
+      "gameCode": "2021080024"
     },
     {
       "slug": "klpga-2021-moa-savings-bank-seokjeonghillcc-jump-tour-13th-t",
@@ -8130,7 +8557,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박지원C(S)",
-      "defendingName": "유서연2"
+      "defendingName": "유서연2",
+      "gameCode": "2021080005"
     },
     {
       "slug": "klpga-2021-torbist-phoenixcc-dream-tour-10th-tournament",
@@ -8149,7 +8577,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "마다솜",
-      "defendingName": "김세은"
+      "defendingName": "김세은",
+      "gameCode": "2021060002"
     },
     {
       "slug": "hanwha-classic-2021",
@@ -8168,7 +8597,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "이다연",
-      "defendingName": "박채윤"
+      "defendingName": "박채윤",
+      "gameCode": "2021080025"
     },
     {
       "slug": "klpga-2021-qcapital-partners-dream-challenge-1st",
@@ -8187,7 +8617,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이예원",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2021080026"
     },
     {
       "slug": "the-10th-kg-edaily-ladies-open",
@@ -8206,7 +8637,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김수지",
-      "defendingName": "박서진"
+      "defendingName": "박서진",
+      "gameCode": "2021090017"
     },
     {
       "slug": "klpga-2021-moa-savings-bank-seokjeonghillcc-jump-tour-14th-t",
@@ -8225,7 +8657,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "이유정(S)",
-      "defendingName": "박지원2"
+      "defendingName": "박지원2",
+      "gameCode": "2021080006"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -8244,7 +8677,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "장하나",
-      "defendingName": "김효주"
+      "defendingName": "김효주",
+      "gameCode": "2021090018"
     },
     {
       "slug": "klpga-2021-torbist-phoenixcc-dream-tour-11th-tournament",
@@ -8263,7 +8697,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "윤이나",
-      "defendingName": "이예원"
+      "defendingName": "이예원",
+      "gameCode": "2021080001"
     },
     {
       "slug": "klpga-2021-moa-savings-bank-seokjeonghillcc-jump-tour-15th-t",
@@ -8282,7 +8717,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "류은수(S)",
-      "defendingName": "이유정"
+      "defendingName": "이유정",
+      "gameCode": "2021090003"
     },
     {
       "slug": "klpga-champions-classic-2021-1st-tournament",
@@ -8301,7 +8737,8 @@
       "par": 72,
       "entryCount": 114,
       "winnerName": "차지원",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021080008"
     },
     {
       "slug": "oksavingsbank-se-ri-pak-invitational",
@@ -8320,7 +8757,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "김효주",
-      "defendingName": "조아연"
+      "defendingName": "조아연",
+      "gameCode": "2021090019"
     },
     {
       "slug": "klpga-2021-mcsquare-gunsancc-dream-tour-12th-tournament",
@@ -8339,7 +8777,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김윤교",
-      "defendingName": "윤이나"
+      "defendingName": "윤이나",
+      "gameCode": "2021060004"
     },
     {
       "slug": "elcru-tv-chosun-pro-celebrity-2021",
@@ -8358,7 +8797,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "유해란",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021090022"
     },
     {
       "slug": "klpga-2021-moa-savings-bank-seokjeonghillcc-jump-tour-16th-t",
@@ -8377,7 +8817,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "송은아(S)",
-      "defendingName": "류은수"
+      "defendingName": "류은수",
+      "gameCode": "2021090004"
     },
     {
       "slug": "klpga-2021-hoban-dream-tour-5th-tournament",
@@ -8396,7 +8837,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "윤이나",
-      "defendingName": "김윤교"
+      "defendingName": "김윤교",
+      "gameCode": "2021090023"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -8415,7 +8857,8 @@
       "par": 71,
       "entryCount": 108,
       "winnerName": "송가은",
-      "defendingName": "안나린"
+      "defendingName": "안나린",
+      "gameCode": "2021090020"
     },
     {
       "slug": "klpga-2021-qcapital-partners-dream-challenge-2nd",
@@ -8434,7 +8877,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이수진3",
-      "defendingName": "윤이나"
+      "defendingName": "윤이나",
+      "gameCode": "2021080027"
     },
     {
       "slug": "klpga-champions-classic-2021-2nd-tournament",
@@ -8453,7 +8897,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "김선미",
-      "defendingName": "차지원"
+      "defendingName": "차지원",
+      "gameCode": "2021090005"
     },
     {
       "slug": "the-21st-hite-jinro-championship",
@@ -8472,7 +8917,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "김수지",
-      "defendingName": "고진영"
+      "defendingName": "고진영",
+      "gameCode": "2021100003"
     },
     {
       "slug": "klpga-2021-mcsquare-gunsancc-dream-tour-13th-tournament",
@@ -8491,7 +8937,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "마다솜",
-      "defendingName": "이수진3"
+      "defendingName": "이수진3",
+      "gameCode": "2021090001"
     },
     {
       "slug": "dongbu-construction-koreit-championship",
@@ -8510,7 +8957,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "이정민",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021100004"
     },
     {
       "slug": "klpga-2021-muancc-allforyou-dream-tour-14th-tournament",
@@ -8529,7 +8977,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "배수연",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2021080003"
     },
     {
       "slug": "bmw-ladies-championship",
@@ -8548,7 +8997,8 @@
       "par": 72,
       "entryCount": 84,
       "winnerName": "고진영",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2021100005"
     },
     {
       "slug": "klpga-qcapital-partners-dream-tour-grand-final-2021",
@@ -8567,7 +9017,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "권서연",
-      "defendingName": "배수연"
+      "defendingName": "배수연",
+      "gameCode": "2021090002"
     },
     {
       "slug": "sk-networks-seokyung-ladies-classic",
@@ -8586,7 +9037,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "김효주",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2021100006"
     },
     {
       "slug": "the-15th-s-oil-championship",
@@ -8605,7 +9057,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "박지영",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2021110007"
     },
     {
       "slug": "sk-shieldus-sk-telecom-championship-2021",
@@ -8624,7 +9077,8 @@
       "par": 72,
       "entryCount": 78,
       "winnerName": "유해란",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2021110008"
     },
     {
       "slug": "klpga-bob-champions-classic-with-gunsan-city",
@@ -8643,7 +9097,8 @@
       "par": 72,
       "entryCount": 76,
       "winnerName": "이광순",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2021120003"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-1st-tournament",
@@ -8662,7 +9117,8 @@
       "par": 72,
       "entryCount": 109,
       "winnerName": "김경분",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020040008"
     },
     {
       "slug": "the-42nd-klpga-championship",
@@ -8681,7 +9137,8 @@
       "par": 72,
       "entryCount": 150,
       "winnerName": "박현경",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2020050020"
     },
     {
       "slug": "klpga-2020-gunsancc-dream-tour-1st-tournament",
@@ -8700,7 +9157,8 @@
       "par": 72,
       "entryCount": 122,
       "winnerName": "김재희",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020040001"
     },
     {
       "slug": "klpga-2020-hanse-phoenixcc-dream-tour-2nd-tournament",
@@ -8719,7 +9177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "송가은",
-      "defendingName": "김재희"
+      "defendingName": "김재희",
+      "gameCode": "2020050002"
     },
     {
       "slug": "klpga-2020-muancc-allforyou-dream-tour-3rd-tournament",
@@ -8738,7 +9197,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "안지현",
-      "defendingName": "송가은"
+      "defendingName": "송가은",
+      "gameCode": "2020050001"
     },
     {
       "slug": "klpga-2020-hanse-phoenixcc-dream-tour-4th-tournament",
@@ -8757,7 +9217,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이수빈",
-      "defendingName": "안지현"
+      "defendingName": "안지현",
+      "gameCode": "2020040002"
     },
     {
       "slug": "the-8th-e1-charity-open",
@@ -8776,7 +9237,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "이소영",
-      "defendingName": "임은빈"
+      "defendingName": "임은빈",
+      "gameCode": "2020050019"
     },
     {
       "slug": "klpga-2020-grand-cc-samdaein-jump-tour-1th-tournament",
@@ -8795,7 +9257,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "손예빈(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020060005"
     },
     {
       "slug": "klpga-2020-grand-cc-samdaein-jump-tour-2th-tournament",
@@ -8814,7 +9277,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "정세빈(S)",
-      "defendingName": "손예빈"
+      "defendingName": "손예빈",
+      "gameCode": "2020060006"
     },
     {
       "slug": "the-10th-lotte-cantata-ladies-open",
@@ -8833,7 +9297,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "김효주",
-      "defendingName": "김보아"
+      "defendingName": "김보아",
+      "gameCode": "2020060012"
     },
     {
       "slug": "klpga-2020-grand-cc-samdaein-jump-tour-3th-tournament",
@@ -8852,7 +9317,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박금강(S)",
-      "defendingName": "정세빈"
+      "defendingName": "정세빈",
+      "gameCode": "2020060007"
     },
     {
       "slug": "klpga-2020-west-ocean-cc-dream-tour-5th-tournament",
@@ -8871,7 +9337,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김재희",
-      "defendingName": "이수빈"
+      "defendingName": "이수빈",
+      "gameCode": "2020060001"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-2nd-tournament",
@@ -8890,7 +9357,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "서예선",
-      "defendingName": "김경분"
+      "defendingName": "김경분",
+      "gameCode": "2020050009"
     },
     {
       "slug": "the-14th-s-oil-championship",
@@ -8909,7 +9377,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": null,
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2020060013"
     },
     {
       "slug": "klpga-2020-muancc-allforyou-dream-tour-6th-tournament",
@@ -8928,7 +9397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "백경림",
-      "defendingName": "김재희"
+      "defendingName": "김재희",
+      "gameCode": "2020060003"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-3rd-tournament",
@@ -8947,7 +9417,8 @@
       "par": 72,
       "entryCount": 107,
       "winnerName": "서예선",
-      "defendingName": "서예선"
+      "defendingName": "서예선",
+      "gameCode": "2020060010"
     },
     {
       "slug": "klpga-2020-grand-cc-samdaein-jump-tour-4th-tournament",
@@ -8966,7 +9437,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김희지(S)",
-      "defendingName": "박금강"
+      "defendingName": "박금강",
+      "gameCode": "2020060008"
     },
     {
       "slug": "kia-motors-the-34th-korea-womens-open-golf-championship",
@@ -8985,7 +9457,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "유소연",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2020060014"
     },
     {
       "slug": "klpga-2020-hanse-phoenixcc-dream-tour-7th-tournament",
@@ -9004,7 +9477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김송연",
-      "defendingName": "백경림"
+      "defendingName": "백경림",
+      "gameCode": "2020060004"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2020",
@@ -9023,7 +9497,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김지영2",
-      "defendingName": "조정민"
+      "defendingName": "조정민",
+      "gameCode": "2020060015"
     },
     {
       "slug": "klpga-2020-volvik-baekjecc-jump-tour-5st-tournament",
@@ -9042,7 +9517,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "신다인(S)",
-      "defendingName": "김희지"
+      "defendingName": "김희지",
+      "gameCode": "2020060017"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-4th-tournament",
@@ -9061,7 +9537,8 @@
       "par": 72,
       "entryCount": 104,
       "winnerName": "김혜정2",
-      "defendingName": "서예선"
+      "defendingName": "서예선",
+      "gameCode": "2020060011"
     },
     {
       "slug": "klpga-2020-kbc-dream-tour-with-west-ocean-cc-1st-tournament",
@@ -9080,7 +9557,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "신보민",
-      "defendingName": "김송연"
+      "defendingName": "김송연",
+      "gameCode": "2020070001"
     },
     {
       "slug": "klpga-2020-volvik-baekjecc-jump-tour-6nd-tournament",
@@ -9099,7 +9577,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "홍정민(S)",
-      "defendingName": "신다인"
+      "defendingName": "신다인",
+      "gameCode": "2020060018"
     },
     {
       "slug": "mccol-yongpyong-resort-open-with-sbs",
@@ -9118,7 +9597,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "김민선5",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2020070021"
     },
     {
       "slug": "klpga-2020-muancc-allforyou-dream-tour-8th-tournament",
@@ -9137,7 +9617,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "안지현",
-      "defendingName": "신보민"
+      "defendingName": "신보민",
+      "gameCode": "2020070002"
     },
     {
       "slug": "klpga-2020-volvik-baekjecc-jump-tour-7rd-tournament",
@@ -9156,7 +9637,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "홍정민(S)",
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2020070026"
     },
     {
       "slug": "klpga-2020-volvik-baekjecc-jump-tour-8th-tournament",
@@ -9175,7 +9657,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "홍정민(S)",
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2020070027"
     },
     {
       "slug": "is-dongseo-busan-open",
@@ -9194,7 +9677,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박현경",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020070025"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-5th-tournament",
@@ -9213,7 +9697,8 @@
       "par": 72,
       "entryCount": 103,
       "winnerName": "정일미",
-      "defendingName": "김혜정2"
+      "defendingName": "김혜정2",
+      "gameCode": "2020070011"
     },
     {
       "slug": "klpga-2020-west-ocean-cc-dream-tour-9th-tournament",
@@ -9232,7 +9717,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정지유",
-      "defendingName": "안지현"
+      "defendingName": "안지현",
+      "gameCode": "2020070008"
     },
     {
       "slug": "klpga-2020-power-fulx-sollago-jump-tour-9th-tournament",
@@ -9251,7 +9737,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "신비(S)",
-      "defendingName": "홍정민"
+      "defendingName": "홍정민",
+      "gameCode": "2020070009"
     },
     {
       "slug": "klpga-2020-gunsancc-dream-tour-10th-tournament",
@@ -9270,7 +9757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정세빈",
-      "defendingName": "정지유"
+      "defendingName": "정지유",
+      "gameCode": "2020060002"
     },
     {
       "slug": "jeju-samdasoo-masters",
@@ -9289,7 +9777,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "유해란",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2020070024"
     },
     {
       "slug": "klpga-2020-power-fulx-sollago-jump-tour-10th-tournament",
@@ -9308,7 +9797,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "김규리C(S)",
-      "defendingName": "신비"
+      "defendingName": "신비",
+      "gameCode": "2020070010"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-6th-tournament",
@@ -9327,7 +9817,8 @@
       "par": 72,
       "entryCount": 112,
       "winnerName": "김복자",
-      "defendingName": "정일미"
+      "defendingName": "정일미",
+      "gameCode": "2020080007"
     },
     {
       "slug": "klpga-2020-power-fulx-sollago-jump-tour-11th-tournament",
@@ -9346,7 +9837,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "윤하연(S)",
-      "defendingName": "김규리3"
+      "defendingName": "김규리3",
+      "gameCode": "2020080004"
     },
     {
       "slug": "klpga-2020-muancc-allforyou-dream-tour-11th-tournament",
@@ -9365,7 +9857,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박보겸",
-      "defendingName": "정세빈"
+      "defendingName": "정세빈",
+      "gameCode": "2020080001"
     },
     {
       "slug": "dayouwinia-mbn-ladies-open",
@@ -9384,7 +9877,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2020080017"
     },
     {
       "slug": "klpga-2020-power-fulx-sollago-jump-tour-12th-tournament",
@@ -9403,7 +9897,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "김다은(S)",
-      "defendingName": "윤하연"
+      "defendingName": "윤하연",
+      "gameCode": "2020080005"
     },
     {
       "slug": "klpga-2020-west-ocean-cc-dream-tour-12th-tournament",
@@ -9422,7 +9917,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김희지",
-      "defendingName": "박보겸"
+      "defendingName": "박보겸",
+      "gameCode": "2020080002"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-7th-tournament",
@@ -9441,7 +9937,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "김복자",
-      "defendingName": "김복자"
+      "defendingName": "김복자",
+      "gameCode": "2020080008"
     },
     {
       "slug": "klpga-2020-hanse-phoenixcc-dream-tour-13th-tournament",
@@ -9460,7 +9957,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김재희",
-      "defendingName": "김희지"
+      "defendingName": "김희지",
+      "gameCode": "2020080003"
     },
     {
       "slug": "klpga-2020-kbc-dream-tour-with-west-ocean-cc-2nd-tournament",
@@ -9479,7 +9977,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이채은2",
-      "defendingName": "김재희"
+      "defendingName": "김재희",
+      "gameCode": "2020090001"
     },
     {
       "slug": "klpga-2020-moa-savings-bank-seokjeonghillcc-jump-tour-13th-t",
@@ -9498,7 +9997,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "오채유(S)",
-      "defendingName": "김다은2"
+      "defendingName": "김다은2",
+      "gameCode": "2020090010"
     },
     {
       "slug": "klpga-2020-hanse-phoenixcc-dream-tour-14th-tournament",
@@ -9517,7 +10017,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이혜정",
-      "defendingName": "이채은2"
+      "defendingName": "이채은2",
+      "gameCode": "2020090002"
     },
     {
       "slug": "klpga-2020-moa-savings-bank-seokjeonghillcc-jump-tour-14th-t",
@@ -9536,7 +10037,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "마다연(S)",
-      "defendingName": "오채유"
+      "defendingName": "오채유",
+      "gameCode": "2020090011"
     },
     {
       "slug": "klpga-hoban-champions-classic-2020-8th-tournament",
@@ -9555,7 +10057,8 @@
       "par": 72,
       "entryCount": 112,
       "winnerName": "차지원",
-      "defendingName": "김복자"
+      "defendingName": "김복자",
+      "gameCode": "2020090014"
     },
     {
       "slug": "klpga-2020-moa-savings-bank-seokjeonghillcc-jump-tour-15th-t",
@@ -9574,7 +10077,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "마다솜9909(A)",
-      "defendingName": "마다연"
+      "defendingName": "마다연",
+      "gameCode": "2020090012"
     },
     {
       "slug": "klpga-2020-west-ocean-cc-dream-tour-15th-tournament",
@@ -9593,7 +10097,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정지민2",
-      "defendingName": "이혜정"
+      "defendingName": "이혜정",
+      "gameCode": "2020090008"
     },
     {
       "slug": "2020-fantom-classic",
@@ -9612,7 +10117,8 @@
       "par": 72,
       "entryCount": 114,
       "winnerName": "안송이",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020090035"
     },
     {
       "slug": "klpga-2020-moa-savings-bank-seokjeonghillcc-jump-tour-16th-t",
@@ -9631,7 +10137,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "오채유(S)",
-      "defendingName": "마다솜"
+      "defendingName": "마다솜",
+      "gameCode": "2020090013"
     },
     {
       "slug": "klpga-2020-gunsancc-dream-tour-16th-tournament",
@@ -9650,7 +10157,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "박주영5",
-      "defendingName": "정지민2"
+      "defendingName": "정지민2",
+      "gameCode": "2020090009"
     },
     {
       "slug": "klpga-2020-gunsancc-dream-tour-17th-tournament",
@@ -9669,7 +10177,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "안수빈",
-      "defendingName": "박주영5"
+      "defendingName": "박주영5",
+      "gameCode": "2020100001"
     },
     {
       "slug": "2020-autech-carrier-championship-with-sejong-field-golf-club",
@@ -9688,7 +10197,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "안나린",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020100015"
     },
     {
       "slug": "klpga-2020-muancc-allforyou-dream-tour-18th-tournament",
@@ -9707,7 +10217,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "홍지원",
-      "defendingName": "안제이"
+      "defendingName": "안제이",
+      "gameCode": "2020100002"
     },
     {
       "slug": "klpga-champions-classic-2020-9th-tournament",
@@ -9726,7 +10237,8 @@
       "par": 72,
       "entryCount": 110,
       "winnerName": "정일미",
-      "defendingName": "차지원"
+      "defendingName": "차지원",
+      "gameCode": "2020100005"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -9745,7 +10257,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "김효주",
-      "defendingName": "임희정"
+      "defendingName": "임희정",
+      "gameCode": "2020100012"
     },
     {
       "slug": "klpga-dream-tour-grand-final-2020",
@@ -9764,7 +10277,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "정지민2",
-      "defendingName": "홍지원"
+      "defendingName": "홍지원",
+      "gameCode": "2020100003"
     },
     {
       "slug": "2020-huencare-ladies-open",
@@ -9783,7 +10297,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "이소미",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2020100016"
     },
     {
       "slug": "klpga-champions-classic-2020-10th-tournament",
@@ -9802,7 +10317,8 @@
       "par": 72,
       "entryCount": 112,
       "winnerName": "배수현",
-      "defendingName": "정일미"
+      "defendingName": "정일미",
+      "gameCode": "2020100006"
     },
     {
       "slug": "sk-networks-seokyung-ladies-classic",
@@ -9821,7 +10337,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "장하나",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2020100014"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -9840,7 +10357,8 @@
       "par": 72,
       "entryCount": 96,
       "winnerName": "안나린",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2020090033"
     },
     {
       "slug": "sk-telecom-adt-caps-championship-2020",
@@ -9859,7 +10377,8 @@
       "par": 72,
       "entryCount": 76,
       "winnerName": "최혜진",
-      "defendingName": "안송이"
+      "defendingName": "안송이",
+      "gameCode": "2020110006"
     },
     {
       "slug": "taiwan-women-s-golf-open-with-sbs-golf",
@@ -9878,7 +10397,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "전미정",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019010001"
     },
     {
       "slug": "lotte-rent-a-car-ladies-open",
@@ -9897,7 +10417,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "조아연",
-      "defendingName": "김지현"
+      "defendingName": "김지현",
+      "gameCode": "2019040001"
     },
     {
       "slug": "klpga-2019-gunsancc-dream-tour-1st-tournament",
@@ -9916,7 +10437,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이재윤",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019040009"
     },
     {
       "slug": "celltrion-queens-masters",
@@ -9935,7 +10457,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "조정민",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019040002"
     },
     {
       "slug": "klpga-2019-hanse-phoenixcc-dream-tour-2nd-tournament",
@@ -9954,7 +10477,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김지수",
-      "defendingName": "이재윤"
+      "defendingName": "이재윤",
+      "gameCode": "2019040010"
     },
     {
       "slug": "klpga-2019-tobaegi-baekjecc-jump-tour-1st-tournament",
@@ -9973,7 +10497,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "조혜림(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019040006"
     },
     {
       "slug": "nexen-saint-nine-masters-2019",
@@ -9992,7 +10517,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "이승연",
-      "defendingName": "이소영"
+      "defendingName": "이소영",
+      "gameCode": "2019040003"
     },
     {
       "slug": "klpga-2019-hanse-phoenixcc-dream-tour-3rd-tournament",
@@ -10011,7 +10537,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "CHEN Yu Ju(I)",
-      "defendingName": "김지수"
+      "defendingName": "김지수",
+      "gameCode": "2019040011"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-1st-tournament",
@@ -10030,7 +10557,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김미순(S)",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019010002"
     },
     {
       "slug": "klpga-2019-tobaegi-baekjecc-jump-tour-2nd-tournament",
@@ -10049,7 +10577,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "정윤지(S)",
-      "defendingName": "조혜림"
+      "defendingName": "조혜림",
+      "gameCode": "2019040007"
     },
     {
       "slug": "creas-f-c-the-41st-klpga-championship",
@@ -10068,7 +10597,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "최혜진",
-      "defendingName": "장하나"
+      "defendingName": "장하나",
+      "gameCode": "2019040004"
     },
     {
       "slug": "klpga-2019-muancc-allforyou-dream-tour-4th-tournament",
@@ -10087,7 +10617,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황예나",
-      "defendingName": "첸 유주"
+      "defendingName": "첸 유주",
+      "gameCode": "2019040015"
     },
     {
       "slug": "klpga-2019-tobaegi-baekjecc-jump-tour-3rd-tournament",
@@ -10106,7 +10637,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "노원경(S)",
-      "defendingName": "정윤지"
+      "defendingName": "정윤지",
+      "gameCode": "2019040008"
     },
     {
       "slug": "the-6th-kyochon-honey-ladies-open",
@@ -10125,7 +10657,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "박소연",
-      "defendingName": "김해림"
+      "defendingName": "김해림",
+      "gameCode": "2019050001"
     },
     {
       "slug": "klpga-2019-tobaegi-baekjecc-jump-tour-4th-tournament",
@@ -10144,7 +10677,8 @@
       "par": 72,
       "entryCount": 125,
       "winnerName": "현세린(S)",
-      "defendingName": "노원경"
+      "defendingName": "노원경",
+      "gameCode": "2019050006"
     },
     {
       "slug": "2019-nh-investment-securities-ladies-championship",
@@ -10163,7 +10697,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "최혜진",
-      "defendingName": "인주연"
+      "defendingName": "인주연",
+      "gameCode": "2019050002"
     },
     {
       "slug": "2019-doosan-match-play-championship",
@@ -10182,7 +10717,8 @@
       "par": 72,
       "entryCount": 64,
       "winnerName": "김지현",
-      "defendingName": "박인비"
+      "defendingName": "박인비",
+      "gameCode": "2019050003"
     },
     {
       "slug": "klpga-2019-grand-cc-samdaein-jump-tour-5th-tournament",
@@ -10201,7 +10737,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "송가은(S)",
-      "defendingName": "현세린"
+      "defendingName": "현세린",
+      "gameCode": "2019050007"
     },
     {
       "slug": "the-7th-e1-charity-open",
@@ -10220,7 +10757,8 @@
       "par": 72,
       "entryCount": 140,
       "winnerName": "임은빈",
-      "defendingName": "이다연"
+      "defendingName": "이다연",
+      "gameCode": "2019050004"
     },
     {
       "slug": "klpga-2019-fx-rent-invitational",
@@ -10239,7 +10777,8 @@
       "par": 72,
       "entryCount": 80,
       "winnerName": "박소현4",
-      "defendingName": "김미순"
+      "defendingName": "김미순",
+      "gameCode": "2019040019"
     },
     {
       "slug": "the-9th-lotte-cantata-ladies-open",
@@ -10258,7 +10797,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "김보아",
-      "defendingName": "조정민"
+      "defendingName": "조정민",
+      "gameCode": "2019050005"
     },
     {
       "slug": "klpga-2019-grand-cc-samdaein-jump-tour-6th-tournament",
@@ -10277,7 +10817,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황민정(S)",
-      "defendingName": "송가은"
+      "defendingName": "송가은",
+      "gameCode": "2019050008"
     },
     {
       "slug": "klpga-2019-yeonggwangcc-dream-tour-5th-tournament",
@@ -10296,7 +10837,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김수빈",
-      "defendingName": "황예나"
+      "defendingName": "황예나",
+      "gameCode": "2019050012"
     },
     {
       "slug": "the-13th-s-oil-championship",
@@ -10315,7 +10857,8 @@
       "par": 72,
       "entryCount": 122,
       "winnerName": "최혜진",
-      "defendingName": "이승현"
+      "defendingName": "이승현",
+      "gameCode": "2019060001"
     },
     {
       "slug": "klpga-2019-grand-cc-samdaein-jump-tour-7th-tournament",
@@ -10334,7 +10877,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "송가은(S)",
-      "defendingName": "황민정"
+      "defendingName": "황민정",
+      "gameCode": "2019060005"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-2nd-tournament",
@@ -10353,7 +10897,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "유재희",
-      "defendingName": "박소현4"
+      "defendingName": "박소현4",
+      "gameCode": "2019010003"
     },
     {
       "slug": "klpga-2019-gunsancc-dream-tour-6th-tournament",
@@ -10372,7 +10917,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "정윤지",
-      "defendingName": "김수빈"
+      "defendingName": "김수빈",
+      "gameCode": "2019050013"
     },
     {
       "slug": "kia-motors-the-33rd-korea-women-s-open-golf-championship",
@@ -10391,7 +10937,8 @@
       "par": 72,
       "entryCount": 144,
       "winnerName": "이다연",
-      "defendingName": "오지현"
+      "defendingName": "오지현",
+      "gameCode": "2019060002"
     },
     {
       "slug": "klpga-2019-grand-cc-samdaein-jump-tour-8th-tournament",
@@ -10410,7 +10957,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황민정(S)",
-      "defendingName": "송가은"
+      "defendingName": "송가은",
+      "gameCode": "2019060006"
     },
     {
       "slug": "klpga-2019-muancc-allforyou-dream-tour-7th-tournament",
@@ -10429,7 +10977,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황예나",
-      "defendingName": "정윤지"
+      "defendingName": "정윤지",
+      "gameCode": "2019060008"
     },
     {
       "slug": "bc-card-hankyung-ladies-cup-2019",
@@ -10448,7 +10997,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "조정민",
-      "defendingName": "최혜진"
+      "defendingName": "최혜진",
+      "gameCode": "2019060003"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-3rd-tournament",
@@ -10467,7 +11017,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "차지원",
-      "defendingName": "유재희"
+      "defendingName": "유재희",
+      "gameCode": "2019050022"
     },
     {
       "slug": "klpga-2019-hanse-phoenixcc-dream-tour-8th-tournament",
@@ -10486,7 +11037,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "심초이",
-      "defendingName": "황예나"
+      "defendingName": "황예나",
+      "gameCode": "2019060009"
     },
     {
       "slug": "mccol-yongpyong-resort-open-with-sbs",
@@ -10505,7 +11057,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "최혜진",
-      "defendingName": "박채윤"
+      "defendingName": "박채윤",
+      "gameCode": "2019060004"
     },
     {
       "slug": "klpga-2019-kbc-dream-tour-with-yeonggwangcc-1st-tournament",
@@ -10524,7 +11077,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박교린",
-      "defendingName": "심초이"
+      "defendingName": "심초이",
+      "gameCode": "2019050010"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-4th-tournament",
@@ -10543,7 +11097,8 @@
       "par": 72,
       "entryCount": 122,
       "winnerName": "김복자",
-      "defendingName": "차지원"
+      "defendingName": "차지원",
+      "gameCode": "2019050023"
     },
     {
       "slug": "asiana-airlines-open",
@@ -10562,7 +11117,8 @@
       "par": 71,
       "entryCount": 76,
       "winnerName": "이다연",
-      "defendingName": "김지현2"
+      "defendingName": "김지현2",
+      "gameCode": "2019070001"
     },
     {
       "slug": "klpga-2019-muancc-allforyou-dream-tour-9th-tournament",
@@ -10581,7 +11137,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "황예나",
-      "defendingName": "박서진"
+      "defendingName": "박서진",
+      "gameCode": "2019060010"
     },
     {
       "slug": "my-munyoung-queens-park-championship-2019",
@@ -10600,7 +11157,8 @@
       "par": 72,
       "entryCount": 135,
       "winnerName": "김아림",
-      "defendingName": "이소영"
+      "defendingName": "이소영",
+      "gameCode": "2019070002"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-5th-tournament",
@@ -10619,7 +11177,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "김서윤",
-      "defendingName": "김복자"
+      "defendingName": "김복자",
+      "gameCode": "2019060011"
     },
     {
       "slug": "klpga-2019-sollago-power-fulx-jump-tour-9th-tournament",
@@ -10638,7 +11197,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "박지우(S)",
-      "defendingName": "황민정"
+      "defendingName": "황민정",
+      "gameCode": "2019060007"
     },
     {
       "slug": "klpga-2019-yeonggwangcc-dream-tour-10th-tournament",
@@ -10657,7 +11217,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "유해란",
-      "defendingName": "황예나"
+      "defendingName": "황예나",
+      "gameCode": "2019070008"
     },
     {
       "slug": "klpga-2019-sollago-power-fulx-jump-tour-10th-tournament",
@@ -10676,7 +11237,8 @@
       "par": 72,
       "entryCount": 124,
       "winnerName": "이선영(S)",
-      "defendingName": "박지우"
+      "defendingName": "박지우",
+      "gameCode": "2019070003"
     },
     {
       "slug": "klpga-2019-gunsancc-dream-tour-11th-tournament",
@@ -10695,7 +11257,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "유해란",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2019070011"
     },
     {
       "slug": "klpga-2019-sollago-power-fulx-jump-tour-11th-tournament",
@@ -10714,7 +11277,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "정시우B(S)",
-      "defendingName": "이선영2"
+      "defendingName": "이선영2",
+      "gameCode": "2019070004"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-6th-tournament",
@@ -10733,7 +11297,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "서예선",
-      "defendingName": "김서윤"
+      "defendingName": "김서윤",
+      "gameCode": "2019060012"
     },
     {
       "slug": "jeju-samdasoo-masters",
@@ -10752,7 +11317,8 @@
       "par": 72,
       "entryCount": 132,
       "winnerName": "유해란",
-      "defendingName": "오지현"
+      "defendingName": "오지현",
+      "gameCode": "2019080001"
     },
     {
       "slug": "klpga-2019-sollago-power-fulx-jump-tour-12th-tournament",
@@ -10771,7 +11337,8 @@
       "par": 72,
       "entryCount": 126,
       "winnerName": "황지수(S)",
-      "defendingName": "정시우"
+      "defendingName": "정시우",
+      "gameCode": "2019080005"
     },
     {
       "slug": "klpga-2019-muancc-allforyou-dream-tour-12th-tournament",
@@ -10790,7 +11357,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "전예성",
-      "defendingName": "유해란"
+      "defendingName": "유해란",
+      "gameCode": "2019080009"
     },
     {
       "slug": "2019-bogner-mbn-ladies-open",
@@ -10809,7 +11377,8 @@
       "par": 71,
       "entryCount": 120,
       "winnerName": "박민지",
-      "defendingName": "김보아"
+      "defendingName": "김보아",
+      "gameCode": "2019080002"
     },
     {
       "slug": "klpga-2019-yeonggwangcc-dream-tour-13th-tournament",
@@ -10828,7 +11397,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "조혜림",
-      "defendingName": "전예성"
+      "defendingName": "전예성",
+      "gameCode": "2019080011"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-7th-tournament",
@@ -10847,7 +11417,8 @@
       "par": 72,
       "entryCount": 121,
       "winnerName": "김희정",
-      "defendingName": "서예선"
+      "defendingName": "서예선",
+      "gameCode": "2019070018"
     },
     {
       "slug": "highone-resort-ladies-open-2019",
@@ -10866,7 +11437,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "임희정",
-      "defendingName": "배선우"
+      "defendingName": "배선우",
+      "gameCode": "2019080003"
     },
     {
       "slug": "klpga-2019-hanse-phoenixcc-dream-tour-14th-tournament",
@@ -10885,7 +11457,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "공가연",
-      "defendingName": "조혜림"
+      "defendingName": "조혜림",
+      "gameCode": "2019080012"
     },
     {
       "slug": "hanwha-classic-2019",
@@ -10904,7 +11477,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "박채윤",
-      "defendingName": "이정은6"
+      "defendingName": "이정은6",
+      "gameCode": "2019080004"
     },
     {
       "slug": "klpga-2019-samcheok-black-diamond-champions-tour",
@@ -10923,7 +11497,8 @@
       "par": 72,
       "entryCount": 100,
       "winnerName": "민인숙",
-      "defendingName": "김희정"
+      "defendingName": "김희정",
+      "gameCode": "2019090015"
     },
     {
       "slug": "klpga-2019-kbc-dream-tour-with-yeonggwangcc",
@@ -10942,7 +11517,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "노승희",
-      "defendingName": "공다영"
+      "defendingName": "공다영",
+      "gameCode": "2019070007"
     },
     {
       "slug": "the-9th-kg-edaily-ladies-open-with-kfc",
@@ -10961,7 +11537,8 @@
       "par": 72,
       "entryCount": 123,
       "winnerName": "박서진",
-      "defendingName": "정슬기"
+      "defendingName": "정슬기",
+      "gameCode": "2019090001"
     },
     {
       "slug": "klpga-hoban-champions-classic-2019-8th-tournament",
@@ -10980,7 +11557,8 @@
       "par": 72,
       "entryCount": 107,
       "winnerName": "이조이",
-      "defendingName": "민인숙"
+      "defendingName": "민인숙",
+      "gameCode": "2019080013"
     },
     {
       "slug": "klpga-2019-seokjeonghillcc-koreadrive-jump-tour-13th-tournam",
@@ -10999,7 +11577,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "정예서(S)",
-      "defendingName": "황지수"
+      "defendingName": "황지수",
+      "gameCode": "2019080006"
     },
     {
       "slug": "klpga-2019-seokjeonghillcc-koreadrive-jump-tour-14th-tournam",
@@ -11018,7 +11597,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "홍서연(S)",
-      "defendingName": "정예서"
+      "defendingName": "정예서",
+      "gameCode": "2019090004"
     },
     {
       "slug": "all-for-you-renoma-championship-2019",
@@ -11037,7 +11617,8 @@
       "par": 72,
       "entryCount": 120,
       "winnerName": "임희정",
-      "defendingName": "이소영"
+      "defendingName": "이소영",
+      "gameCode": "2019090002"
     },
     {
       "slug": "klpga-2019-seokjeonghillcc-koreadrive-jump-tour-15th-tournam",
@@ -11056,7 +11637,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "이슬기0104(A)",
-      "defendingName": "홍서연"
+      "defendingName": "홍서연",
+      "gameCode": "2019090005"
     },
     {
       "slug": "klpga-2019-yeonggwangcc-dream-tour-15th-tournament",
@@ -11075,7 +11657,8 @@
       "par": 72,
       "entryCount": 127,
       "winnerName": "김지수",
-      "defendingName": "노승희"
+      "defendingName": "노승희",
+      "gameCode": "2019090009"
     },
     {
       "slug": "oksavingsbank-se-ri-pak-invitational",
@@ -11094,7 +11677,8 @@
       "par": 71,
       "entryCount": 120,
       "winnerName": "조아연",
-      "defendingName": "김아림"
+      "defendingName": "김아림",
+      "gameCode": "2019090003"
     },
     {
       "slug": "klpga-2019-seokjeonghillcc-koreadrive-jump-tour-16th-tournam",
@@ -11113,7 +11697,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "김재희0103(A)",
-      "defendingName": "이슬기2"
+      "defendingName": "이슬기2",
+      "gameCode": "2019090006"
     },
     {
       "slug": "klpga-2019-gunsancc-dream-tour-16th-tournament",
@@ -11132,7 +11717,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "현세린",
-      "defendingName": "김지수"
+      "defendingName": "김지수",
+      "gameCode": "2019100006"
     },
     {
       "slug": "hana-financial-group-championship",
@@ -11151,7 +11737,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "장하나",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019100001"
     },
     {
       "slug": "klpga-2019-hanse-phoenixcc-dream-tour-17th-tournament",
@@ -11170,7 +11757,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "장시안",
-      "defendingName": "현세린"
+      "defendingName": "현세린",
+      "gameCode": "2019100007"
     },
     {
       "slug": "the-20th-hite-jinro-championship",
@@ -11189,7 +11777,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "고진영",
-      "defendingName": "배선우"
+      "defendingName": "배선우",
+      "gameCode": "2019100002"
     },
     {
       "slug": "klpga-champions-classic-2019-9th-tournament",
@@ -11208,7 +11797,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "이윤희",
-      "defendingName": "이조이"
+      "defendingName": "이조이",
+      "gameCode": "2019080014"
     },
     {
       "slug": "kb-financial-group-star-championship",
@@ -11227,7 +11817,8 @@
       "par": 72,
       "entryCount": 108,
       "winnerName": "임희정",
-      "defendingName": "이정은6"
+      "defendingName": "이정은6",
+      "gameCode": "2019100003"
     },
     {
       "slug": "klpga-2019-muancc-allforyou-dream-tour-18th-tournament",
@@ -11246,7 +11837,8 @@
       "par": 72,
       "entryCount": 128,
       "winnerName": "박수빈3",
-      "defendingName": "장시안"
+      "defendingName": "장시안",
+      "gameCode": "2019100009"
     },
     {
       "slug": "klpga-champions-classic-2019-10th-tournament",
@@ -11265,7 +11857,8 @@
       "par": 72,
       "entryCount": 116,
       "winnerName": "민인숙",
-      "defendingName": "이윤희"
+      "defendingName": "이윤희",
+      "gameCode": "2019090016"
     },
     {
       "slug": "bmw-ladies-championship",
@@ -11284,7 +11877,8 @@
       "par": 72,
       "entryCount": 84,
       "winnerName": "장하나",
-      "defendingName": null
+      "defendingName": null,
+      "gameCode": "2019100004"
     },
     {
       "slug": "klpga-dream-tour-grand-final-2019",
@@ -11303,7 +11897,8 @@
       "par": 72,
       "entryCount": 60,
       "winnerName": "이나경",
-      "defendingName": "박수빈3"
+      "defendingName": "박수빈3",
+      "gameCode": "2019100010"
     },
     {
       "slug": "sk-networks-seokyung-ladies-classic",
@@ -11322,7 +11917,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "최혜진",
-      "defendingName": "박결"
+      "defendingName": "박결",
+      "gameCode": "2019100005"
     },
     {
       "slug": "adt-caps-championship-2019",
@@ -11341,7 +11937,8 @@
       "par": 72,
       "entryCount": 81,
       "winnerName": "안송이",
-      "defendingName": "박민지"
+      "defendingName": "박민지",
+      "gameCode": "2019110001"
     },
     {
       "slug": "hyosung-championship-with-sbs-golf",
@@ -11360,7 +11957,8 @@
       "par": 72,
       "entryCount": 102,
       "winnerName": "이다연",
-      "defendingName": "박지영"
+      "defendingName": "박지영",
+      "gameCode": "2019120001"
     }
   ]
 }

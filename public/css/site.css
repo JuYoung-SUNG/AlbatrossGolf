@@ -346,3 +346,26 @@ ul.sources{margin:.6rem 0 0;padding-left:1.2rem;font-size:.82rem;word-break:brea
   *{transition:none!important;animation:none!important}
   .card:hover{transform:none}
 }
+
+/* ── 리더보드 · 대회 성적 표 ──────────────────────────────────── */
+table.board{width:100%;border-collapse:collapse;font-size:.89rem;background:var(--card);min-width:420px}
+table.board thead th{background:var(--navy3);color:var(--on-navy);font-size:.72rem;font-weight:800;
+  letter-spacing:.05em;padding:.55rem .7rem;text-align:left;white-space:nowrap}
+table.board td{padding:.55rem .7rem;border-bottom:1px solid var(--line2);vertical-align:middle}
+table.board tbody tr:last-child td{border-bottom:none}
+table.board tbody tr:hover{background:var(--card2)}
+table.board td a{font-weight:700;text-decoration:none;color:var(--ink)}
+table.board td a:hover{color:var(--blue);text-decoration:underline}
+
+/* 우승자 행은 한눈에 구분되게 */
+table.board tr.win td{background:var(--orange-soft)}
+table.board tr.win .c-rank{color:var(--orange);font-weight:800}
+table.board tr.win td a{color:var(--ink)}
+
+.c-rank{width:3.2rem;text-align:center;font-weight:700;font-variant-numeric:tabular-nums;
+  color:var(--muted);white-space:nowrap}
+.c-tot,.c-r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;
+  color:var(--ink2)}
+.c-r{width:2.9rem}
+.c-tot{width:3.4rem}
+.par{font-weight:800;color:var(--blue-deep)}
