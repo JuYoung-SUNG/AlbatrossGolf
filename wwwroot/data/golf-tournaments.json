@@ -1016,7 +1016,7 @@
       "rounds": 2,
       "par": 72,
       "entryCount": 128,
-      "winnerName": null,
+      "winnerName": "임지유",
       "defendingName": "남가연",
       "gameCode": "2026080005"
     },
@@ -1035,8 +1035,8 @@
       "course": "오션비치",
       "rounds": 2,
       "par": 72,
-      "entryCount": 70,
-      "winnerName": null,
+      "entryCount": 69,
+      "winnerName": "임은아",
       "defendingName": "배경은",
       "gameCode": "2026080008"
     },
@@ -1056,7 +1056,7 @@
       "rounds": 4,
       "par": 72,
       "entryCount": 123,
-      "winnerName": null,
+      "winnerName": "서교림",
       "defendingName": "홍정민",
       "gameCode": "2026080003"
     },
@@ -1075,9 +1075,9 @@
       "course": "레인보우힐스",
       "rounds": 3,
       "par": 72,
-      "entryCount": null,
+      "entryCount": 128,
       "winnerName": null,
-      "defendingName": null,
+      "defendingName": "임지유",
       "gameCode": "2026080006"
     },
     {
@@ -1095,7 +1095,7 @@
       "course": "포천힐스",
       "rounds": 4,
       "par": 72,
-      "entryCount": null,
+      "entryCount": 123,
       "winnerName": null,
       "defendingName": "홍정민",
       "gameCode": "2026080002"
@@ -1117,7 +1117,7 @@
       "par": 72,
       "entryCount": null,
       "winnerName": null,
-      "defendingName": null,
+      "defendingName": "임은아",
       "gameCode": "2026080009"
     },
     {
@@ -1261,9 +1261,9 @@
       "gameCode": "2026090005"
     },
     {
-      "slug": "klpga-2026-champions-classic-9th-tournament",
-      "title": "KLPGA 2026 챔피언스 클래식 9차전",
-      "engTitle": "KLPGA 2026 Champions Classic 9th Tournament",
+      "slug": "klpga-2026-point-designated-driver-champions-tour-9th-tourna",
+      "title": "KLPGA 2026 포인트 대리운전 챔피언스 투어 9차전",
+      "engTitle": "KLPGA 2026 Point Designated Driver Champions Tour 9th Tournament",
       "tourType": "SN",
       "tier": "챔피언스",
       "tierReason": "만 45세 이상 선수들이 출전하는 챔피언스 투어입니다.",
@@ -1414,7 +1414,7 @@
       "moneyUnit": "원화",
       "course": "블루헤런",
       "rounds": 4,
-      "par": null,
+      "par": 72,
       "entryCount": null,
       "winnerName": null,
       "defendingName": "성유진",
@@ -1434,7 +1434,7 @@
       "moneyUnit": "원화",
       "course": "에이원",
       "rounds": 4,
-      "par": null,
+      "par": 72,
       "entryCount": null,
       "winnerName": null,
       "defendingName": "김민솔",
